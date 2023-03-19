@@ -1,0 +1,1 @@
+Adapt doesn't seem to have an easy way to extend its core icons. As such; additional icons needed by DD extensions shall be added into here.
