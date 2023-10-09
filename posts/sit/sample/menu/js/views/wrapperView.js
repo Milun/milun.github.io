@@ -1,0 +1,6 @@
+define([],function(){class e extends Backbone.View{initialize(){this.setupEventListeners(),this.resize=_.debounce(this.resize.bind(this),100),this.resize()}setupEventListeners(){$(window).on("resize",this.onWindowResize.bind(this))}setupHammer(){var e=new Hammer.Manager($(".js-iframe-iframe")[0].contentWindow.document),i=new Hammer.Pinch,t=new Hammer.Rotate;i.recognizeWith(t),e.add([i,t]),e.on("pinch rotate",function(e){console.log(e),$("#abc").html(JSON.stringify(e,"\n",4))})}onWindowResize(){this.resize()}resize(){let e=1;Hybrid.device.touch||(e=window.devicePixelRatio||1,console.log("%cZoom level: "+e,"color: blue;"),1<e&&console.log("%cPage scrolling enabled.","color: blue;"));var i=this.$el,t=($(".app").css("overflow",1<e?"auto":"hidden"),Hybrid.device.getScreenWidth()),n=Hybrid.device.getScreenHeight(),o=i.width(),r=i.height(),s=t*e,a=n*e,c=s/o;let l=t+` / ${o} (width)`;a<c*r&&(c=a/r,l=n+` / ${r} (height)`);t=(s-(c=1<(c=Math.round(1e3*c)/1e3)?1:c)*o*e)/2,n=(a-c*r*e)/2,t=Math.round(t/e),n=Math.round(n/e);i.css({transform:"scale("+c+")",left:(t=t<0?0:t)+"px",top:(n=n<0?0:n)+"px"}),this.model.set("_scale",c),$("html").attr("data-menu-scale",c),console.log(`%c
+WrapperWidth:       ${Math.round(o)}
+WrapperHeight:      ${Math.round(r)}
+WrapperScale:       ${100*c}%
+WrapperScaleCalc:   ${l}
+`,"color: purple;")}}return e});

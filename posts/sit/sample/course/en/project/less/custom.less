@@ -1,0 +1,318 @@
+/**
+ * Custom LESS CSS
+ * ---------------
+ * Add any styles & overrides that this specific project will use.
+ * If you find yourself needing these styles across multiple projects; request for a DD Adapt Framework developer to implement them in the 
+ * adapt-didasko theme for you.
+ *
+ * You are not limited to creating styles in this file. You can add as many *.less files within this directory as you require.
+ * 
+ * BE SURE TO READ THE INCLUDED README.txt BEFORE ADDING STYLES.
+ */
+
+/* EXAMPLE (remove when not needed) */
+
+// Custom underline
+// ---------------------------------------------
+// Some text needs to be made red, italic, and underlined.
+.c-underline {
+	color: red;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/************************************/
+
+.c-b2 {
+	.hyb-tabs__w {
+		max-height: @hyb-device-height - @notify-padding-ver*2 !important;
+	}
+}
+
+.c-b2-table {
+	.theme-subheader {
+		text-align: left;
+	}
+}
+
+// Tweak FreeThinking.
+.c-b34 {
+	.hyb-freethinking__content {
+		width: 30rem;
+		margin-right: @hyb-btn-text-width;
+	}
+
+	.hyb-slider__item {
+		pointer-events: all !important;
+	}
+
+	.hyb-slider__bg-body {
+		pointer-events: none !important;
+	}
+
+	.c-lobsterbistro {
+
+		.transition(opacity @duration*2 ease);
+		position: absolute; 
+		inset: 0; 
+		left: 3rem; 
+		display: flex; 
+		align-items: center; 
+		top: -3rem;
+
+
+
+		// Fade out while the drawer is active.
+		.hyb-drawer-active & {
+			opacity: 0;
+		}
+
+		&__table {
+
+			pointer-events: all;
+
+			td, th {
+				padding-top: @table-padding/4;
+				padding-bottom: @table-padding/4;
+			}
+		}
+	}
+	
+	.hyb-freethinking__controls-left {
+		.transition(opacity @duration*2 ease);
+	}
+	.hyb-drawer-active & .hyb-freethinking__controls-left {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.hyb-freethinking__logo.is-active {
+		opacity: 0;
+	}
+
+	.hyb-freethinking__content {
+		min-width: 0 !important;
+	}
+}
+
+.c-b28 {
+	.c-b28-sticky {
+		max-height: @hyb-device-height - @notify-padding-ver*2 - 1.5rem !important;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.c-b28-sticky-img {
+		.transition(transform @duration*2 ease);
+	} 
+
+	.c-b28-sticky-spacer {
+		display: block;
+	}
+}
+
+.c-anno {
+	mark.is-annotation-target.is-active, .mark.is-annotation-target.is-active {
+		border-color: 	#fae665;
+		background: 	#fae665;
+	}
+
+	
+}
+
+.c-anno-tt {
+	.tooltip-popup__inner {
+		background-color: @yellow !important;
+	}
+}
+
+.c-cs {
+	mix-blend-mode: darken;
+
+	&__head {
+		display: flex;
+		gap: 1.5rem;
+		align-items: center;
+
+		img {
+			width: 7rem;
+			min-width: 0;
+		}
+	}
+
+	&__content {
+		position: relative;
+		margin-top: 2rem;
+	}
+
+	&__block {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		column-gap: 0.75rem;
+
+		& > div:nth-child(odd) {
+			font-weight: bold;
+		}
+	}
+
+	&__lines {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		& > div {
+			position: relative;
+			&::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				border-bottom: 1/16rem dotted currentColor;
+			}
+		}
+	}
+
+	.c-cs__squeeze {
+		p {
+			margin-top: 0.5rem;
+			margin-bottom: 0.5rem;
+			&:first-child {margin-top: 0;}
+			&:last-child {margin-bottom: 0;}
+		}
+	}
+}
+
+.hyb-recipeplus {
+	.hyb-recipeplus__header-graphic.has-float {
+		width: 16.75rem;
+		margin-right: 0.5rem;
+	}
+}
+
+.c-b14 {
+	.hyb-recipeplus__guide-item:nth-child(2) {
+		display: none;
+	}
+
+	.hyb-recipeplus__ingredients {
+		min-width: 19.5rem;
+	}
+
+	.hyb-recipeplus__header-graphic {
+		width: 9rem;
+	}
+	
+	.hyb-recipeplus__header-content.has-minheight {
+		min-height: 4rem;
+	}
+
+	.hyb-recipeplus__guide {
+		.u-font-squeeze
+	}
+}
+
+.c-b35 {
+	.hyb-speechbubble {
+		position: absolute;
+		top: 0.5rem;
+		right: 1.5rem;
+
+		.drop-shadow-half() !important;
+		line-height: 1.4;
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+	}
+}
+
+
+.c-b7 {
+	.hyb-hotgraphicmini__item {
+		&::after {
+			content: "";
+			position: absolute;
+			background: white;
+			top: 100%;
+			width: 104%;
+			left: -2%;
+			height: 1rem;
+		}
+	}
+}
+
+.c-door {
+
+	display: block;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+
+	perspective: 21rem;
+	background: white;
+
+	img {
+		min-width: 0;
+	}
+
+	&__bg {
+		position: absolute;
+		left: 9%;
+		top: 2%;
+		width: 82%;
+
+		z-index: -2;
+	}
+
+	&__frame {
+		pointer-events: none;
+	}
+
+	&__door {
+		position: absolute;
+		left: 7.5%;
+		top: 4%;
+		width: 85%;
+
+		transform-origin: 0% 50%;
+		transform: rotateY(75deg);
+
+		z-index: -1;
+
+		.transition(transform @duration*2 ease-in);
+
+		pointer-events: none;
+	}
+
+	&__content {
+		position: absolute;
+		top: 2%;
+		left: 5%;
+		right: 5%;
+		height: 32.5%;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		z-index: 1;		
+	}
+
+	&__body {
+		background: white;
+		border-radius: @border-radius;
+		padding: 0.5rem;
+		
+		box-shadow: 1px 1px 1px 0px fade(@shadow, 25%);
+
+		color: transparent;
+	}
+
+	.hyb-hotgraphicmini__item.is-complete &__door {
+		transform: rotateY(0deg);
+
+		pointer-events: all;
+		box-shadow: 0px 1px 2px 0px fade(@shadow, 25%);
+	}
+
+	.hyb-hotgraphicmini__item.is-complete &__body {
+		.transition(color @duration*3 ease);
+		color: @font-color;
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"meta": {
+		"unitCode": "SHOW01",
+		"unitTitle": "Didasko Multimedia Showcase",
+		"topicNum": "1",
+		"topicTitle": "Industry Short Course Showcase",
+		"tin": "00000",
+		"proofing": "SHOW01/multimedia"
+	},
+	"build": {
+		"date": "30/09/2023, 14:37:35",
+		"fwkRevision": "N/A",
+		"courseRevision": "N/A",
+		"courseOrigin": "N/A",
+		"modes": [
+			"build"
+		],
+		"modifiers": [],
+		"removedBlocks": []
+	}
+}

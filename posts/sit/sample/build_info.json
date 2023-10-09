@@ -1,0 +1,21 @@
+{
+	"course": {
+		"tin": "XXXXX",
+		"productionCode": "XXX",
+		"unitTitle": "Sample SIT showcase",
+		"topicTitle": ""
+	},
+	"build": {
+		"date": "06/10/2023, 15:20:51",
+		"fwkRevision": "N/A",
+		"courseRevision": "N/A",
+		"courseOrigin": "N/A",
+		"modes": [
+			"build"
+		],
+		"modifiers": [],
+		"removedBlocks": [],
+		"includes": [],
+		"excludes": []
+	}
+}

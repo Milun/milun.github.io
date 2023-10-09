@@ -1,0 +1,2385 @@
+[
+	<<<! === TIN00001.3 ============================================================================================== !>>>
+	
+	<<<! === TIN00001.24 ============================================================================================== !>>>
+	
+	<<<! === TIN00002.7 ============================================================================================== !>>>
+	
+	<<<! === TIN00002.26 ============================================================================================== !>>>
+	<<<! == Reveal 0 == !>>>
+	
+	<<<! === TIN00002.27 ============================================================================================== !>>>
+	{
+		"_id": 						"",
+		"_parentId": 				"b-00002-27",
+		"_component": 				"glabel",
+		"_layout": 					"full",
+		"_classes": 				"",
+
+		<<<! Standup !>>>
+		"title": 					"Can you identify the components of a motherboard?",
+		"body": <<<"
+		">>>,
+		"instruction": 				"Select the correct name for each motherboard component, then click submit.",
+
+		"_graphic": {
+			"src": "course/en/images/b-00002-27/pic_1.png",
+			"_sizing": {
+				"_width": 		"auto",  <<<@ 1 - 12 | "" @>>>
+				"_maxWidth": 	false	 <<<@ 1 - 12 | true | false @>>>
+			}
+		},
+
+		<<<! Question settings !>>>
+		"_isRandom": 				true,
+		"_isRadio": 				true,
+		"_options": [
+			"SATA connectors",
+			"CMOS battery",
+			"CPU",
+			"PCI Express x16 slot",
+			"Memory slots",
+			"24-pin ATX main power connector"
+		],
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"text": <<<"
+				">>>,
+				"_align":	12, <<<@ 1-12 (dir) @>>>
+				"_left": 	63.18,
+				"_top": 	21.99,
+				"_width": 	14.93,
+				"_height": 	14.13,
+				"_optionsCorrect": [
+					1
+				]
+			},
+			{
+				"text": <<<"
+				">>>,
+				"_align":	12, <<<@ 1-12 (dir) @>>>
+				"_left": 	54.72,
+				"_top": 	46.36,
+				"_width": 	12.65,
+				"_height": 	11.90,
+				"_optionsCorrect": [
+					2
+				]
+			},
+			{
+				"text": <<<"
+				">>>,
+				"_align":	12, <<<@ 1-12 (dir) @>>>
+				"_left": 	0.43,
+				"_top": 	31.56,
+				"_width": 	7.84,
+				"_height": 	50.24,
+				"_optionsCorrect": [
+					3
+				]
+			},
+			{
+				"text": <<<"
+				">>>,
+				"_align":	12, <<<@ 1-12 (dir) @>>>
+				"_left": 	9.36,
+				"_top": 	71.58,
+				"_width": 	90.64,
+				"_height": 	15.10,
+				"_optionsCorrect": [
+					4
+				]
+			},
+			{
+				"text": <<<"
+				">>>,
+				"_align":	12, <<<@ 1-12 (dir) @>>>
+				"_left": 	8.26,
+				"_top": 	90.80,
+				"_width": 	34.11,
+				"_height": 	9.20,
+				"_optionsCorrect": [
+					5
+				]
+			},
+			{
+				"text": <<<"
+				">>>,
+				"_align":	12, <<<@ 1-12 (dir) @>>>
+				"_left": 	6.48,
+				"_top": 	45.04,
+				"_width": 	12.89,
+				"_height": 	19.42,
+				"_optionsCorrect": [
+					0
+				]
+			}
+		],
+
+		<<<! Question feedback !>>>
+		"_feedback": {
+			"_correct": {
+				"title": 	"",
+				"body": <<<"
+					
+				">>>
+			},
+			"_incorrect": {
+				"title": 		"",
+				"body": <<<"
+					
+				">>>,
+				"instruction": 	"Have another look at the options and try again."
+			},
+			<<<~
+			"_partlyCorrect": {
+				<<<~
+				"title": 		"",
+				"body": 		"",
+				"instruction": 	""
+				~>>>
+			}
+			~>>>
+		},
+		<<<~
+		"_attempts": 				999,
+		"_shouldDisplayAttempts": 	false,
+		"_questionWeight": 			1,
+		"_canShowModelAnswer": 		false,
+		"_canShowFeedback": 		true,
+		"_canShowMarking": 			true,
+		"_recordInteraction": 		true,
+		"_type": 					"component"
+		~>>>
+	},
+	<<<! === TIN00004.14 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00004-14",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		4,		 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true,	 <<<@ 1 - 12 | true | false @>>>
+			"_float": 		false	 <<<@ false | true @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00004-14/pic_0.svg",
+			"small": 		"course/en/images/b-00004-14/pic_0.svg",
+			"style": 		"",							 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00004-14",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"What is network media?",
+		"body": <<<"
+			<p>Network media is the connection between nodes along which data, messages, commands and requests travel. </p>
+
+			<p>In networking, media can either be wired or wireless.</p>
+
+			<p>{{#glossary}}Ethernet{{/glossary}} is the most widely used technology or standard for wired media. The nodes in an Ethernet network are joined together using electrical or fibre optic cable.</p> 
+
+			<p>Two categories of cable commonly used in networking:</p>
+
+
+			<ul>
+				<li>Twisted-pair cable – unshielded twisted pair (UTP) and shielded twisted pair (STP)</li>
+
+				<li>Fibre optic cable</li>
+			</ul>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00004-14",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Twisted-pair cabling",
+		"body": <<<"
+			<p>This is the most widely used Ethernet cabling. These cables are used to connect end and intermediary devices to each other in a variety of setups.</p>
+
+			<p>There are two categories of twisted-pair cable – unshielded twisted pair (UTP) and shielded twisted pair (STP).</p>
+
+		">>>,
+
+		"instruction": 	"What’s the difference between UTP and STP cabling?",
+
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},	
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00004-14",
+		"_component": 	"tabs",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": <<<"
+			
+		">>>,
+
+		<<<! Item settings !>>>
+		"_itemSizing": {
+			"_width": 		6,		 <<<@ 2 - 5 @>>>
+			"_maxWidth": 	4,		 <<<@ 4 - 8 | true | false @>>>
+			"_float": 		false	 <<<@ false | true @>>>
+		},
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"title": 		"Unshielded twisted pair (UTP)",
+				"body": <<<"
+					<p>Similar to ordinary telephone wire, UTP is easy to install and is the least expensive and most commonly used network cable. It cannot support high transfer rates or long transmission lengths because it is susceptible to interference from other electrical sources. </p>
+
+<div class="u-columns-3">
+	<p>{{#annotation for="m1"}}​outer sheath{{/annotation}}</p>
+	<p>{{#annotation for="m2"}}twisted pair{{/annotation}}</p>  
+	<p>{{#annotation for="m3"}}conductor{{/annotation}}</p>
+</div>
+
+{{#figure}}
+    {{#figureItem}}
+        {{#img contain=true src="course/en/images/b-00004-14/pic_2.png"}}
+			{{#mark name="m1" absolute="1,24,48,45" class=""}}{{/mark}}
+			{{#mark name="m2" absolute="50,10,41,80" class=""}}{{/mark}}
+			{{#mark name="m3" absolute="92,2,7,96" class=""}}{{/mark}}
+		{{/img}}
+    {{/figureItem}}
+{{/figure}}
+				">>>,
+				"_classes": 	"",
+				"_graphic": {
+					"src": 		"",
+					"style": 	"circle",							 <<<@ "" | circle @>>>
+					"alt": 		""
+				}
+			},
+			{
+				"title": 		"Shielded twisted pair (STP)",
+				"body": <<<"
+					<p>STP has a foil or mesh shield surrounding the insulated wire pairs. STP supports higher transfer rates and longer distances because it is less susceptible to electrical interference. However, it is more expensive than UTP and more difficult to install. It is often used in situations where there might be electrical interference, which is more common than you might think. Even fluorescent office lights can cause interference.</p>
+<div class="u-columns-3">
+	<p>{{#annotation for="m6"}}​outer sheath{{/annotation}}</p>
+	<p>{{#annotation for="m7"}}twisted pair{{/annotation}}</p>  
+	<p>{{#annotation for="m8"}}outer shield{{/annotation}}</p>
+	<p>{{#annotation for="m9"}}conductor{{/annotation}}</p>
+	<p>{{#annotation for="m10"}}pair shield{{/annotation}}</p>
+	<p>{{#annotation for="m11"}}drain wire{{/annotation}}</p>			
+</div>
+
+{{#figure}}
+    {{#figureItem}}
+        {{#img contain=true src="course/en/images/b-00004-14/pic_3.png"}}
+			{{#mark name="m6" absolute=".5,25,29,45" class=""}}{{/mark}}
+			{{#mark name="m7" absolute="62,10,30,80" class=""}}{{/mark}}
+			{{#mark name="m8" absolute="30,28,20,36" class=""}}{{/mark}}
+			{{#mark name="m9" absolute="92,2,7,96" class=""}}{{/mark}}			
+			{{#mark name="m10" absolute="50,32,11,30" class=""}}{{/mark}}
+			{{#mark name="m11" absolute="50,60,49,1" class=""}}{{/mark}}
+		{{/img}}
+    {{/figureItem}}
+{{/figure}}					
+				">>>,
+				"_classes": 	"",
+				"_graphic": {
+					"src": 		"",
+					"style": 	"circle",							 <<<@ "" | circle @>>>
+					"alt": 		""
+				}
+			}			
+		],
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_tabLayout": 	"horizontal",
+		"_minHeight": 	"150px",
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00004-14",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Fibre optic cable",
+		"body": <<<"
+			<p>Fibre optic cable supports very high transmission rates and is not susceptible to electrical interference. Where other cables use copper wire to conduct electrical signals, fibre optic cables transfer data by pulsing a light at one end of the cable and converting the light flashes back into digital data at the other end.</p>
+
+<div class="u-columns-2">
+	<p>{{#annotation for="m12"}}​jacket (typically PVC){{/annotation}}</p>
+		
+	<p>{{#annotation for="m14"}}buffer{{/annotation}}</p>
+
+	<p>{{#annotation for="m16"}}core{{/annotation}}</p>
+	<p>{{#annotation for="m13"}}strengthening material (aramid yarn){{/annotation}}</p>	
+	<p>{{#annotation for="m15"}}cladding{{/annotation}}</p>
+</div>
+
+{{#figure}}
+    {{#figureItem}}
+        {{#img contain=true src="course/en/images/b-00004-14/pic_4.png"}}
+			{{#mark name="m12" absolute="1,5,30,90" class=""}}{{/mark}}
+			{{#mark name="m13" absolute="32.5,10,17,77" class=""}}{{/mark}}
+			{{#mark name="m14" absolute="50,13,14.5,75" class=""}}{{/mark}}
+			{{#mark name="m15" absolute="65,24,17,48" class=""}}{{/mark}}
+			{{#mark name="m16" absolute="83,8,16.5,76" class=""}}{{/mark}}
+		{{/img}}
+    {{/figureItem}}
+{{/figure}}		
+
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},	
+	<<<! === TIN00004.20 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00004-20",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	false <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00004-20/pic_2--r.svg",
+			"small": 		"course/en/images/b-00004-20/pic_2--r.svg",
+			"style": 		"",								 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00004-20",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Logical topology",
+		"body": <<<"
+			<p>The flow of data between the nodes on a network is referred to as logical topology. It consists of {{#glossary term="Virtual connection"}}virtual connections{{/glossary}} between the nodes of a network. For example, IBM invented a token ring network which can use one physical topology and a different logical topology.</p>
+
+			<p>The IBM token ring network is a LAN network that is physically set up as a star topology, but logically it behaves like a ring.</p>
+
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},	
+	{
+		"_id": 				"",
+		"_parentId": 		"b-00004-20",
+		"_component": 		"activator",
+		"_layout": 			"full",
+		"_classes": 		"",
+
+		<<<! Standup !>>>
+		"title": 			"How does the token ring network work?",
+		"body": <<<"
+			<p>In a token ring network, a token (which is like an empty container that holds data) is passed from node to node in a ring. The node that wants to send the data captures the token, which makes it eligible to send data (this is done to avoid collisions on the network). It attaches the data to the token and sends it from one node to the next around the ring until it reaches the receiver. The receiver attaches an acknowledgement message to the token and forwards it to the next node in the ring until it arrives at the sender.</p>
+		">>>,
+		"buttonText": 		"See the token ring network in action.",
+		"_targets": [
+			{
+				"_id": 	"c-20-a"
+			}
+		],
+		<<<~
+		"_toggleEnabled": 	true,
+		"_type": 			"component"
+		~>>>
+	},
+	{
+		"_id": 			"c-20-a",
+		"_parentId": 	"b-00004-20",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": <<<"
+				{{#figure}}
+					{{#item sizing="{'_width':7, '_maxWidth': true}"}}
+						{{{lottie src="course/en/images/b-00004-20/anim_1/anim_1.json" autoplay=true}}}
+					{{/item}}
+				{{/figure}}
+
+			<div class="u-columns-3">
+			<p>{{{inlineIcon src="course/en/images/b-00004-20/token.png"}}} Token</p>
+			<p>{{{inlineIcon src="course/en/images/b-00004-20/message.png"}}} Message</p>
+			<p>{{{inlineIcon src="course/en/images/b-00004-20/acknowledgement.png"}}} Acknowledgement</p>
+			</div>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	<<<! === TIN00005.15 ============================================================================================== !>>>
+	
+	<<<! === TIN00005.16 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00005-16",
+		"_component": 	"tryhtml",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"​Text element knowledge",
+		"body": <<<"
+			<p>In the input field, there is some broken HTML script.</p>
+
+			<p><strong>Hint:</strong> this script contains a syntax error in one of its tags.</p>
+		">>>,
+		"instruction": "Using the skills you learned earlier can you fix the broken HTML script to make your output match the desired outcome?",
+
+		<<<! Activity !>>>
+		"_user": {
+			"code": <<<P
+<h1>Cricket tournament results</h1>
+<h1>Below are the standings after last week's cricket tournament:</h1>
+<ul>
+	<li>Frankston</li>
+	<li><span>Dandenong</span><li>
+	<li>Footscray</li>
+</ul>
+			P>>>
+		},
+		"_correct": {
+			"code": <<<P
+<h2>Cricket tournament results</h2>
+<p>Below are the standings after last week's cricket tournament:</p>
+<ol>
+	<li>Frankston</li>
+	<li>Dandenong</li>
+	<li>Footscray</li>
+</ol>
+			P>>>
+		},
+
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},	
+	<<<! === TIN00005.22 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00005-22",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00005-22/pic_0.jpg",
+			"small": 		"course/en/images/b-00005-22/pic_0.jpg",
+			"style": 		"circle",							 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00005-22",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Working with forms",
+		"body": <<<"
+			<p>The <code>&lt;form&gt;</code> element is used to create an HTML form and its syntax is shown here.</p>
+
+{{#figure}}
+	{{#code lang="html"}}
+<form>
+	<!-- data to go in the form-->
+</form>
+	{{/code}}
+{{/figure}}			
+
+			<p>The <code>&lt;form&gt;</code> element can contain other HTML elements such as paragraphs, headings, links, etc., however, a <code>&lt;form&gt;</code> element cannot contain another <code>&lt;form&gt;</code> element. You can, however, have multiple forms on a web page as long as they are separated.</p>
+
+
+		">>>,		
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00005-22",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Two important attributes of the <code>&lt;form&gt;</code> element",
+		"body": <<<"
+			<p>The <code>&lt;form&gt;</code> element carries these two important attributes: <code>action</code> and <code>method</code>.</p>
+		">>>,
+		"instruction": 			"Click on each of them to find out more.",		
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00005-22",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": <<<"
+
+			<<<! Handlebars partials !>>>
+			<<<! ------------------------------ !>>>
+			{{#*inline "a1"}}
+				{{~#annotation tooltip="The <code>action</code> attribute specifies where to send the form data when a form is submitted. Its value is normally a web page or program on a web server that will receive the information."}}<strong>action</strong>{{/annotation~}}
+			{{/inline}}
+
+			{{#*inline "a2"}}
+				{{~#annotation tooltip="The <code>method</code> attribute meanwhile specifies the HTTP method to use when sending form data. It can have two possible values: ‘<code>post</code>’ and ‘<code>get</code>’. We will cover these two methods later in this topic once you have learnt more about form controls."}}<strong>method</strong>{{/annotation~}}
+			{{/inline}}
+			<<<! ------------------------------ !>>>
+
+			{{#figure}}
+				{{#figuretext}}
+					<code>&lt;form {{> a1}}=&quot;action_page.php&quot; {{> a2}}=&quot;get&quot;&gt;</code>
+				{{/figuretext}}
+			{{/figure}}
+
+			{{{tooltipFallback}}}
+
+	
+
+		">>>,
+	
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	<<<! === TIN00006.7 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		8,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<"
+		">>>,
+		"_graphic": {
+			"large": 		"course/en/images/b-00006-7/pic-00--r.svg",
+			"small": 		"course/en/images/b-00006-7/pic-00--r.svg",
+			"style": 		"",								 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Semantic elements",
+		"body": <<<"
+			<p>Semantic elements, otherwise known as structural elements, are elements used to describe their content. Examples of semantic elements include,  <code><header></code>, <code><footer></code>, <code><nav></code>, <code><section></code>, <code><article></code>, <code><aside></code>, <code><main></code>. A structure of a sample web page using semantic elements is shown in the image.</p>
+
+			<p>HTML5 emphasises semantics leaving the styling effects to CSS. Visually, without CSS, all semantic elements look the same (as you will see in the upcoming screen).</p>
+
+			<p>Using semantic tags improves the readability, organisation and searching ability of the web page as the structure of the web page is clearly defined with tags. It also produces cleaner markup.</p>	
+		">>>,
+
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		8,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00006-7/pic-1--r.svg",
+			"small": 		"course/en/images/b-00006-7/pic-1--r.svg",
+			"style": 		"",								 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"The <code>&lt;header&gt;</code> element",
+		"body": <<<"
+			<p>The <code>&lt;header&gt;</code>  element is used to contain introductory content of a web page. It indicates the title or introductory information for a document or a section. You can include heading (like <code>&lt;h1&gt;</code> ) elements within the <code>&lt;header&gt;</code> element. It can also include search forms and logos of the website.</p>
+			
+			<p>The <code>&lt;header&gt;</code> element is different from the <code>&lt;head&gt;</code> element you learned about previously. The main difference is that the information in the <code>&lt;header&gt;</code>  element is displayed to the user, while the information in the <code>&lt;head&gt;</code> element is not visible to the user as it is a container for metadata and links to scripts and stylesheets.</p>
+			
+			<p>As you can see in the example, the <code>&lt;header&gt;</code> element appears within the <code>&lt;body&gt;</code> element of the markup and is used to state an introduction about the content of the page.</p>
+{{#figure}}
+{{#code}}
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title><!-- title --></title> 
+</head> 
+<body> 
+{{#markBlock}}
+<header> 	
+	<h1>Attractions in Victoria</h1> 
+</header>
+{{/markBlock}}
+<p>There are quite a few places to visit in Victoria!</p> 
+</body> 
+</html>
+{{/code}}
+
+{{#console}}
+<header> 	
+<h1>Attractions in Victoria</h1> 
+</header> 
+<p>There are quite a few places to visit in Victoria!</p> 
+{{/console}}
+{{/figure}}	
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},		
+		{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		8,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00006-7/pic-2--r.svg",
+			"small": 		"course/en/images/b-00006-7/pic-2--r.svg",
+			"style": 		"",								 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"The <code>&lt;footer&gt;</code> element",
+		"body": <<<"
+			<p>This element includes the information that typically appears at the bottom of a web page. It's the footer of a document or a section and may include information such as links, authors and copyright information.</p>
+			<p>See an example of the default <code>&lt;footer&gt;</code>  element below.</p>
+{{#figure}}
+{{#code}}
+<!DOCTYPE html> 
+<html lang="en"> 
+<body>
+{{#markBlock}}
+<footer> 
+	<p>copyright Didasko Digital 2021</p>
+	<ul>
+		<li>Contact us</li>
+		<li>About us</li>
+		<li>Privacy policy</li>
+		<li>Facebook</li>
+		<li>Twitter</li> 
+	</ul>
+</footer> 
+{{/markBlock}}
+</body> 
+</html>
+{{/code}}
+
+{{#console}}
+<footer> 
+<p>copyright Didasko Digital 2021</p>
+<ul>
+<li>Contact us</li>
+<li>About us</li>
+<li>Privacy policy</li>
+<li>Facebook</li>
+<li>Twitter</li> 
+</ul>
+</footer> 
+{{/console}}
+{{/figure}}	
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},		
+		{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		8,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00006-7/pic-3--r.svg",
+			"small": 		"course/en/images/b-00006-7/pic-3--r.svg",
+			"style": 		"",								 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"The <code>&lt;nav&gt;</code> element",
+		"body": <<<"
+			<p>The <code>&lt;nav&gt;</code> element includes the navigation links of a web page. These links may lead to other web pages or sections within the same web page. You can place the <code>&lt;nav&gt;</code> element in the <code>&lt;header&gt;</code>  or <code>&lt;article&gt;</code>  elements. The links in the <code>&lt;footer&gt;</code> do not need to be inside a <code>&lt;nav&gt;</code> element.</p>
+
+			<p>See an example of a default <code>&lt;nav&gt;</code> element below.</p>
+			
+{{#figure}}
+{{#code}}
+<!DOCTYPE html> 
+<html lang="en"> 
+<body> 
+<header> 
+	<h1>Attractions in Victoria</h1>
+{{#markBlock}}
+	<nav> 
+		<ul> 
+			<li><a href="home.html">Home</a></li> 
+			<li><a href="login.html">Log in</a></li> 
+			<li><a href="https://www.google.com">Search</a></li> 
+		</ul> 
+	</nav> 
+{{/markBlock}}
+</header> 
+</body> 
+</html>
+{{/code}}
+
+{{#console}}
+<header> 
+<h1>Attractions in Victoria</h1> 
+<nav> 
+<ul> 
+<li><a href="home.html">Home</a></li> 
+<li><a href="login.html">Log in</a></li> 
+<li><a href="https://www.google.com">Search</a></li> 
+</ul> 
+</nav> 
+</header>
+<!-- Hyperlink clicking disabled for this example. -->
+<script>
+var els = document.querySelectorAll("a");
+els.forEach(function(el) {
+el.addEventListener("click", function(event) {
+event.preventDefault();
+});
+});
+</script>
+{{/console}}
+{{/figure}}	
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},		
+		{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		8,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00006-7/pic-4--r.svg",
+			"small": 		"course/en/images/b-00006-7/pic-4--r.svg",
+			"style": 		"",								 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-7",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"The <code>&lt;section&gt;</code> element",
+		"body": <<<"
+			<p>The <code>&lt;section&gt;</code> element is used to define a part of a document such as the header, footer or article.	</p>
+			<p>See the example below to understand how this element is used in HTML5 markup, and how it will appear by default.
+			</p>
+{{#figure}}
+{{#code}}
+<!DOCTYPE html> 
+<html lang="en"> 
+<body>
+{{#markBlock}}
+<section> 
+	<h2>Section example</h2> 
+	<p>This is a section!</p> 
+</section> 
+{{/markBlock}}
+</body> 
+</html>
+{{/code}}
+
+{{#console}}
+<section> 
+<h2>Section example</h2> 
+<p>This is a section!</p> 
+</section>
+{{/console}}
+{{/figure}}	
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	<<<! === TIN00006.20 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-20",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		5,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00006-20/pic_0.svg",
+			"small": 		"course/en/images/b-00006-20/pic_0.svg",
+			"style": 		"",							 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-20",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Graphics elements",
+		"body": <<<"
+			The new graphics elements introduced in HTML5 allow you to draw graphics in documents without using external images or third-party tools. The graphics elements available in HTML5 are <code>&lt;canvas&gt;</code>and <code>&lt;svg&gt;</code>.  
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-20",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"The <code>canvas</code> element",
+		"body": <<<"
+			<p>The <code>&lt;canvas&gt;</code> element is used to draw graphics using a scripting language called JavaScript. The <code>&lt;canvas&gt;</code>  element draws graphics on the page, can create animations, real-time video processing and make photo compositions.</p>
+
+			<p>Here, you can see a simple example of a ball-bouncing script made using the <code>&lt;canvas&gt;</code>  element.</p>
+			<p>The task of drawing and controlling the ball is handled by JavaScript (not covered in this course).</p>
+
+			<strong>Example script (HTML only)</strong>
+
+{{#figure}}
+{{#code}}
+<canvas id="myCanvas" width="600" height="362"></canvas>
+<script src="ball-example.js" type="text/javascript"></script>
+{{/code}}
+
+{{#console}}
+<canvas id="myCanvas" width="600" height="362"></canvas>
+<script src="course/en/images/b-00006-20/ball-example.js" type="text/javascript"></script>
+{{/console}}
+{{/figure}}
+
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00006-20",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"The <code>svg</code> element",
+		"body": <<<"
+			<p>‘SVG’ stands for Scalable Vector Graphics. An <code>&lt;svg&gt;</code>  element is used to create 2D vector-based graphics in XML. It's most useful when you want to create diagrams such as pie charts, logos and any 2D graphs using the coordinates x and y. In HTML5, you can directly embed SVG graphics to your web page without having to attach them in separate files (by pasting them in as XML script inside the <code>&lt;svg&gt;</code> element instead).</p>
+
+			<p>Here, you can see an example of a simple image made with the <code>&lt;svg&gt;</code> element. You'll learn more about SVGs in the upcoming content.</p>
+
+{{#figure}}
+	{{#code}}
+<svg width="500" height="300"> 
+	<circle cx="250" cy="230" r="50" stroke="grey" stroke-width="3" fill="#e1eeef" /> 
+	<circle cx="250" cy="165" r="35" stroke="grey" stroke-width="3" fill="#e1eeef" /> 
+	<defs> 
+		<linearGradient id="grad"> 
+			<stop offset="20%" stop-color="black"/> 
+			<stop offset="80%" stop-color="#eeeeee"/> 
+		</linearGradient> 
+	</defs> 
+	<rect x="225" y="70" width="50" height="70" fill="url(#grad)"/> 
+	<rect x="205" y="130" width="90" height="10" fill="url(#grad)"/> 
+	<rect x="275" y="160" width="50" height="10" fill="orange"/> 
+	<text font-family="comic sans MS" font-size="30" stroke="red" fill="lime" x="165" y="40">SNOWMAN</text> 
+</svg>
+	{{/code}}
+
+{{#console}}
+<svg width="500" height="300"> 
+<circle cx="250" cy="230" r="50" stroke="grey" stroke-width="3" fill="#e1eeef" /> 
+<circle cx="250" cy="165" r="35" stroke="grey" stroke-width="3" fill="#e1eeef" /> 
+<defs> 
+<linearGradient id="grad"> 
+<stop offset="20%" stop-color="black"/> 
+<stop offset="80%" stop-color="#eeeeee"/> 
+</linearGradient> 
+</defs> 
+<rect x="225" y="70" width="50" height="70" fill="url(#grad)"/> 
+<rect x="205" y="130" width="90" height="10" fill="url(#grad)"/> 
+<rect x="275" y="160" width="50" height="10" fill="orange"/> 
+<text font-family="comic sans MS" font-size="30" stroke="red" fill="lime" x="165" y="40">SNOWMAN</text> 
+</svg>
+{{/console}}
+{{/figure}}	
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	
+	<<<! === TIN00046.12 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00046-12",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,		 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true,	 <<<@ 1 - 12 | true | false @>>>
+			"_float": 		false	 <<<@ false | true @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00046-12/pic_1.jpg",
+			"small": 		"course/en/images/b-00046-12/pic_1.jpg",
+			"style": 		"",							 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00046-12",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Searching an array",
+		"body": <<<"
+			<p>As well as copying elements between arrays, another common requirement is the ability to search an array for a specific value. Luckily, Java comes with a number of pre-built searching methods in the <code>Arrays</code> class.</p>
+
+			<p>To use the <code>Arrays</code> class, you will need to use this <code>import</code> statement:</p>
+
+			{{#figure}}
+				{{#code lang="py"}}
+import java.util.Arrays;
+				{{/code}}
+			{{/figure}}
+
+			<p>An example of the <code>binarySearch</code> method is shown here.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 				"",
+		"_parentId": 		"b-00046-12",
+		"_component": 		"activator",
+		"_layout": 			"full",
+		"_classes": 		"",
+
+		<<<! Standup !>>>
+		"title": 			"",
+		"body": <<<"
+		">>>,
+		"buttonText": 		"Run the code",
+		"_targets": [
+			{
+				"_id": 	"c-00046-12-a"
+			},
+			{
+				"_id": 	"c-00046-12-b"
+			}
+		],
+		<<<~
+		"_toggleEnabled": 	true,
+		"_type": 			"component"
+		~>>>
+	},
+	{
+		"_id": 			"c-00046-12-a",
+		"_parentId": 	"b-00046-12",
+		"_component": 	"codeanim",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Code !>>>
+		"_code": {
+			"_lang": "py",
+			"body": <<<P
+int[] anArray = {10,20,30};
+int indexPos;
+
+indexPos = Arrays.binarySearch(anArray, 10);
+System.out.println("Array Position = " + indexPos);
+
+indexPos = Arrays.binarySearch(anArray, 30);
+System.out.println("Array Position = " + indexPos);
+
+indexPos = Arrays.binarySearch(anArray, 7);
+System.out.println("Array Position = " + indexPos);
+
+//Will print:
+//Array Position = 0 // value 10 is found at index position 0
+//Array Position = 2 // value 30 is found at index position 2
+//Array Position = -1 // value 7 is not found within the array
+			P>>>
+		},
+
+		<<<! Console !>>>
+		"_console": {
+			"_lang": "py",
+			"_isEnabled": 	true,
+			"body": <<<PP>>>
+		},
+
+		"_animation": {
+			"_isEnabled": true,
+			"_isInspectorEnabled": true,
+			"_frameDuration": 1000,
+			"_keyframes": [
+				{"lines": "1", "vars": {"anArray": [10,20,30]}},
+				{"lines": "2", "vars": {"indexPos": 0}},
+				
+				{"lines": "4", "vars": {"indexPos": 0}},
+				{"lines": "5", "print": "<nobr>Array Position = 0</nobr>"},
+
+				{"lines": "7", "vars": {"indexPos": 2}},
+				{"lines": "8", "print": "<nobr>Array Position = 2</nobr>"},
+
+				{"lines": "10", "vars": {"indexPos": -1}},
+				{"lines": "11", "print": "<nobr>Array Position = -1</nobr>"}
+			]
+		},
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"c-00046-12-b",
+		"_parentId": 	"b-00046-12",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"What just happened?",
+		"body": <<<"
+			<p>In the Java code example, you first declare a simple array of three integer elements: <code>10</code>, <code>20</code> and <code>30</code>. You then declare an integer variable to hold the index position.</p>
+
+			<p>Next, you use the <code>Arrays.binarySearch</code> method to search for a value within the array.</p>
+
+			{{#figure}}
+				{{#code lang="py"}}
+indexPos = Arrays.binarySearch(anArray, 10);
+				{{/code}}
+			{{/figure}}
+
+			<p>The first parameter of this method is the array that you wish to search (<code>anArray</code>), while the second parameter is the value that you want to search for within the array (<code>10</code>). The method returns the index position of the values within the array, if it is found. If it isn’t found, the <code>indexPos</code> variable is given the value of <code>-1</code>.</p>
+
+			<p>Note that the <code>Arrays.binarySearch()</code> method will only work with sorted arrays. The method used to sort arrays is <code>Arrays.sort()</code>.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	<<<! === TIN00091.23 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00091-23",
+		"_component": 	"graphic",
+		"_layout": 		"left",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,		 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true,	 <<<@ 1 - 12 | true | false @>>>
+			"_float": 		false	 <<<@ false | true @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}} 
+				{{#item sizing="{'_width':12, '_maxWidth': true}"}} 
+					{{{lottie src="course/en/images/b-00091-23/anim1/anim1-1.json" autoplay=true loops=2.1}}}
+			 	{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00091-23",
+		"_component": 	"text",
+		"_layout": 		"right",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Red team",
+		"body": <<<"
+			<p>The red team’s main goal is to simulate a cyberattack against an organisation to expose vulnerabilities of the system. The team will then attempt to exploit these vulnerabilities to steal information from the organisation.</p>
+			
+			<p>The red team is usually made up of an individual or a team of experts who are ethical hackers and have no prior knowledge of the system and the organisation’s infrastructure. </p>
+
+			<p>The red team uses current cyber attack technology and methods. These methods may include a range of techniques such including phishing, social engineering and trojan horses. </p>
+			
+			<p>If the red team is successful with the use of penetration testing it will be able to break into the organisation’s system, bypassing any security mechanisms and controls the organisation has installed{{#reference}}Diogenes & Ozkaya 2018{{/reference}}. </p>
+
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	<<<! === TIN00092.15 ============================================================================================== !>>>
+	{
+		"_id": 						"",
+		"_parentId": 				"b-00092-15",
+		"_component": 				"reorder",
+		"_layout": 					"full",
+		"_classes": 				"",
+
+		<<<! Standup !>>>
+		"title": 					"Identify the steps ",
+		"body": <<<"
+			<p>Can you identify the order of the steps required to create a cybersecurity policy?</p>
+		">>>,
+		"instruction": 				"Drag the steps into the correct order, then click submit.",
+
+		<<<! Question settings !>>>
+		"header": 					"First step",
+
+		<<<! Footer !>>>
+		"footer": 					"Last step",
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"text": 	"Set password requirements"
+			},
+			{
+				"text": 	"State email security protocols"
+			},
+			{
+				"text": 	"Identify procedures to handle sensitive data"
+			},
+			{
+				"text": 	"Identify rules to handle technology"
+			},
+			{
+				"text": 	"Implement social media and internet access rules"
+			},
+			{
+				"text": 	"State incident handling procedures"
+			},
+			{
+				"text": 	"Maintain cybersecurity policy"
+			}			
+		],
+
+		<<<! Question feedback !>>>
+		"_feedback": {
+			"_correct": {
+				"title": 	"",
+				"body": <<<"
+					
+				">>>
+			},
+			"_incorrect": {
+				"title": 		"",
+				"body": <<<"
+					
+				">>>,
+				"instruction": 	"Have another look at the options and try again."
+			},
+			<<<~
+			"_partlyCorrect": {
+				<<<~
+				"title": 		"",
+				"body": 		"",
+				"instruction": 	""
+				~>>>
+			}
+			~>>>
+		},
+		<<<~
+
+		<<<! Question settings !>>>
+		"_isRandom": 				true,
+		"_attempts": 				999,
+		"_shouldDisplayAttempts": 	false,
+		"_questionWeight": 			1,
+		"_canShowModelAnswer": 		false,
+		"_canShowFeedback": 		true,
+		"_canShowMarking": 			true,
+		"_recordInteraction": 		true,
+		"_type": 					"component"
+		~>>>
+	},
+	<<<! === TIN00014.2 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		10,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	false <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim0/anim0.json" style=""}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Has your head been in the clouds?",
+		"body": <<<"
+			<p>You’ve probably heard of the cloud and at least have an idea that it’s some kind of virtual place to store digital files.</p>
+
+			<p>But there is so much more hidden behind the cloud that has changed how everyone uses technology today.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim1/anim1-1.json" style="" loops=0.7}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		"_stickyBlock": {
+			"_timeline": {
+				"title": "1970"
+			}
+		},
+
+		<<<! Standup !>>>
+		"title": 		"How the home theatre has changed",
+		"body": <<<"
+			What do the words home theatre mean to you? Long gone are the days when you had to buy and store your own movie collections. Thanks to the cloud, now anyone with an internet connection and a credit card can access and stream movies on demand.
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim2/anim2.json" style=""}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		"_stickyBlock": {
+			"_timeline": {
+				"title": "1994"
+			}
+		},
+
+		<<<! Standup !>>>
+		"title": 		"Amazon.com enters the scene",
+		"body": <<<"
+			One of the key changemakers was Amazon, which began its e-commerce business in 1994. Even though most people think of online shopping when they hear Amazon, today Amazon Web Services is one of the major players in cloud computing.
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim3/anim3-3.json" style=""}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		"_stickyBlock": {
+			"_timeline": {
+				"title": "2000"
+			}
+		},
+
+		<<<! Standup !>>>
+		"title": 		"The problem of demand exceeding capacity",
+		"body": <<<"
+			Amazon.com was extremely successful but they faced issues handling the amount of traffic to their website during peak times. Around the year 2000, with huge global sales like Black Friday becoming more popular, this became a problem that Amazon needed to solve.
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim4/anim4-4.json" style=""}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"The (expensive) solution",
+		"body": <<<"
+			At the time, Amazon’s solution was to expand the number of compute servers to match the demand of peak traffic periods. But this strategy became an expensive issue as on most days of the year traffic demand was just a tiny proportion of the full capacity of Amazon’s servers.
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim5/anim5-5.json" style=""}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		"_stickyBlock": {
+			"_timeline": {
+				"title": "2006"
+			}
+		},
+
+		<<<! Standup !>>>
+		"title": 		"Commercialising the excess resources with AWS",
+		"body": <<<"
+			In 2006, Amazon decided to monetise their excess computer resources by reselling them, and this was the birth of Amazon Web Services (AWS) and the most successful commercial model for using cloud computing.
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim6/anim6-6.json" style=""}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		"_stickyBlock": {
+			"_timeline": {
+				"title": "2007"
+			}
+		},
+
+		<<<! Standup !>>>
+		"title": 		"Netflix moves to online service",
+		"body": <<<"
+			<p>Around the same time, a small startup called Netflix wanted to move away from mailing DVDs to its subscribers and start sharing movies online. Netflix didn’t have the hardware resources or funds to make it happen, but Amazon did. So Netflix partnered with Amazon to use AWS and history was made.</p>
+
+			<p>What made the cloud a gamechanger is the underpinning idea of renting rather than owning resources. Its pay as you go (PAYG) pricing model meant that startups like Netflix only need pay for what they use.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		6,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		<<<" 
+			{{#figure}}
+				{{#item sizing="{'_width':10, '_maxWidth': true}"}}
+					{{{lottie autoplay=true src="course/en/images/b-00014-2/anim7/anim7.json" style=""}}}
+				{{/item}}
+			{{/figure}}
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00014-2",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		"_stickyBlock": {
+			"_timeline": {
+				"title": "Now"
+			}
+		},
+
+		<<<! Standup !>>>
+		"title": 		"The cloud takes off",
+		"body": <<<"
+			<p>Today cloud service vendors like AWS take responsibility for managing and licensing technology services, keeping things both cost-effective and simple for the customer. This means that anyone can access a huge range of computer services (such as servers, storage and network bandwidth) without needing to know how it all works.</p>
+
+			<p>In this topic, you’ll peek behind the clouds and gain an understanding of all the core elements that make cloud computing what it is today.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	<<<! === TIN00103.18 ============================================================================================== !>>>
+	
+	<<<! === TIN00103.33 ============================================================================================== !>>>
+	
+	<<<! === TIN00093.30 ============================================================================================== !>>>
+	{
+		"_id": 					"",
+		"_parentId": 			"b-00093-30",
+		"_component": 			"hotgraphicplus",
+		"_layout": 				"full",
+		"_classes": 			"",
+
+		<<<! Standup !>>>
+		"title": 				"Defense in depth layers",
+		"body": <<<"
+			Shown here is an example of generic defense in depth layers.
+		">>>,
+		"instruction": 			"Click on each layer to see how defense in depth works.",
+
+		<<<! Item settings !>>>
+		"_graphic": {
+			"src": 			"course/en/images/b-00093-30/pic0.svg",
+			"_sizing": {
+				"_width": 		8,	 <<<@ 10 - 12 @>>>
+				"_maxWidth": 	true <<<@ 10 - 12 | true | false @>>>
+			},
+			"alt": 			"",
+			"attribution": 	""
+		},
+		"_itemPopupSizing": {
+			"_width": 		4,	 <<<@ 4 - 8 @>>>
+			"_maxWidth": 	3	 <<<@ 4 - 8 | true | false @>>>
+		},
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"title": 		"Layer 7 – System or data-specific security",
+				"body": <<<"
+					<p>System or data-specific security comprises controls to be placed for specialised systems and/or data sets.</p> 
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-30/pic1.svg",
+					"srcPopup": 	"course/en/images/b-00093-30/pic1a.svg",
+					"_filter": 		"invert(100%) brightness(1.2)",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+
+					<<<! Positioning in % !>>>
+					"_width": 		25,
+					"_left": 		37,
+					"_top": 		73
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Layer 6 – Application level security",
+				"body": <<<"
+					<p>Application-level security comprises controls needed to protect the asset from malicious software, malicious web content, unauthorised access, third-party components, unnecessary components or ports being kept open, etc.. </p>
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-30/pic2.svg",
+					"srcPopup": 	"course/en/images/b-00093-30/pic2a.svg",
+					"_filter": 		"invert(100%) brightness(1.2)",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+
+					<<<! Positioning in % !>>>
+					"_width": 		39,
+					"_left": 		30,
+					"_top": 		58
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Layer 5 – Host level security",
+				"body": <<<"
+					<p>Host level security comprises controls needed to protect the assets from both physical and logical access.</p> 
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-30/pic3.svg",
+					"srcPopup": 			"course/en/images/b-00093-30/pic3a.svg",
+					"_filter": 		"invert(100%) brightness(1.2)",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+
+					<<<! Positioning in % !>>>
+					"_width": 		54,
+					"_left": 		23,
+					"_top": 		43,
+
+					"_sizing": {
+						"_width":	5
+					}
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Layers 3 and 4 – Network architecture and network security",
+				"body": <<<"
+					<p>Network architecture and network security comprise the design and controls needed in boundary security, intrusion prevention system monitoring, demilitarised zone, etc.</p> 
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-30/pic4.svg",
+					"srcPopup": 			"course/en/images/b-00093-30/pic4a.svg",
+					"_filter": 		"invert(100%) brightness(1.2)",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+
+					<<<! Positioning in % !>>>
+					"_width": 		68,
+					"_left": 		16,
+					"_top": 		28,
+
+					"_sizing": {
+						"_width":	6,
+						"_maxWidth": 6
+					}
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Layer 2 – People, policies and procedures",
+				"body": <<<"
+					People, policies and procedures comprise controls that need to be followed by personnel. Also, the organisation needs to have well-formed policies and procedures regarding security and concerning any breaches. 
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-30/pic5.svg",
+					"srcPopup": 			"course/en/images/b-00093-30/pic5a.svg",
+					"_filter": 		"invert(100%) brightness(1.2)",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+
+					<<<! Positioning in % !>>>
+					"_width": 		82,
+					"_left": 		9,
+					"_top": 		14
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Layer 1 – Physical security",
+				"body": <<<"
+					<p>Physical security comprises controls that are needed to prevent physical access to assets.</p>
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-30/pic6.svg",
+					"srcPopup": 			"course/en/images/b-00093-30/pic6a.svg",
+					"_filter": 		"invert(100%) brightness(1.2)",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+
+					<<<! Positioning in % !>>>
+					"_width": 		94,
+					"_left": 		3,
+					"_top": 		0,
+
+					"_sizing": {
+						"_width":	4,
+						"_maxWidth":	2
+					}
+				},
+				"_classes": 	""
+			}
+		],
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_setCompletionOn": 	"allItems",
+		"_type": 				"component"
+		~>>>
+	},
+	<<<! === TIN00093.31 ============================================================================================== !>>>
+	{
+		"_id": 					"",
+		"_parentId": 			"b-00093-31",
+		"_component": 			"hotgraphicplus",						 <<<@ Finder @>>>
+		"_layout": 				"full",
+		"_classes": 			"",
+
+		<<<! Standup !>>>
+		"title": 				"Setting up the physical security for an office",
+		"body": <<<"
+			<p>ABC Conveyancing Pty Ltd has hired an IT security administrator to set up a physical security plan for its building. As a result, six physical security controls have been put in place. Shown here is ABC Conveyancing’s 3D building layout including the implemented physical security measures. Can you identify each physical security measure?</p>
+		">>>,
+		"instruction": 			"Find and click on each physical security control to see why it was used.",
+
+		<<<! Finder !>>>
+		"_finder": {
+			"_isEnabled": 		true,
+			"_counter": {
+				"_position": 	"top,left",
+				"_sizing": {
+					"_width": 		2,	 <<<@ 1 - 12 | "" @>>>
+					"_maxWidth": 	1	 <<<@ 1 - 12 | true | false @>>>
+				},
+				"_classes": 	""
+			},
+			<<<~
+			"_hintEnabled": 	true
+			~>>>
+		},
+
+		<<<! Item settings !>>>
+		"_graphic": {
+			"src": 			"course/en/images/b-00093-31/pic_0.svg",
+			"_sizing": {
+				"_width": 		12,	 <<<@ 10 - 12 @>>>
+				"_maxWidth": 	true <<<@ 10 - 12 | true | false @>>>
+			},
+			"alt": 			"",
+			"attribution": 	""
+		},
+		"_itemPopupSizing": {
+			"_width": 		4,	 <<<@ 4 - 8 @>>>
+			"_maxWidth": 	2	 <<<@ 4 - 8 | true | false @>>>
+		},
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"title": 		"Visitor sign-in",
+				"body": <<<"
+					Positioned on the reception lobby desk to register visitors entering the building.
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-31/pic_1.svg",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+					"_left": 		69,
+					"_top": 		44,
+
+					<<<! Positioning in % !>>>
+					"_width": 		6
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Smart card reader",
+				"body": <<<"
+					Positioned inside the reception lobby on the wall just outside the office’s front door to restrict access to authorised staff members.
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-31/pic_2.svg",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+					"_left": 		44,
+					"_top": 		48,
+
+					<<<! Positioning in % !>>>
+					"_width": 		2
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Smart card reader",
+				"body": <<<"
+					Positioned inside the office on the wall just outside the networking closet room door to restrict access to authorised personnel.
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-31/pic_3.svg",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+					"_left": 		39,
+					"_top": 		36,
+
+					<<<! Positioning in % !>>>
+					"_width": 		2
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"CCTV camera",
+				"body": <<<"
+					Positioned inside the office facing the networking closet room doorway to monitor staff entering and leaving the networking closet room.
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-31/pic_4.svg",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+					"_left": 		2,
+					"_top": 		34,
+
+					<<<! Positioning in % !>>>
+					"_width": 		5
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"CCTV camera",
+				"body": <<<"
+					Positioned inside the networking closet room facing the networking closet room doorway to monitor staff inside the networking closet room, and staff entering and leaving the room.
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-31/pic_5.svg",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+					"_left": 		61,
+					"_top": 		16,
+
+					<<<! Positioning in % !>>>
+					"_width": 		5
+				},
+				"_classes": 	""
+			},
+			{
+				"title": 		"Restricted access signage",
+				"body": <<<"
+					Positioned inside the office on the wall just outside the networking closet room door to notify staff that access to the networking closet room is restricted to authorised personnel.
+				">>>,
+				"_graphic": {
+					"src": 			"course/en/images/b-00093-31/pic_6.svg",
+					"alt": 			"",
+					"attribution": 	"",
+					"_classes": 	"",
+					"_left": 		38,
+					"_top": 		29,
+
+					<<<! Positioning in % !>>>
+					"_width": 		3
+				},
+				"_classes": 	""
+			}									
+		],
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_setCompletionOn": 	"allItems",
+		"_type": 				"component"
+		~>>>
+	},
+	<<<! === TIN00211.7 ============================================================================================== !>>>
+	
+	
+	<<<! === TIN00211.12 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-12",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		5,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00211-12/pic-0.jpg",
+			"small": 		"course/en/images/b-00211-12/pic-0.jpg",
+			"style": 		"circle",							 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-12",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"It could happen to you",
+		"body": <<<"
+			<p>Usually, when people think about cybersecurity, they instinctively think about businesses or organisations protecting their data, transactions and financial information. But cybersecurity is not limited to organisations; it concerns individuals too. With the exponential growth of technology and smart devices such as smartphones and tablets, being cyber-savvy has become vital in the present world.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-12",
+		"_component": 	"graphic",
+		"_layout": 		"left",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		5,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00211-12/pic-1.jpg",
+			"small": 		"course/en/images/b-00211-12/pic-1.jpg",
+			"style": 		"circle",							 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-12",
+		"_component": 	"text",
+		"_layout": 		"right",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Social media data breach",
+		"body": <<<"
+			<p>In 2019, the popular social media service Instagram took a massive blow when it experienced a data breach that compromised the data of at least 49 million of its users{{#reference}}Ikeda 2019{{/reference}}. The data breach occurred because of an unprotected Amazon Web Services server that was exposed to the public online for 72 hours or so. The email addresses, phone numbers, photos and location data of victimised users that included public figures and celebrities were exposed in this data breach.</p>
+
+			<p>Think about the data that was breached in this cyberattack; it didn’t include any financial information such as the credit card details of users.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-12",
+		"_component": 	"graphic",
+		"_layout": 		"right",
+		"_classes": 	"",
+		"_sizing": {
+			"_width": 		5,	 <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<@ 1 - 12 | true | false @>>>
+		},
+
+		<<<! Standup !>>>
+		"title": 		"",
+		"body": 		"",
+		"_graphic": {
+			"large": 		"course/en/images/b-00211-12/pic-2.jpg",
+			"small": 		"course/en/images/b-00211-12/pic-2.jpg",
+			"style": 		"circle",							 <<<@ "" | circle @>>>
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Footer !>>>
+		"footer": <<<"
+		">>>,
+		<<<~
+		"_isOptional": 	true,
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-12",
+		"_component": 	"text",
+		"_layout": 		"left",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Should the victims be concerned?",
+		"body": <<<"
+			<p>The celebrities and public figures would likely be concerned because exposure of their personal information to the public could cause them havoc.</p>
+
+			<p>While financial information was not leaked on this occasion, conventional users can still be affected as cybercriminals accumulate bits and pieces of data and use them for identity theft or large-scale frauds. This is just one example of hundreds of cyberattacks that happen each day to steal the personal data of individuals.</p>
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	<<<! === TIN00211.13 ============================================================================================== !>>>
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-13",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Your online presence",
+		"body": <<<"
+
+			<p>Your online presence includes your social media profiles and the information you provide in them, other online accounts such as bank accounts, and the customer profile you create for various product and service providers, memberships and subscriptions (e.g., library and gym memberships, journal or news subscriptions). All the profiles you create online make up your online profile and mark your online presence, so you must be aware of the personal information you provide when creating these accounts.</p>
+ 
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-13",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"What is personal data?",
+		"body": <<<"
+			<p>Personal data is any information that can be used to identify you{{#reference}}Arata 2010{{/reference}}. It may include your:</p>
+
+			<ul class="u-columns-2">
+				<li>driver’s licence</li>
+				<li>passport number</li>
+				<li>name</li>
+				<li>date of birth</li>
+				<li>address</li>
+				<li>employment information</li>
+				<li>educational information</li>
+				<li>medical records</li>
+				<li>financial information</li>
+				<li>other information such as your preferences, hobbies, etc.</li>
+			</ul>
+
+			<p>This type of information is used to create online profiles so companies can identify who you are. Think about the number of profiles you’ve created. It’s likely that most of your confidential data is available online. How careful are you when sharing information online? Do you know who has access to your personal information?</p>
+ 
+		">>>,
+		<<<~
+		"_type": 		"component"
+		~>>>
+	},
+	{
+		"_id": 			"",
+		"_parentId": 	"b-00211-13",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Standup !>>>
+		"title": 		"Who owns your photos?",
+		"body": <<<"
+			<p>The way you present yourself online is just as important as the way you present yourself in the physical world.</p>
+
+			<p>Think about a time you posted a photo on Facebook. You may assume that the image is visible to only those on your friend list. But, unless you have explicitly enforced specific privacy settings on your profile, friends of your friends, or anyone online, might be able to access your photo and misuse it. Unless you are careful, you could expose your personal data to anyone online.</p>
+
+			{{#extraLearning id="e1"}}{{/extraLearning}}
+
+ 
+		">>>,
+		<<<! Partials !>>>
+		"_extraLearning": {
+			"_items": [
+				{
+					"_id": 			"e1",
+					"_classes": 	"",
+					"_type":		"spotlight", <<<@ "dyk" | "extend" | "spotlight" @>>>
+					"title": 		"",
+					"body": <<<"
+						<p>In April 2019, personal data of 540 million Facebook users were exposed{{#reference}}BBC News 2019{{/reference}}. The data included the usernames, IDs and passwords of users. These user data were stored in an unprotected server that was then easily exposed to the public.</p>
+
+						<p>Keep in mind that top organisations can also be victims of cyberattacks and your personal data that you store with these organisations can be accessible to hackers. Be mindful about how much personal data you choose to share online!</p>
+					">>>
+				}
+			]
+		},				
+		<<<~
+		"_type": 		"component"
+		~>>>
+	}
+]

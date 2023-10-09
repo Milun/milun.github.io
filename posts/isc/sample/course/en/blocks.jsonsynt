@@ -1,0 +1,259 @@
+[
+	{
+        "_id": 			"b-00211-12",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},
+
+	{
+        "_id": 			"b-00211-13",
+        "_parentId": 	"a-05",
+        "_classes": 	"",
+        "title": 		"b-05",
+        "displayTitle": "",
+        "body": 		"",
+        "instruction": 	"",
+        "_trackingId": 	0,
+		"_blockBackground": {
+			"_isEnabled": 	true,
+
+			<<<! Items !>>>
+			"_items": [
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-13/bg-1.jpg",
+						"_small": 	"course/en/images/b-00211-13/bg-1-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-13/bg-2.jpg",
+						"_small": 	"course/en/images/b-00211-13/bg-2-sm.jpg"
+					}
+				},
+				{
+					"_graphic": {
+						"_large": 	"course/en/images/b-00211-13/bg-3.jpg",
+						"_small": 	"course/en/images/b-00211-13/bg-3-sm.jpg"
+					}
+				}
+			]
+		},
+        "_onScreen": {
+            "_isEnabled": false,
+            "_classes": "fade-in-bottom",
+            "_percentInviewVertical": 50
+        },
+        "_type": "block"
+	},
+	
+	<<<! Cyber !>>>
+    {
+		
+		"_id": 			"b-00093-30",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+
+
+	{
+		"_id": 			"b-00093-31",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	
+	
+	
+	
+	
+
+    <<<! Sticky animated !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00014-2",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"left",	 <<<@ left | right @>>>
+			"_timeline": {
+				"_isEnabled": true
+			}
+		},
+		"_sizing": {
+			"_width": 		6,	 <<<! Width of the sticky column components. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<! Max width of the sticky column components on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	
+    
+    <<<! Animation !>>>
+    {    
+		"_isAvailable": true,
+		"_id": 			"b-00091-23",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+
+	<<<! Case study !>>>
+    
+    <<<! Your Turn !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00092-15",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	
+
+	{
+		"_isAvailable": true,
+		"_id": 			"b-00004-14",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": true,
+		"_id": 			"b-00004-20",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable": true,
+		"_id": 			"b-00002-27",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	
+    <<<! Web page building !>>>
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00006-7",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		"_stickyBlock": {
+			"_isEnabled": 	true,
+			"_layout": 		"left"	 <<<@ left | right @>>>
+		},
+		"_sizing": {
+			"_width": 		5,	 <<<! Width of the sticky column components. !>>> <<<@ 1 - 12 | "" @>>>
+			"_maxWidth": 	true <<<! Max width of the sticky column components on smaller devices. !>>> <<<@ 1 - 12 | true | false @>>>
+		},
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+    {
+		"_isAvailable": true,
+		"_id": 			"b-00005-16",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+
+
+    <<<! Video (6 and 7, 8) Brilliance of computer networking / cables  (2) !>>>
+   
+	
+    <<<! Yourturn !>>>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	{
+		"_isAvailable":       true,
+		"_id": 			"b-00005-22",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable":       true,
+		"_id": 			"b-00006-20",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	},
+	{
+		"_isAvailable":       true,
+		"_id": 			"b-00046-12",
+		"_parentId": 	"a-05",
+		"_classes": 	"",
+		<<<~
+		"_trackingId": 	0,
+		"_type": 		"block"
+		~>>>
+	}
+
+	
+]
