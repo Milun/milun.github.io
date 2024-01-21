@@ -1,0 +1,18 @@
+[
+    {
+        "_id": 			"",
+        "_component": 	"text",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+		<<<! Header !>>>
+        "title": 		"IGNORE FROM THIS POINT ONWARDS",
+        "body": <<<"
+			<p>Anything that comes after this block is not presentable, and should be ignored.</p>
+
+			<p>That being said, turns out I can make the content refer to the user by name: {{_globals._learnerInfo.firstname}}.</p>
+			<p>(It defaults to "{{_globals._learnerInfo.firstname}}" when there's no LMS).</p>
+		">>>,
+        "instruction": ""
+    }
+]

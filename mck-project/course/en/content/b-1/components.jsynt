@@ -1,0 +1,45 @@
+[
+    {
+        "_id": 			"",
+        "_component": 	"flipcard",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Flipcard",
+        "body": <<<"
+			<p>Hey Madelyn. Here's the flipcard. It is NOT presentable yet!</p>
+			
+			<p>When you have time, could you please answer the questions I have on here: <a href="https://docs.google.com/spreadsheets/d/1pDU5iyeEjYdMZZ1uPvmtkuGRv3ZPm72TRmyuJ4kLqhI/edit#gid=870340623" target="_blank">Milton's requirements.</a></p>
+		">>>,
+        "instruction": "Click on the cards to do stuff.",
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": 			"course/en/content/b-1/assets/p-1.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "",
+				"body": <<<"
+					Dolore elit ut proident proident nisi nostrud ad veniam cillum ad. Minim in eu minim aliqua sunt laboris do magna. Commodo culpa quis commodo nulla officia voluptate non. Velit voluptate irure non exercitation eu enim reprehenderit aliquip non sit occaecat occaecat incididunt. Consequat nisi velit Lorem laborum consectetur incididunt in aliquip amet esse. Id ut commodo voluptate duis.
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"course/en/content/b-1/assets/p-2.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "",
+				"body": <<<"
+					Dolore elit ut proident proident nisi nostrud ad veniam cillum ad. Minim in eu minim aliqua sunt laboris do magna. Commodo culpa quis commodo nulla officia voluptate non. Velit voluptate irure non exercitation eu enim reprehenderit aliquip non sit occaecat occaecat incididunt. Consequat nisi velit Lorem laborum consectetur incididunt in aliquip amet esse. Id ut commodo voluptate duis.
+				">>>
+			}
+		]
+    }
+]
