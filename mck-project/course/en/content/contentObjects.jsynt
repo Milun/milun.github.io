@@ -1,13 +1,13 @@
 [
-    {
-        "_id": "co-1",
+	{
+        "_id": "co-3",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
         "_htmlClasses": "",
-        "title": "FLF - Demo area",
-        "displayTitle": "FLF - Demo area",
-        "body": "I will be providing demos of the components I build on this page. Please keep in mind that I will mostly stick to Adapt's core styles for now (until I get the style guide).",
+        "title": "Basic",
+        "displayTitle": "Basic",
+        "body": "Simple/static templates to give the user a break from clicking.",
         "pageBody": "",
         "instruction": "",
         "_graphic": {
@@ -32,6 +32,30 @@
         "title": "Hotgraphics",
         "displayTitle": "Hotgraphics",
         "body": "Templates that involve clicking on images.",
+        "pageBody": "",
+        "instruction": "",
+        "_graphic": {
+            "src": "course/en/images/menu-item.png",
+            "alt": ""
+        },
+        "linkText": "View",
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false,
+            "_excludeAssessments": false,
+            "_isCompletionIndicatorEnabled": false
+        }
+    },
+	{
+        "_id": "co-1",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClasses": "",
+        "title": "Developer area",
+        "displayTitle": "Developer area",
+        "body": "Milton's dev area. Unfinished templates are in here.",
         "pageBody": "",
         "instruction": "",
         "_graphic": {
