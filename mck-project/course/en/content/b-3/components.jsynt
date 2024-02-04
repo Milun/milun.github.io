@@ -1,0 +1,218 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"graphicmap",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+		<<<! Header !>>>
+        "title": 		"GraphicMap (Waldo)",
+        "body": <<<"
+			<<<!
+			<p>Template under construction.</p>
+			<p>The name "GraphicMap" is named after a default HTML function which performs a similar function. "Map" in this context means the ability to have precise (non-square) clicks on different areas of an image.</p>
+
+			<p>Planned features:</p>
+			<ul style="columns: 3;">
+				<li>Map mode</li>
+				<li>List mode</li>
+				<li>Select (dropdowns) or textInput answers.</li>
+				
+				-- Note to self: due to requiring different SCORM data outputs, this may require the template to be extended by a different one. --
+			</ul>
+
+			<hr />
+			!>>>
+
+			<p>It's inevitable you'll receive many spam emails. Here's an exaggerated one that might unintentionally convince you that they're all going to be this obvious.</p>
+		">>>,
+        "instruction": "Click on the email to learn the warning signs.",
+
+		<<<! Settings !>>>
+		"_graphic": {
+			"src": "./assets/p-0.jpg",
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": "./assets/p-1.png"
+				},
+				"title": "Suspicious email title",
+				"body": <<<"
+					<p>This email subject is very general and non-specific; which allows it to be sent to thousands of users without needing to be changed.</p>
+					<p>It also contains questionable grammar, while attempting a call to action by implying that something of yours (your "plan") has been modified without your knowledge.</p>
+					<p>It also ends in a code of random letters; and I don't really understand why (just makes it look less convincing).</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-2.png"
+				},
+				"title": "Malicious file attachment",
+				"body": <<<"
+					<p>Shady emails will almost always contain an attachment. Under no circumstances should you EVER click it, as it almost certainly contains malicious scripts.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-3.png"
+				},
+				"title": "Call to action",
+				"body": <<<"
+					<p>Malicious emails will always attempt to coax actions out of you that will make you fall victim to their hacking or whatever. Note how in this example, no specific instructions are given; making the requested task nonsensical.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-4.png"
+				},
+				"title": "Incorrect name",
+				"body": <<<"
+					<p>Some malicious emails don't put in the effort to get your real name, and will instead refer to you by your email address. Professional companies don't (shouldn't) do this.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-5.png"
+				},
+				"title": "Warnings from email client",
+				"body": <<<"
+					<p>The email client itself has flagged this email as being suspicious.</p>
+				">>>
+			}
+		]
+    },
+    {
+        "_id": 			"",
+        "_component": 	"graphiclabel",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+		<<<! Header !>>>
+        "title": 		"QGraphicLabel",
+        "body": <<<"
+			<p>Template under construction.</p>
+
+			<p>Planned features:</p>
+			<ul style="columns: 3;">
+				<li>Map mode</li>
+				<li>List mode</li>
+				<li>Select (dropdowns) or textInput answers.</li>
+				
+				<!-- Note to self: due to requiring different SCORM data outputs, this may require the template to be extended by a different one. -->
+			</ul>
+		">>>,
+        "instruction": "Can you determine what's wrong with each of the highlighted areas?",
+
+		<<<! Settings !>>>
+		"_graphic": {
+			"src": "./assets/p-0.jpg",
+			"alt": 			"",
+			"attribution": 	""
+		},
+		"placeholder": "Please select an option",
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": "./assets/p-1.png"
+				},
+				"_options": [
+					{
+						"text": "The logo doesn't look right.",
+						"_isCorrect": true
+					},
+					{
+						"text": "The logo is too good.",
+						"_isCorrect": false
+					},
+					{
+						"text": "There's nothing wrong with this.",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-2.png"
+				},
+				"_options": [
+					{
+						"text": "The subject line creates a sense of urgency.",
+						"_isCorrect": true
+					},
+					{
+						"text": "The subject line doesn't have your name.",
+						"_isCorrect": false
+					},
+					{
+						"text": "There's nothing wrong with this.",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-3.png"
+				},
+				"_options": [
+					{
+						"text": "The text is referring to your money.",
+						"_isCorrect": true
+					},
+					{
+						"text": "Lorem ipsum dolor sit amet.",
+						"_isCorrect": false
+					},
+					{
+						"text": "There's nothing wrong with this.",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-4.png"
+				},
+				"_options": [
+					{
+						"text": "The text is referring to your money.",
+						"_isCorrect": true
+					},
+					{
+						"text": "Lorem ipsum dolor sit amet.",
+						"_isCorrect": false
+					},
+					{
+						"text": "There's nothing wrong with this.",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-5.png"
+				},
+				"_options": [
+					{
+						"text": "The text is referring to your money.",
+						"_isCorrect": true
+					},
+					{
+						"text": "Lorem ipsum dolor sit amet.",
+						"_isCorrect": false
+					},
+					{
+						"text": "There's nothing wrong with this.",
+						"_isCorrect": false
+					}
+				]
+			}
+		]
+    }
+]
