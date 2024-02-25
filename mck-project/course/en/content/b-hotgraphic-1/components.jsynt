@@ -1,0 +1,155 @@
+[
+    {
+        "_id": 			"",
+        "_component": 	"hotgraphicsmall",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"HotgraphicSmall - Default",
+        "body": <<<"
+			<p>Think of this as a creative way to display dotpoints of information.</p>
+			<p>(This <r.hyperlink href="http://google.com">hyperlink</r.hyperlink> is here to show how the styles match.)</p>
+		">>>,
+		"instruction": "Click on the icons to see what I mean",
+
+		<<<! Items !>>>
+		"_mode": "dynamic", <<<@ "dynamic" | "static" @>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": 			"./assets/p-1.png",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "1 password for everything",
+				"body": <<<"
+					Hacking 1 site opens up your whole digital world
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-2.png",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Simple passwords",
+				"body": <<<"
+					Your password is structurally weak and vulnerable to unsophisticated attacks
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-3.png",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Personal passwords",
+				"body": <<<"
+					Your password has meaning to you or someone else
+				">>>
+			}
+		]
+    },
+	{
+        "_id": 			"",
+        "_component": 	"hotgraphicsmall",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"HotgraphicSmall - Static",
+        "body": <<<"
+			<p>This template can also be made static. I added a little inview animation just to make it feel more lively.</p> 
+		">>>,
+		"instruction": "",
+
+		<<<! Items !>>>
+		"_mode": "static",
+		"_items": [
+			{
+				"_graphic": {
+					"src": 			"./assets/p-1.png",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "1 password for everything",
+				"body": <<<"
+					Hacking 1 site opens up your whole digital world
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-2.png",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Simple passwords",
+				"body": <<<"
+					Your password is structurally weak and vulnerable to unsophisticated attacks
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-3.png",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Personal passwords",
+				"body": <<<"
+					Your password has meaning to you or someone else
+				">>>
+			}
+		]
+    },
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Accordion",
+        "body": <<<"
+			<p>Display itemized content grouped into accordion reveals. Fugiat amet duis minim ut nostrud esse sit pariatur velit ut consectetur deserunt ut. Quis deserunt commodo laboris Lorem do aliqua magna anim commodo aliquip qui ullamco. Id officia adipisicing voluptate commodo et adipisicing Lorem sint et velit sit. Elit est commodo mollit in magna.</p>
+			<p>These are good for:</p>
+			<ul>
+				<li>Lists</li>
+				<li>Step-by-step instructions.</li>
+				<li>Summary screens ("go over what you've learned...")</li>
+			</ul>
+
+			<p>Here is my idea for a stylized accordion. Let me know what you think please.</p>
+
+			<p>(This <r.hyperlink href="http://google.com">hyperlink</r.hyperlink> is here to show how the styles match.)</p>
+		">>>,
+        "instruction": "Click on the titles to see what I mean.",
+
+		"_items": [
+			{
+				"title": "Title 1",
+				"body": <<<"
+					Dolor eu sint commodo sunt aliqua nulla dolore veniam. Do enim commodo eiusmod velit eu occaecat. Non cupidatat in consequat proident deserunt consequat do magna pariatur dolore Lorem cillum id dolor. Velit reprehenderit id qui nisi ut duis minim ut enim. Consequat Lorem dolore et velit culpa cupidatat duis non. Quis qui anim ea aliquip aliquip veniam dolore anim irure.
+				">>>
+			},
+			{
+				"title": "Title 2",
+				"body": <<<"
+					Dolor eu sint commodo sunt aliqua nulla dolore veniam. Do enim commodo eiusmod velit eu occaecat. Non cupidatat in consequat proident deserunt consequat do magna pariatur dolore Lorem cillum id dolor. Velit reprehenderit id qui nisi ut duis minim ut enim. Consequat Lorem dolore et velit culpa cupidatat duis non. Quis qui anim ea aliquip aliquip veniam dolore anim irure.
+				">>>
+			},
+			{
+				"title": "Title 3",
+				"body": <<<"
+					Dolor eu sint commodo sunt aliqua nulla dolore veniam. Do enim commodo eiusmod velit eu occaecat. Non cupidatat in consequat proident deserunt consequat do magna pariatur dolore Lorem cillum id dolor. Velit reprehenderit id qui nisi ut duis minim ut enim. Consequat Lorem dolore et velit culpa cupidatat duis non. Quis qui anim ea aliquip aliquip veniam dolore anim irure.
+				">>>
+			}
+		]
+    }
+]

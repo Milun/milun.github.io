@@ -8,7 +8,7 @@
 		<<<! Header !>>>
         "title": 		"GraphicMap (Waldo)",
         "body": <<<"
-			<<<!
+			{/*
 			<p>Template under construction.</p>
 			<p>The name "GraphicMap" is named after a default HTML function which performs a similar function. "Map" in this context means the ability to have precise (non-square) clicks on different areas of an image.</p>
 
@@ -20,9 +20,8 @@
 				
 				-- Note to self: due to requiring different SCORM data outputs, this may require the template to be extended by a different one. --
 			</ul>
-
+			*/}
 			<hr />
-			!>>>
 
 			<p>It's inevitable you'll receive many spam emails. Here's an exaggerated one that might unintentionally convince you that they're all going to be this obvious.</p>
 		">>>,
@@ -103,7 +102,7 @@
 				<li>List mode</li>
 				<li>Select (dropdowns) or textInput answers.</li>
 				
-				<!-- Note to self: due to requiring different SCORM data outputs, this may require the template to be extended by a different one. -->
+				{/* Note to self: due to requiring different SCORM data outputs, this may require the template to be extended by a different one. -->*/}
 			</ul>
 		">>>,
         "instruction": "Can you determine what's wrong with each of the highlighted areas?",

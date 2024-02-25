@@ -1,0 +1,68 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Intro",
+        "body": <<<"
+			<p style="color: red;">Note to self: stop calling these Extras. Call them something beginning with "R".</p>
+		
+			<p>An 'Extra' is any additional functionality that is added inside of another Component.</p>
+			
+			<p>I have made Extras very easy to add in the code:</p>
+
+			<code style="background: #dddddd; padding: 0.5rem;">
+				&lt;r.hyperlink href="https://google.com:"&gt;Click me!&lt;/r.hyperlink&gt;
+			</code>
+
+			<p>All Extras will follow the "r.XXX" naming convention. The "r" stands for "ReactComponent" (which is what "Extras" actually are).</p> 
+
+			<p>Below are some examples of the Extras we have so far, used inside of the <strong>Text</strong> component.</p>
+		">>>,
+        "instruction": ""
+    },
+    {
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Hyperlinks",
+        "body": <<<"
+			<p>If you ever need to link to an external website, just <r.hyperlink href="https://google.com">do this</r.hyperlink>. The little icon after it indicates that it's an external link.</p>
+			
+			<p>If you want, I can also let you make hyperlinks which <r.hyperlink href="#c-extra-1-0">scroll you to a certain block</r.hyperlink> (if you need a "go to" type of feature).</p>
+
+			<p>I've added a basic underline animation for now. I don't really want to spend too much time on animation effects when there's so much more to do.</p>
+
+			<p>An important thing to note about hyperlinks: The "unvisited" and "visited" state colours we use for these should also be the ones we use for ALL interactive content in this framework.</p>
+		">>>,
+        "instruction": ""
+    },
+    {
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Graphics",
+        "body": <<<"
+			<p>A "graphic" is <em>any</em> type of visual element your content could need; whether it be decorative, or informational. Meaning it could be:</p>
+			<ul>
+				<li>An image.</li>
+				<li>A data table.</li>
+				<li>A blockquote.</li>
+			</ul>
+			
+			<p>While all of the above can be made using vanilla HTML elements, the following helper will allow for greater control down the line.</p>
+
+			
+		">>>,
+        "instruction": ""
+    }
+]

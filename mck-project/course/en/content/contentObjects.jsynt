@@ -7,7 +7,9 @@
         "_htmlClasses": "",
         "title": "Basic",
         "displayTitle": "Basic",
-        "body": "Simple/static templates to give the user a break from clicking.",
+        "body": <<<"
+			<p>Simple/static templates to give your use a break from the interactivity.</p> 
+		">>>,
         "pageBody": "",
         "instruction": "",
         "_graphic": {
@@ -24,14 +26,42 @@
         }
     },
 	{
-        "_id": "co-2",
+        "_id": "co-hotgraphic",
         "_parentId": "course",
         "_type": "page",
         "_classes": "",
         "_htmlClasses": "",
         "title": "Hotgraphics",
         "displayTitle": "Hotgraphics",
-        "body": "Templates that involve clicking on images.",
+        "body": <<<"
+			<div style="padding-bottom: 8rem;">Templates which involve clicking on images to show reveals.</div>
+		">>>,
+        "pageBody": "",
+        "instruction": "",
+        "_graphic": {
+            "src": "course/en/images/menu-item.png",
+            "alt": ""
+        },
+        "linkText": "View",
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false,
+            "_excludeAssessments": false,
+            "_isCompletionIndicatorEnabled": false
+        }
+    },
+	{
+        "_id": "co-extra",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClasses": "",
+        "title": "Extras",
+        "displayTitle": "Extras",
+        "body": <<<"
+			A showcase of additional features/functionality that can be added to most components.
+		">>>,
         "pageBody": "",
         "instruction": "",
         "_graphic": {

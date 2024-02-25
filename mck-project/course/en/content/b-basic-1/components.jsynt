@@ -1,0 +1,69 @@
+[
+    {
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Text",
+        "body": <<<"
+			<p>This is the most base template. It supports a title & text.</p>
+			<p>You can still populate it with any Extra, or custom HTML you like.</p>
+		">>>,
+        "instruction": ""
+    },
+	{
+        "_id": 			"",
+        "_component": 	"textlist",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"TextList",
+        "body": <<<"
+			<p>Here's a template I thought you might like. This one shows a selection of itemized content in a row.</p>
+		">>>,
+        "instruction": "Scroll down to see what I mean."
+    },
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Accordion",
+        "body": <<<"
+			<p>Display itemized content grouped into accordion reveals.</p>
+			<p>These are good for:</p>
+			<ul>
+				<li>Lists</li>
+				<li>Step-by-step instructions.</li>
+				<li>Summary screens ("go over what you've learned...")</li>
+			</ul>
+		">>>,
+        "instruction": "Click on the titles to see what I mean.",
+
+		"_items": [
+			{
+				"title": "Title 1",
+				"body": <<<"
+					Dolor eu sint commodo sunt aliqua nulla dolore veniam. Do enim commodo eiusmod velit eu occaecat. Non cupidatat in consequat proident deserunt consequat do magna pariatur dolore Lorem cillum id dolor. Velit reprehenderit id qui nisi ut duis minim ut enim. Consequat Lorem dolore et velit culpa cupidatat duis non. Quis qui anim ea aliquip aliquip veniam dolore anim irure.
+				">>>
+			},
+			{
+				"title": "Title 2",
+				"body": <<<"
+					Dolor eu sint commodo sunt aliqua nulla dolore veniam. Do enim commodo eiusmod velit eu occaecat. Non cupidatat in consequat proident deserunt consequat do magna pariatur dolore Lorem cillum id dolor. Velit reprehenderit id qui nisi ut duis minim ut enim. Consequat Lorem dolore et velit culpa cupidatat duis non. Quis qui anim ea aliquip aliquip veniam dolore anim irure.
+				">>>
+			},
+			{
+				"title": "Title 3",
+				"body": <<<"
+					Dolor eu sint commodo sunt aliqua nulla dolore veniam. Do enim commodo eiusmod velit eu occaecat. Non cupidatat in consequat proident deserunt consequat do magna pariatur dolore Lorem cillum id dolor. Velit reprehenderit id qui nisi ut duis minim ut enim. Consequat Lorem dolore et velit culpa cupidatat duis non. Quis qui anim ea aliquip aliquip veniam dolore anim irure.
+				">>>
+			}
+		]
+    }
+]
