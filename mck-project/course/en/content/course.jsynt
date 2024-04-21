@@ -166,5 +166,16 @@
     "_favIcon": {
       "_src": ""
     }
+  },
+  <<<! Feedback settings !>>>
+  "_tutor": {
+	"_isEnabled": false,
+    "_type": "inline",
+    "_classes": "",
+    "_hasNotifyBottomButton": false,
+    "_button": {
+      "text": "{{_globals._extensions._tutor.hideFeedback}}",
+      "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+    }
   }
 }

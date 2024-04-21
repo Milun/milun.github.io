@@ -4,5 +4,7 @@
     
 	{"_id": "a-hotgraphic", "_parentId": "co-hotgraphic", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""},
 
+	{"_id": "a-la", "_parentId": "co-la", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""},
+
 	{"_id": "a-extra", "_parentId": "co-extra", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""}
 ]

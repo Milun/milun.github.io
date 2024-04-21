@@ -9,6 +9,9 @@
     { "_id": "b-hotgraphic-1", 		"_classes": "", "_parentId": "a-hotgraphic", "_trackingId": "" },
     { "_id": "b-3", 		"_classes": "", "_parentId": "a-hotgraphic", 	"_trackingId": "" },
 
+	<<<! LAs !>>>
+	{ "_id": "b-la-1", 	"_classes": "", "_parentId": "a-la", 	"_trackingId": "" },
+
 	<<<! Extras !>>>
 	{ "_id": "b-extra-1", 	"_classes": "", "_parentId": "a-extra", 	"_trackingId": "" }
 ]

@@ -1,0 +1,450 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"matching",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+        "title": "Dropdowns ('Waldo label')",
+        "body": <<<"
+			If you want your student to label parts of an image, then this is the perfect template for it!
+		">>>,
+        "instruction": "Select the right term for each suspicious thing, then click submit.",
+        
+		<<<! Enable GraphicMap mode !>>>
+		"_graphicMap": {
+			"src": "./assets/waldo/p-0.jpg"
+		},
+
+		"_attempts": 1,
+        "_shouldDisplayAttempts": false,
+        "_shouldResetAllAnswers": false,
+        "_isRandom": false,
+        "_isRandomQuestionOrder": false,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "placeholder": "Please select an option",
+        "_allowOnlyUniqueAnswers": false,
+        "_hasItemScoring": false,
+        "_items": [
+            {
+                "text": "",
+				"_graphic": {
+					"src": "./assets/waldo/p-1.png"
+				},
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Nonspecific title",
+                        "_isCorrect": true,
+                        "_score": 1
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false,
+                        "_score": 0
+                    }
+                ]
+            },
+
+			{
+                "text": "",
+				"_graphic": {
+					"src": "./assets/waldo/p-5.png"
+				},
+                "_options": [
+                    {
+                        "text": "Email client warning",
+                        "_isCorrect": true,
+                        "_score": 1
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false,
+                        "_score": 0
+                    }
+                ]
+            },
+
+            {
+                "text": "",
+				"_graphic": {
+					"src": "./assets/waldo/p-3.png"
+				},
+                "_options": [
+                    {
+                        "text": "Call to action",
+                        "_isCorrect": true,
+                        "_score": 1
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false,
+                        "_score": 0
+                    }
+                ]
+            },
+            
+			{
+                "text": "",
+				"_graphic": {
+					"src": "./assets/waldo/p-2.png"
+				},
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Attachment containing malicious code",
+                        "_isCorrect": true,
+                        "_score": 1
+                    }
+                ]
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "altTitle": "Alt feedback title text",
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        }
+    },
+	{
+        "_id": 			"",
+        "_component": 	"matching",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+        "title": "Dropdowns",
+        "body": <<<"
+			Handy when you need more than a "true/false" for each question.
+		">>>,
+        "instruction": "Choose an option from each dropdown list and select Submit.",
+        
+		"_attempts": 1,
+        "_shouldDisplayAttempts": false,
+        "_shouldResetAllAnswers": false,
+        "_isRandom": false,
+        "_isRandomQuestionOrder": false,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "placeholder": "Please select an option",
+        "_allowOnlyUniqueAnswers": false,
+        "_hasItemScoring": false,
+        "_items": [
+            {
+                "text": "Sunt duis do velit ipsum anim cillum deserunt id enim exercitation incididunt velit. Qui eiusmod incididunt quis consequat aliquip non est.",
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option two (correct)",
+                        "_isCorrect": true,
+                        "_score": 1
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false,
+                        "_score": 0
+                    }
+                ]
+            },
+            {
+                "text": "Dolor nisi velit do aliquip ipsum exercitation minim cupidatat anim excepteur pariatur. Anim reprehenderit commodo pariatur velit. Nisi veniam Lorem excepteur aliquip ea do aute ea cillum eiusmod.",
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option three (correct)",
+                        "_isCorrect": true,
+                        "_score": 1
+                    }
+                ]
+            },
+            {
+                "text": "Lorem irure occaecat deserunt incididunt officia minim sint enim laboris ea ipsum elit aliqua. Cillum ex consectetur nisi fugiat enim tempor minim fugiat magna eiusmod reprehenderit. Esse commodo aute esse cillum non sunt nisi. Sit magna aliqua tempor labore laborum aliquip et excepteur in officia aute.",
+                "_options": [
+                    {
+                        "text": "Option one (correct)",
+                        "_isCorrect": true,
+                        "_score": 1
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false,
+                        "_score": 0
+                    }
+                ]
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "altTitle": "Alt feedback title text",
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        }
+    },
+	
+	{
+		"_id": 			"",
+        "_component": 	"mcq",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+        "_attempts": 99,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": true,
+        "_selectable": 4,
+		"_columns":	5,
+
+        "title": "Multiple Choice Question",
+        "body": <<<"
+			<p>Here's another example. You can set custom column amounts if you think you can fit the content in.</p>
+
+			<p>(Note: I tried making column calculation happen automatically; but it didn't play nice with Google Translate. I might give it another shot later).</p>
+		">>>,
+        "instruction": "Choose one option and select Submit.",
+        "ariaQuestion": "",
+
+        "_items": [
+            {
+				"_graphic": {
+					"src": "./assets/waldo/p-1.png"
+				},
+                "text": "Short",
+                "_shouldBeSelected": true
+            },
+            {
+				"_graphic": {
+					"src": "./assets/waldo/p-2.png"
+				},
+                "text": "Answers",
+                "_shouldBeSelected": false
+            },
+            {
+				"_graphic": {
+					"src": "./assets/waldo/p-3.png"
+				},
+                "text": "Each",
+                "_shouldBeSelected": false
+            },
+            {
+				"_graphic": {
+					"src": "./assets/waldo/p-4.png"
+				},
+                "text": "Time",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": <<<"
+				Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>
+			">>>,
+            "_incorrect": {
+                "final": <<<"
+					Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>
+				">>>
+            }
+        }
+    },
+	{
+		"_id": 			"",
+        "_component": 	"mcq",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+        "_attempts": 99,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": false,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": false,
+        "_selectable": 4,
+		"_columns":	5,
+
+		<<<! Enable GraphicMap mode !>>>
+		"_graphicMap": {
+			"src": "./assets/waldo/p-0.jpg"
+		},
+
+        "title": "Multiple Choice Question (Waldo)",
+        "body": <<<"
+			<p>Each LearningActivity template is categorized by its <strong>interaction type</strong>, not its appearance.</p>
+
+			<p>For example, this is still an <strong>MCQ</strong>, because its core interaction is still "click on the checkboxes". However, as you can see, you can set it to "Waldo mode". As different as it may look, all you've really done is changed the layout; not the template.</p>
+
+			<p>I plan on letting you "Waldo mode" the following templates (once they're finished):</p>
+
+			<ul>
+				<li>Dropdown</li>
+				<li>TextInput</li>
+				<li title="This current design is a bit of an interesting one. Originally, I planned on letting you just click on the outlined images themselves to toggle the checkboxes; but then that would make it differ drastically from how I plan to design the other two (Dropdown and TextInput). Furthermore, there's technically two ways to do an MCQ Waldo: 'Here are the things; which of them are correct?' (this is the one you see here) and 'Can you find the correct things?'. I feel this is something we should discuss later on.">MCQ (hold your mouse over this text).</li>
+			</ul>
+
+			<hr />
+
+			<p>Which of the following is the most dangerous thing for you to do?</p>
+
+			<<<! <r.picture classNamePrefixes={['test']} border={{width: 2}} src="./assets/waldo/p-1.png" /> !>>>
+		">>>,
+        "instruction": "Choose one option and select Submit.",
+        "ariaQuestion": "",
+
+        "_items": [
+            {
+				"_graphic": {
+					"src": "./assets/waldo/p-1.png"
+				},
+                "text": "Open the email",
+                "_shouldBeSelected": true
+            },
+			{
+				"_graphic": {
+					"src": "./assets/waldo/p-5.png"
+				},
+                "text": "Report it as not being spam",
+                "_shouldBeSelected": false
+            },
+            {
+				"_graphic": {
+					"src": "./assets/waldo/p-3.png"
+				},
+                "text": "Read the body",
+                "_shouldBeSelected": false
+            },
+			{
+				"_graphic": {
+					"src": "./assets/waldo/p-2.png"
+				},
+                "text": "Run the attachment",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": <<<"
+				Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>
+			">>>,
+            "_incorrect": {
+                "final": <<<"
+					Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>
+				">>>
+            }
+        }
+    },
+    {
+		"_id": 			"",
+        "_component": 	"mcq",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": "Multiple Choice Question",
+        "body": <<<"
+			<p>Standard activity that's used in just about everything.</p>
+			
+			<p>Not much I can do to make this "stand out" functionality-wise, besides adding animations to the buttons. I've added some basic ones for now.</p>
+
+			<p>The gaps in the buttons are just there stylistically. I'm not so sure about them.</p>
+		">>>,
+        "instruction": "Choose one option and select Submit.",
+        "ariaQuestion": "",
+		
+		<<<! Settings !>>>
+		"_attempts": 			9,
+        "_questionWeight": 		1,
+        "_isRandom": 			true,
+        "_selectable": 			1,
+		"_columns":				1,
+
+		<<<! Items !>>>
+        "_items": [
+            {
+                "text": "CORRECT CORRECT CORRECT CORRECT",
+                "_shouldBeSelected": true
+            },
+            {
+                "text": "Tempor mollit non ut non eu officia cupidatat cillum adipisicing. Id id id id ex aute nulla occaecat aute adipisicing occaecat ea. Velit ad ea proident qui ut. Ullamco pariatur et ut consequat qui ex. Nostrud exercitation sit quis eiusmod.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Fugiat occaecat fugiat amet mollit exercitation veniam reprehenderit nulla velit tempor pariatur incididunt sunt. Minim irure elit sunt occaecat elit cupidatat duis occaecat in quis magna ex. Lorem amet pariatur ad occaecat reprehenderit. Officia qui eu deserunt elit eu aute nisi proident dolor sit enim. Voluptate est elit qui officia dolor incididunt aliqua enim do deserunt enim. Id ad proident esse mollit mollit consequat aliquip id. Pariatur officia ullamco aliquip elit id proident exercitation laborum laboris nulla officia.",
+                "_shouldBeSelected": false
+            },
+            {
+                "text": "Adipisicing fugiat eiusmod consectetur do ex cupidatat consectetur sunt deserunt laboris. Commodo non deserunt aliqua nostrud officia consequat occaecat officia duis consectetur nulla elit. Ex eu enim in et aute voluptate nulla duis occaecat do. Nostrud commodo dolore et veniam adipisicing. Adipisicing commodo deserunt reprehenderit culpa. Voluptate sint laborum labore ipsum sunt sunt.",
+                "_shouldBeSelected": false
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "correct": <<<"
+				Correct feedback text.<br><br>That’s correct. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>
+			">>>,
+            "_incorrect": {
+                "final": <<<"
+					Incorrect feedback text.<br><br>That’s not right. The first large assessment to consist solely of the multiple choice question type was the Army Alpha test, used from <strong>1917</strong> to evaluate U.S. military recruits in the First World War.<br><br>Source: <a href='http://en.wikipedia.org/wiki/Multiple_choice' target='_blank'>Wikipedia</a><br><br><i>Component facts: <b>Multiple Choice Questions (or MCQs)</b> are a tried and tested method for presenting learners with a simple text-based question. Component is either single or spanned.</i>
+				">>>
+            }
+        }
+    }
+]
