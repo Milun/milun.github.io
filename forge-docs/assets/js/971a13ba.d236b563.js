@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkforge=self.webpackChunkforge||[]).push([[830],{316:(e,r,s)=>{s.r(r),s.d(r,{default:()=>h});s(6540);var n=s(781),c=s(4848);function h(){return(0,c.jsxs)(n.A,{children:[(0,c.jsx)("h1",{children:"Hyperlink"}),(0,c.jsx)("p",{children:"This is a React page"})]})}}}]);
