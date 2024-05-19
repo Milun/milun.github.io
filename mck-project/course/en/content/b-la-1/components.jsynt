@@ -408,7 +408,7 @@
 
 			<p>Which of the following is the most dangerous thing for you to do?</p>
 
-			<<<! <r.picture classNamePrefixes={['test']} border={{width: 2}} src="./assets/waldo/p-1.png" /> !>>>
+			<<<! <w.picture classNamePrefixes={['test']} border={{width: 2}} src="./assets/waldo/p-1.png" /> !>>>
 		">>>,
         "instruction": "Choose one option and select Submit.",
         "ariaQuestion": "",

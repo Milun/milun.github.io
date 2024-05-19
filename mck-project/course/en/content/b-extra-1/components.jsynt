@@ -18,6 +18,8 @@
 				&lt;r.hyperlink href="https://google.com:"&gt;Click me!&lt;/r.hyperlink&gt;
 			</code>
 
+			<e.hyperlink href="https://google.com">do this</e.hyperlink>
+
 			<p>All Extras will follow the "r.XXX" naming convention. The "r" stands for "ReactComponent" (which is what "Extras" actually are).</p> 
 
 			<p>Below are some examples of the Extras we have so far, used inside of the <strong>Text</strong> component.</p>
@@ -33,9 +35,9 @@
 		<<<! Header !>>>
         "title": 		"Hyperlinks",
         "body": <<<"
-			<p>If you ever need to link to an external website, just <r.hyperlink href="https://google.com">do this</r.hyperlink>. The little icon after it indicates that it's an external link.</p>
+			<p>If you ever need to link to an external website, just <w.hyperlink href="https://google.com">do this</w.hyperlink>. The little icon after it indicates that it's an external link.</p>
 			
-			<p>If you want, I can also let you make hyperlinks which <r.hyperlink href="#c-extra-1-0">scroll you to a certain block</r.hyperlink> (if you need a "go to" type of feature).</p>
+			<p>If you want, I can also let you make hyperlinks which <w.hyperlink href="#c-extra-1-0">scroll you to a certain block</w.hyperlink> (if you need a "go to" type of feature).</p>
 
 			<p>I've added a basic underline animation for now. I don't really want to spend too much time on animation effects when there's so much more to do.</p>
 

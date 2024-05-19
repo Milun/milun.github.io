@@ -1,0 +1,19 @@
+[
+	{
+		"_id": 			"",
+		"_component": 	"text",
+		"_layout": 		"full",
+		"_classes": 	"",
+
+		<<<! Header !>>>
+		"title": 		"Hyperlinks",
+		"body": <<<"
+			<p>If you ever need to link to an external website, just <w.hyperlink href="https://google.com">do this</w.hyperlink>. The little icon after it indicates that it's an external link.</p>
+		">>>,
+		"instruction": ""
+	}
+]
+
+
+
+

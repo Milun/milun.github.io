@@ -9,7 +9,7 @@
         "title": 		"HotgraphicSmall - Default",
         "body": <<<"
 			<p>Think of this as a creative way to display dotpoints of information.</p>
-			<p>(This <r.hyperlink href="http://google.com">hyperlink</r.hyperlink> is here to show how the styles match.)</p>
+			<p>(This <w.hyperlink href="http://google.com">hyperlink</w.hyperlink> is here to show how the styles match.)</p>
 		">>>,
 		"instruction": "Click on the icons to see what I mean",
 
@@ -127,7 +127,7 @@
 
 			<p>Here is my idea for a stylized accordion. Let me know what you think please.</p>
 
-			<p>(This <r.hyperlink href="http://google.com">hyperlink</r.hyperlink> is here to show how the styles match.)</p>
+			<p>(This <w.hyperlink href="http://google.com">hyperlink</w.hyperlink> is here to show how the styles match.)</p>
 		">>>,
         "instruction": "Click on the titles to see what I mean.",
 
