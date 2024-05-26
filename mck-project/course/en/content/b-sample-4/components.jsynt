@@ -1,7 +1,7 @@
 [
 	{
         "_id": 			"",
-        "_component": 	"graphicmap",
+        "_component": 	"narrative",
         "_classes": 	"",
         "_layout": 		"full",
 
@@ -16,9 +16,21 @@
 
 		<<<! Settings !>>>
 		"_graphic": {
-			"src": "./assets/p-0.jpg",
-			"alt": 			"",
-			"attribution": 	""
+			"src": "./assets/p-0.svg",
+			"body": <<<"
+				<div class='c-4'>
+					<div class='c-4-item is-0' style="left: 47%; top: 7%;"></div>
+					<div class='c-4-item is-1' style="left: 61%; top: 11%;"></div>
+					<div class='c-4-item is-2' style="left: 32%; top: 47%;"></div>
+					<div class='c-4-item is-3' style="left: 55%; top: 53%;"></div>
+					<div class='c-4-item is-4' style="left: 40%; top: 37%;"></div>
+					<div class='c-4-item is-5' style="left: 47%; top: 46%;"></div>
+					<div class='c-4-item is-6' style="left: 68%; top: 22%;"></div>
+					<div class='c-4-item is-7' style="left: 36%; top: 57%;"></div>
+					<div class='c-4-item is-8' style="left: 18%; top: 85%;"></div>
+					<div class='c-4-item is-9' style="left: 27%; top: 40%;"></div>
+				</div>
+			">>>
 		},
 
 		<<<! Items !>>>
@@ -29,9 +41,11 @@
 				},
 				"title": "Using Weak Passwords",
 				"body": <<<"
-					Risk of unauthorised access and data breaches due to easily guessable login credentials
-					Impact: High (Potential for data breaches, identity theft)
-					Likelihood: Medium (Common practice despite awareness)
+					<p>Risk of unauthorised access and data breaches due to easily guessable login credentials</p>
+					<p>
+						<strong>Impact:</strong> High (Potential for data breaches, identity theft)<br>
+						<strong>Likelihood:</strong> Medium (Common practice despite awareness)
+					</p>
 				">>>
 			},
 			{
@@ -40,9 +54,11 @@
 				},
 				"title": "Clicking on Suspicious Links or Email Attachments",
 				"body": <<<"
-					Risk of malware infection and phishing attacks by inadvertently exposing sensitive information through email interactions
-Impact: High (Risk of malware infection, phishing)
-Likelihood: Medium (Employees may inadvertently click on phishing emails)
+					<p>Risk of malware infection and phishing attacks by inadvertently exposing sensitive information through email interactions</p>
+					<p>
+						<strong>Impact:</strong> High (Risk of malware infection, phishing)<br>
+						<strong>Likelihood:</strong> Medium (Employees may inadvertently click on phishing emails)
+					</p>
 				">>>
 			},
 			{
@@ -51,9 +67,11 @@ Likelihood: Medium (Employees may inadvertently click on phishing emails)
 				},
 				"title": "Sharing Work-related Information on Social Media",
 				"body": <<<"
-					Risk of unintentional data exposure and compromising sensitive company information on public platforms
-Impact: Medium (Risk of unintentional data exposure)
-Likelihood: Low (Depends on employee awareness)
+					<p>Risk of unintentional data exposure and compromising sensitive company information on public platforms</p>
+					<p>
+						<strong>Impact:</strong> Medium (Risk of unintentional data exposure)<br>
+						<strong>Likelihood:</strong> Low (Depends on employee awareness)
+					</p>
 				">>>
 			},
 			{
@@ -62,9 +80,11 @@ Likelihood: Low (Depends on employee awareness)
 				},
 				"title": "Using Personal Devices for Work Purposes",
 				"body": <<<"
-					Risk of data leakage and security breaches due to potentially less secure personal devices accessing work-related resources
-Impact: Medium (Risk of data leakage, security breaches)
-Likelihood: Medium (Common practice with BYOD policies)
+					<p>Risk of data leakage and security breaches due to potentially less secure personal devices accessing work-related resources</p>
+					<p>
+						<strong>Impact:</strong> Medium (Risk of data leakage, security breaches)<br>
+						<strong>Likelihood:</strong> Medium (Common practice with BYOD policies)
+					</p>
 				">>>
 			},
 			{
@@ -73,9 +93,11 @@ Likelihood: Medium (Common practice with BYOD policies)
 				},
 				"title": "Accessing Unsecured Wi-Fi Networks for Work",
 				"body": <<<"
-					Risk of data interception and unauthorised access when connecting to insecure networks outside of the office
-Impact: Medium (Risk of data interception)
-Likelihood: Medium (Common practice when travelling or working remotely)
+					<p>Risk of data interception and unauthorised access when connecting to insecure networks outside of the office</p>
+					<p>
+						<strong>Impact:</strong> Medium (Risk of data interception)<br>
+						<strong>Likelihood:</strong> Medium (Common practice when travelling or working remotely)
+					</p>
 				">>>
 			},
 			{
@@ -84,9 +106,11 @@ Likelihood: Medium (Common practice when travelling or working remotely)
 				},
 				"title": "Downloading Unauthorised Software or Apps",
 				"body": <<<"
-					Risk of malware infection and policy violations by installing unapproved software that may compromise system security
-Impact: Medium (Risk of malware infection, policy violations)
-Likelihood: Low (Depends on employee awareness and policies in place)
+					<p>Risk of malware infection and policy violations by installing unapproved software that may compromise system security</p>
+					<p>
+						<strong>Impact:</strong> Medium (Risk of malware infection, policy violations)<br>
+						<strong>Likelihood:</strong> Low (Depends on employee awareness and policies in place)
+					</p>
 				">>>
 			},
 			{
@@ -95,9 +119,11 @@ Likelihood: Low (Depends on employee awareness and policies in place)
 				},
 				"title": "Ignoring Software Updates and Security Patches",
 				"body": <<<"
-					Risk of leaving systems vulnerable to exploits and cyber attacks by neglecting to install critical updates and patches
-Impact: High (Leaves systems vulnerable to exploits)
-Likelihood: Medium (Common behaviour due to inconvenience)
+					<p>Risk of leaving systems vulnerable to exploits and cyber attacks by neglecting to install critical updates and patches</p>
+					<p>
+						<strong>Impact:</strong> High (Leaves systems vulnerable to exploits)<br>
+						<strong>Likelihood:</strong> Medium (Common behaviour due to inconvenience)
+					</p>
 				">>>
 			},
 			{
@@ -106,9 +132,11 @@ Likelihood: Medium (Common behaviour due to inconvenience)
 				},
 				"title": "Storing Work Files on Personal Cloud Storage Accounts",
 				"body": <<<"
-					Risk of data loss and unauthorised access by storing sensitive work-related files on personal cloud storage platforms outside of the organisation's control.
-Impact: Medium (Risk of data loss, unauthorised access)
-Likelihood: Low (Depends on employee awareness and policies in place)
+					<p>Risk of data loss and unauthorised access by storing sensitive work-related files on personal cloud storage platforms outside of the organisation's control.</p>
+					<p>
+						<strong>Impact:</strong> Medium (Risk of data loss, unauthorised access)<br>
+						<strong>Likelihood:</strong> Low (Depends on employee awareness and policies in place)
+					</p>
 				">>>
 			},
 			{
@@ -117,9 +145,11 @@ Likelihood: Low (Depends on employee awareness and policies in place)
 				},
 				"title": "Using Work Email for Personal Correspondence",
 				"body": <<<"
-					Risk of privacy violation and policy violation by using work email for personal communications, potentially exposing sensitive information.
-Impact: Low (Risk of privacy violation, policy violation)
-Likelihood: Low (Depends on employee awareness and policies in place)
+					<p>Risk of privacy violation and policy violation by using work email for personal communications, potentially exposing sensitive information.</p>
+					<p>
+						<strong>Impact:</strong> Low (Risk of privacy violation, policy violation)<br>
+						<strong>Likelihood:</strong> Low (Depends on employee awareness and policies in place)
+					</p>
 				">>>
 			},
 			{
@@ -128,9 +158,11 @@ Likelihood: Low (Depends on employee awareness and policies in place)
 				},
 				"title": "Sharing Work-related Passwords with Colleagues",
 				"body": <<<"
-					Risk of unauthorised access and policy violation by sharing sensitive login credentials with coworkers, compromising security measures.
-Impact: Medium (Risk of unauthorised access, policy violation)
-Likelihood: Low (Depends on employee awareness and policies in place)
+					<p>Risk of unauthorised access and policy violation by sharing sensitive login credentials with coworkers, compromising security measures.</p>
+					<p>
+						<strong>Impact:</strong> Medium (Risk of unauthorised access, policy violation)<br>
+						<strong>Likelihood:</strong> Low (Depends on employee awareness and policies in place)
+					</p>
 				">>>
 			}
 		]
