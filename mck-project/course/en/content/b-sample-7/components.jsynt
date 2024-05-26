@@ -1,0 +1,47 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"What strategy should you use to create a password instead?",
+        "body": <<<"
+			<p>Strong passwords share certain elements. You can try to create your own, or you can use software to generate it for you. Here's some strategies for creating and strengthening passwords.</p>
+		">>>,
+        "instruction": "",
+
+		"_items": [
+			{
+				"title": "Creating your own (less recommended)",
+				"body": <<<"
+					<p>If you’re going to create your own password, you should combine the following strategies: </p>
+
+					<p><strong>Length:</strong> Longer passwords provide increased security against brute force attacks. Careful, many account types have a ‘maximum’ password length that might not allow an overly long password, and you must adjust your strategy to account for this limitation. </p>
+
+					<p><strong>Complexity:</strong> Mixing uppercase, lowercase, numbers, and special characters enhances password strength, but overly complex passwords can be difficult to remember. Remember, the numbers for vowels strategy and adding a few numbers on the end is not a strong solution.</p>
+
+					<p><strong>Avoid Dictionary Words:</strong> Avoiding common dictionary words reduces the likelihood of password guessing attacks.</p>
+
+					<p><strong>Avoid Personal Information or easily guessed details:</strong> Avoiding personal information reduces the risk of targeted attacks, but some personal details may still be difficult to avoid entirely.</p>
+
+					<p><strong>Use a Passphrase:</strong> A passphrase is simply a password, that’s longer, it could be a sentence, with spaces and punctuation in it. The benefit of a passphrase is that typically they’re easier to remember, but more difficult to crack due to their length. For every additional character in the length of a password or passphrase, the time it would take to break increases exponentially. Ultimately that means that having a long password or passphrase can make you far more secure than having a short one with some symbols or numbers in it.Passphrases offer a strong balance between security and usability, especially when composed of random words.</p>
+
+				">>>
+			},
+			{
+				"title": "Using a random password generator",
+				"body": <<<"
+					Using a random password generator is an effective strategy for creating strong and secure passwords. These tools generate complex, randomised passwords that are difficult for attackers to guess or crack using automated methods. By incorporating a combination of uppercase and lowercase letters, numbers, and special characters in a truly unique way, random password generators ensure a high level of security while minimising the risk of password-related vulnerabilities. Additionally, utilising a password generator eliminates the need for individuals to come up with their own passwords, reducing the likelihood of using weak or predictable combinations. Overall, leveraging a random password generator simplifies the process of password creation while significantly enhancing cybersecurity over other managers, but you are still left to update and store them somewhere - it is unlikely you can remember a number of truly random passwords - leading to the risk of reuse across accounts.
+				">>>
+			},
+			{
+				"title": "Using a password manager",
+				"body": <<<"
+					Using a password manager to create and store passwords offers a convenient and secure solution for managing online accounts. These tools generate strong, unique passwords for each account, eliminating the need for individuals to remember multiple complex passwords. Paid password managers typically offer advanced features such as secure password sharing, encrypted storage, and synchronisation across multiple devices, providing enhanced security and convenience. While free password managers also offer basic password storage and generation functionalities, they may have limitations on features or storage capacity. Paid password managers often come with additional benefits such as priority customer support and regular software updates, making them a preferred choice for users seeking comprehensive password management solutions. Ultimately, whether opting for a paid or free password manager, users can significantly improve their online security by adopting these tools to create and manage their passwords more effectively than other solutions.
+				">>>
+			}
+		]
+    }
+]

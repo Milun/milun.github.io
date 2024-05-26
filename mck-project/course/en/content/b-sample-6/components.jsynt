@@ -1,0 +1,149 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"What kind of passwords do you currently use?",
+        "body": <<<"
+			Here's some statistics on weak passwords.
+		">>>
+    },
+	{
+        "_id": 			"",
+        "_component": 	"hotgraphicsmall",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Using personal details",
+        "body": <<<"
+			<p>According to a Google/Harris Poll and a 2024 analysis of data breaches, Around 60% use personal information for their passwords. This information can easily be guessed or found online from a variety of sources, including public records (not just social media!) These include the following details.</p>
+		">>>,
+		"instruction": "Click on the icons to learn more.",
+
+		<<<! Items !>>>
+		"_mode": "dynamic", <<<@ "dynamic" | "static" @>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": 			"./assets/p-1.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "",
+				"body": <<<"
+					15% use their partner/spouse's name
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-2.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "",
+				"body": <<<"
+					14% use their child's name
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-3.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "",
+				"body": <<<"
+					22% use their own name
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-4.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "",
+				"body": <<<"
+					33% use their pet's name
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-5.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "",
+				"body": <<<"
+					Using easily guessed years marking birthdays, anniversaries or milestone dates
+				">>>
+			}
+		]
+    },
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Using easily guessed base words",
+        "body": <<<"
+			You're not as unique as you might think! The following passwords (or password base for a slightly more complex password) still leaves you vulnerable. Do you use these popular strategies?
+
+			<ul>
+				<li>A simple word or number string (password, 123456789)</li>
+				<li>Favourite team</li>
+				<li>Favourite movie</li>
+				<li>Cultural references they enjoy</li>
+			</ul>
+		">>>,
+
+		"_graphic": {
+			"src": "./assets/p-error.svg"
+		}
+    },
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Turning v0w3ls into numb3rs",
+        "body": <<<"
+			This once 'strong' technique is no longer strong. If you swap some numbers or add '1212' to the end of your password, you're no longer as safe as you think you might be. This technique is well known to hackers, and they are easily guessed. If you use this technique in combination with easily guessed passwords above, you're definitely at risk!
+		">>>,
+
+		"_graphic": {
+			"src": "./assets/p-error.svg"
+		}
+    },
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"You're so random! or are you?",
+        "body": <<<"
+			<p>Research on cognitive biases shows we believe we can generate random numbers but we're not very good at it.</p>
+
+			<p>You might think you're random - but unless you used a random number generator, research shows you're likely following subconscious patterns, recalled a number you've heard before.</p>
+		">>>,
+
+		"_graphic": {
+			"src": "./assets/p-error.svg"
+		}
+    }
+]

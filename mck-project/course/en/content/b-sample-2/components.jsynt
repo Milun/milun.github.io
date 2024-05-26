@@ -1,0 +1,56 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"hotgraphicsmall",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Risk, vulnerability and damage",
+        "body": <<<"
+			<p>Now that you have a little bit of information on the problems associated with password reuse, let's look in depth at some terms we'll be using. This will help us assess our approach's strengths and weaknesses when developing our own personal privacy and security plans.</p>
+		">>>,
+		"instruction": "Click on the icons to learn more.",
+
+		<<<! Items !>>>
+		"_mode": "dynamic", <<<@ "dynamic" | "static" @>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": 			"./assets/p-1.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Vulnerability",
+				"body": <<<"
+					A specific weakness or gap in your defences that hackers can exploit to gain access to your accounts, systems or data. An example could be a weak, reused or leaked password is a vulnerability.
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-2.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Damage",
+				"body": <<<"
+					The actual harm that could be done to you when a hacker accesses your data. Damage might be high or low. Gaining access to important data or financial systems would be very damaging, for example.
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-3.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Risk",
+				"body": <<<"
+					Risk is the potential for harm/damage, and how likely it is someone might take advantage of a vulnerability in your online security. For example: reusing passwords increases the risk that if one account is exposed all your accounts could be compromised.
+				">>>
+			}
+		]
+    }
+]

@@ -1,5 +1,32 @@
 [
 	{
+        "_id": "co-sample",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "_htmlClasses": "",
+        "title": "Sample course",
+        "displayTitle": "Sample course",
+        "body": <<<"
+			<p>A demo course made to demonstrate Forge's functionality.</p> 
+		">>>,
+        "pageBody": "",
+        "instruction": "",
+        "_graphic": {
+            "src": "course/en/images/menu-item.png",
+            "alt": ""
+        },
+        "linkText": "View",
+        "duration": "2 mins",
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false,
+            "_excludeAssessments": false,
+            "_isCompletionIndicatorEnabled": false
+        }
+    },
+	
+	{
         "_id": "co-3",
         "_parentId": "course",
         "_type": "page",

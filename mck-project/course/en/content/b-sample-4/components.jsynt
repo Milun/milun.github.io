@@ -1,0 +1,138 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"graphicmap",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+		<<<! Header !>>>
+        "title": 		"What are some general risks to be aware of?",
+        "body": <<<"
+			<p>Every risk can be plotted on a graph, but they depend on personal and organisational factors. Here are some examples of the risks people frequently take, how likely they are to occur, and the scale of the damage (also known as 'impact') they can have. Risks that are more likely, or can result in more damage/higher impact are the most critical to address.</p> 
+
+			<p>As your review these general risks, ask yourself whether you do any of these activities, and what your own personal context means - some of these risks might be more damaging to you personally, given your level of access to various systems, how interconnected they are (say by ... a shared or leaked password) or the sensitivity or value of the data exposed by these risks.</p>
+		">>>,
+        "instruction": "What are some common risks people take, their level of impact and their likelihood?",
+
+		<<<! Settings !>>>
+		"_graphic": {
+			"src": "./assets/p-0.jpg",
+			"alt": 			"",
+			"attribution": 	""
+		},
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": "./assets/p-1.png"
+				},
+				"title": "Using Weak Passwords",
+				"body": <<<"
+					Risk of unauthorised access and data breaches due to easily guessable login credentials
+					Impact: High (Potential for data breaches, identity theft)
+					Likelihood: Medium (Common practice despite awareness)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-2.png"
+				},
+				"title": "Clicking on Suspicious Links or Email Attachments",
+				"body": <<<"
+					Risk of malware infection and phishing attacks by inadvertently exposing sensitive information through email interactions
+Impact: High (Risk of malware infection, phishing)
+Likelihood: Medium (Employees may inadvertently click on phishing emails)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-3.png"
+				},
+				"title": "Sharing Work-related Information on Social Media",
+				"body": <<<"
+					Risk of unintentional data exposure and compromising sensitive company information on public platforms
+Impact: Medium (Risk of unintentional data exposure)
+Likelihood: Low (Depends on employee awareness)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-4.png"
+				},
+				"title": "Using Personal Devices for Work Purposes",
+				"body": <<<"
+					Risk of data leakage and security breaches due to potentially less secure personal devices accessing work-related resources
+Impact: Medium (Risk of data leakage, security breaches)
+Likelihood: Medium (Common practice with BYOD policies)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-5.png"
+				},
+				"title": "Accessing Unsecured Wi-Fi Networks for Work",
+				"body": <<<"
+					Risk of data interception and unauthorised access when connecting to insecure networks outside of the office
+Impact: Medium (Risk of data interception)
+Likelihood: Medium (Common practice when travelling or working remotely)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-6.png"
+				},
+				"title": "Downloading Unauthorised Software or Apps",
+				"body": <<<"
+					Risk of malware infection and policy violations by installing unapproved software that may compromise system security
+Impact: Medium (Risk of malware infection, policy violations)
+Likelihood: Low (Depends on employee awareness and policies in place)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-7.png"
+				},
+				"title": "Ignoring Software Updates and Security Patches",
+				"body": <<<"
+					Risk of leaving systems vulnerable to exploits and cyber attacks by neglecting to install critical updates and patches
+Impact: High (Leaves systems vulnerable to exploits)
+Likelihood: Medium (Common behaviour due to inconvenience)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-8.png"
+				},
+				"title": "Storing Work Files on Personal Cloud Storage Accounts",
+				"body": <<<"
+					Risk of data loss and unauthorised access by storing sensitive work-related files on personal cloud storage platforms outside of the organisation's control.
+Impact: Medium (Risk of data loss, unauthorised access)
+Likelihood: Low (Depends on employee awareness and policies in place)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-9.png"
+				},
+				"title": "Using Work Email for Personal Correspondence",
+				"body": <<<"
+					Risk of privacy violation and policy violation by using work email for personal communications, potentially exposing sensitive information.
+Impact: Low (Risk of privacy violation, policy violation)
+Likelihood: Low (Depends on employee awareness and policies in place)
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-10.png"
+				},
+				"title": "Sharing Work-related Passwords with Colleagues",
+				"body": <<<"
+					Risk of unauthorised access and policy violation by sharing sensitive login credentials with coworkers, compromising security measures.
+Impact: Medium (Risk of unauthorised access, policy violation)
+Likelihood: Low (Depends on employee awareness and policies in place)
+				">>>
+			}
+		]
+    }
+]

@@ -1,4 +1,14 @@
 [
+	<<<! Sample !>>>
+	{ "_id": "b-sample-1", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+	{ "_id": "b-sample-2", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+	{ "_id": "b-sample-3", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+	{ "_id": "b-sample-4", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+	{ "_id": "b-sample-5", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+	{ "_id": "b-sample-6", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+	{ "_id": "b-sample-7", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+	{ "_id": "b-sample-8", 	"_classes": "", "_parentId": "a-sample", "_trackingId": "" },
+
 	<<<! Basic !>>>
     { "_id": "b-basic-1", 	"_classes": "", "_parentId": "a-basic", "_trackingId": "" },
 	

@@ -1,0 +1,22 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"How do you evaluate risk currently?",
+        "body": <<<"
+			<p>Some people evaluate their risk ‘objectively’ - but this isn’t true for most people.</p> 
+
+			<p>Our brains often default to intuitive, "gut-feel" assessments of risk, which can be influenced by emotions, biases, and past experiences. While this approach might serve us well in some situations, it can leave us vulnerable, especially online, where threats can be subtle and sophisticated.</p>
+
+			<p>Taking a step back to assess risks more objectively can greatly improve our decision-making process. This might involve considering factors like the credibility of sources, the sensitivity of the information at hand, and the potential consequences of different actions. It's like putting on a pair of virtual "risk goggles" to see things more clearly.</p>
+
+			<p>So how do we do this systematically? </p>
+
+			<p>You create a personalised risk profile. We'll look at that next.</p>
+		">>>
+    }
+]

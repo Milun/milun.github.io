@@ -1,0 +1,42 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Reusing passwords",
+        "body": <<<"
+			<p>If someone in your organisation is using the same key for everything and you never change the locks, it means your organisation and all its members can be exposed by just one person letting a key fall into the wrong hands, even once.  But how frequently do people actually reuse passwords?</p>
+		">>>,
+        "instruction": "Click on the titles to reveal how statistics about password reuse.",
+
+		"_items": [
+			{
+				"title": "Duplicate the same password for multiple accounts",
+				"body": <<<"
+					<p>Most people who reuse the same password do it because they are forgetful and this strategy is fast and convenient. While that might be true, it increases the risk and damage that can be done for each account shared.</p>
+				">>>
+			},
+			{
+				"title": "Use one password for all accounts",
+				"body": <<<"
+					This is the riskiest behaviour you could use, even if that password is strong. Using one password for all accounts leaves you very vulnerable. Once a hackers gets the password to one account, they have it for all accounts.
+				">>>
+			},
+			{
+				"title": "Use the same password for all work accounts",
+				"body": <<<"
+					This might seem safer and easier to remember, but once your work account password is compromised. Although this keeps your personal life and work life separate -  it means all of your work accounts are vulnerable.
+				">>>
+			},
+			{
+				"title": "Reuse their passwords across their personal and professional life",
+				"body": <<<"
+					This strategy saves time, but ultimately is one of the riskiest behaviours you can do - the amount of damage that can be done to you and your company is astronomical.
+				">>>
+			}
+		]
+    }
+]

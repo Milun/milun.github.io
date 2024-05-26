@@ -1,0 +1,16 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"How do we mitigate these risks?",
+        "body": <<<"
+			<p>The biggest risks are the ones with the highest likelihood and the biggest impact. Your organisation likely has policies in place for many of these items, and many are fairly straightforward. Some of the most challenging risks are the hardest to deal with - because of a lack of information, personal attitudes and habits that make you less likely to comply with policies that are in place, or well-meant mistakes.</p>
+
+			<p>Next we'll look at three of the biggest issues - weak, reused or shared passwords, vulnerability to scams or 'phishing', and personal attitudes and habits. </p>
+		">>>
+    }
+]

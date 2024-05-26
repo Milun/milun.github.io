@@ -1,0 +1,14 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Storing your passwords",
+        "body": <<<"
+			<p>???</p>
+		">>>
+    }
+]
