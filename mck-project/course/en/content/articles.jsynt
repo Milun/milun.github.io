@@ -1,5 +1,6 @@
 [
-    {"_id": "a-sample", "_parentId": "co-sample", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""},
+    {"_id": "a-sample-1", "_parentId": "co-sample", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""},
+    {"_id": "a-sample-2", "_parentId": "co-sample", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""},
 
     {"_id": "a-basic", "_parentId": "co-3", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""},
     {"_id": "a-1", "_parentId": "co-1", "_type": "article", "_classes": "", "title": "a-1", "displayTitle": ""},

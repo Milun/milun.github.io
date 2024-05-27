@@ -109,7 +109,8 @@
 		">>>,
 
 		"_graphic": {
-			"src": "./assets/p-error.svg"
+			"src": "./assets/p-r2.jpg",
+			"_width": 32
 		}
     },
 	{
@@ -125,7 +126,8 @@
 		">>>,
 
 		"_graphic": {
-			"src": "./assets/p-error.svg"
+			"src": "./assets/p-r3.jpg",
+			"_width": 32
 		}
     },
 	{
@@ -143,7 +145,8 @@
 		">>>,
 
 		"_graphic": {
-			"src": "./assets/p-error.svg"
+			"src": "./assets/p-r4.jpg",
+			"_width": 48
 		}
     }
 ]

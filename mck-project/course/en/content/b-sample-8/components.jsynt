@@ -8,7 +8,116 @@
 		<<<! Header !>>>
         "title": 		"Storing your passwords",
         "body": <<<"
-			<p>???</p>
+			<p>There are multiple methods of storing your passwords. There are different benefits and drawbacks to using different methods, but all have been used safely over time. The safest method is the one that meets the security requirements for your organisation and are convenient for you - so you don’t undermine your own security with less safe shortcuts (like sticky notes or reusing passwords).</p>
+
+			<p>Let’s look at some of the more popular and safer methods.</p>
 		">>>
+    },
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"USB Encryption/Digital Password Book",
+        "body": <<<"
+			<p>Storing passwords on a USB drive with encryption or using a digital password book can provide a portable and secure solution for password management. With encryption, passwords are protected by a secure key, ensuring that even if the USB drive is lost or stolen, the data remains inaccessible to unauthorised individuals. Digital password books offer similar functionality, allowing users to store passwords securely on their devices, often with additional features such as password generation and autofill. However, it's crucial to keep the USB drive or device containing the digital password book in a safe and secure location to prevent unauthorised access. It’s important to also have a backup and regularly update it - think about how you’ll manage this before deciding on this technique.</p>
+		">>>,
+        "instruction": "",
+
+		"_items": [
+			{
+				"title": "Tips for using this password storage technique",
+				"body": <<<"
+					<p><strong>Use User-Friendly Encryption Tools:</strong> Use tools like <w.hyperlink href="https://www.veracrypt.fr/code/VeraCrypt/">VeraCrypt</w.hyperlink> or <w.hyperlink href="https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/">BitLocker</w.hyperlink> or <w.hyperlink href="https://www.microsoft.com/en-au/microsoft-365/previous-versions/office-2010">Microsoft Office 10</w.hyperlink> (evaluate and use these tools at your discretion, they are suggestions only), which offer straightforward interfaces to encrypt your USB drive. Follow step-by-step guides or video tutorials available online.</p>
+
+					<p><strong>Choose Devices with Built-in Encryption:</strong> Purchase USB drives with built-in encryption, like the Kingston DataTraveler Vault Privacy, which simplifies the encryption process.</p>
+
+					<p><strong>Backup Regularly Using Simple Cloud Services:</strong> Use cloud services that offer encrypted backup options, like <w.hyperlink href="https://accounts.google.com/">Google Drive</w.hyperlink> or <w.hyperlink href="https://www.dropbox.com/">Dropbox</w.hyperlink>, with added encryption tools like Boxcryptor.</p>
+				">>>
+			}
+		]
+    },
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Physical Password Book",
+        "body": <<<"
+			<p>For those who prefer a tangible solution, a physical password book provides a straightforward way to store passwords offline. Users can manually write down their passwords in the book, keeping it securely stored in a locked drawer or safe. While physical password books offer simplicity and accessibility, they also pose a security risk if lost or stolen, as anyone who gains access to the book can view the stored passwords. For this reason, it's essential to keep the physical password book in a secure location and consider using additional security measures such as disguising passwords or encrypting sensitive information. This solution works well for people who are well organised and keep their documentation safe and secure and can be reasonably assured no one untrustworthy can access the book or be able to use the passwords, through simple manual encryption techniques.To remain useful, it must also be updated regularly, so think about how you’ll manage updating your password book when you’re away from it, how you’ll back it up, and keep it secure if you move this boo before using this technique.</p>
+		">>>,
+        "instruction": "",
+
+		"_items": [
+			{
+				"title": "Tips for using this password storage technique",
+				"body": <<<"
+					<p><strong>Buy a Ready-Made Password Journal:</strong> Purchase a dedicated password journal designed for security, which often includes features like tips for creating strong passwords and organised sections for different accounts.</p>
+
+					<p><strong>Store in a Secure Yet Accessible Place:</strong> Keep the password book in a locked drawer at home. For added security, consider using a small personal safe.</p>
+
+					<p><strong>Use Shorthand or Hints:</strong> Write down hints or partial passwords instead of full passwords. For example, if your password is "<code>Sunset2023!</code>", write "<code>S...2023!</code>" so you can remember it but others can't easily guess it.</p>
+				">>>
+			}
+		]
+    },
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Memory Palace Recall",
+        "body": <<<"
+			<p>Memory palace recall, also known as mnemonic techniques, involves creating vivid mental images or associations to aid in remembering complex information such as passwords. Users can visualise specific locations, such as rooms in their house or familiar landscapes, and mentally associate each location with different passwords or passphrase components. While memory palace recall leverages the power of human memory and can be effective for some individuals, it requires significant mental effort and may not be suitable for everyone. Additionally, there is a risk of forgetting or confusing passwords if the mnemonic associations are not maintained regularly.</p>
+		">>>,
+        "instruction": "",
+
+		"_items": [
+			{
+				"title": "Tips for using this password storage technique",
+				"body": <<<"
+					<p><strong>Start with Simple Associations:</strong> Begin by associating a password with familiar locations in your home. For example, imagine placing the password "B1ueSky!" on your favorite chair in the living room.</p>
+
+					<p><strong>Use a Consistent Method:</strong> Always use the same method for creating associations, such as visualizing a journey through your house where each room holds a different password.</p>
+
+					<p><strong>Practice with Simple Apps:</strong> Use memory training apps like <w.hyperlink href="https://artofmemory.com/software/">Memory Palace</w.hyperlink> or <w.hyperlink href="https://sidequestvr.com/app/19584/mind-palace">Mind Palace</w.hyperlink> that guide you through the process of creating and recalling memory palaces.</p>
+				">>>
+			}
+		]
+    },
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Password Managers",
+        "body": <<<"
+			<p>Password managers offer a secure and convenient solution for storing and managing passwords online. These software applications generate strong, unique passwords for each account, store them in an encrypted vault, and automatically fill in login credentials when needed. Password managers often come with additional features such as password auditing, secure sharing, and multi-factor authentication support. By centralising password management and prioritising security, password managers mitigate the risk of password-related vulnerabilities such as weak passwords, reuse, and theft. However, users should choose a reputable password manager with strong security measures and regularly update their master password for added protection.</p>
+		">>>,
+        "instruction": "",
+
+		"_items": [
+			{
+				"title": "Tips for using this password storage technique",
+				"body": <<<"
+					<p><strong>Use User-Friendly Password Managers:</strong> Start with simple, intuitive password managers like <w.hyperlink href="https://1password.com/">1Password</w.hyperlink> or <w.hyperlink href="https://bitwarden.com/">BitWarden</w.hyperlink> (evaluate and use these tools at your discretion, they are suggestions only), which offer easy setup and user-friendly interfaces.</p>
+
+					<p><strong>Follow Setup Guides:</strong> Use the comprehensive setup guides provided by password managers, which often include video tutorials and step-by-step instructions.</p>
+
+					<p><strong>Enable Browser Extensions:</strong> Install browser extensions provided by the password manager, which can automatically save and fill in passwords for you, making it convenient to use.</p>
+				">>>
+			}
+		]
     }
 ]
+
+
+

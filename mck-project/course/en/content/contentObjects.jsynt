@@ -5,10 +5,10 @@
         "_type": "page",
         "_classes": "",
         "_htmlClasses": "",
-        "title": "Sample course",
-        "displayTitle": "Sample course",
+        "title": 		"Digital Privacy",
+        "displayTitle": "Digital Privacy",
         "body": <<<"
-			<p>A demo course made to demonstrate Forge's functionality.</p> 
+			<p>A Fortified Privacy Course.</p> 
 		">>>,
         "pageBody": "",
         "instruction": "",

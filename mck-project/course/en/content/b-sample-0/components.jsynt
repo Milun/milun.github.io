@@ -1,0 +1,29 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Are your personal passwords professional?",
+        "body": <<<"
+			<p>Let's talk about something we all do but really shouldn’t — reusing passwords. Most of us do it because - it's convenient, it hasn't caused us problems in the past, and we don't really have a better system. You only have to remember one or two (or statistically 2-4) passwords for everything. But here's the issue: it’s a massive security risk, and it can crack open your whole life, or your whole organisation.</p>
+
+			<p>Imagine this: a hacker gets their hands on one of your old passwords from some random site that got breached. Now, if you’ve used that same password for your work email or company accounts, they're in. Suddenly, they have legitimate access, and it’s like giving them the keys to the kingdom.</p>
+
+			<p>With access to a legitimate company email, they can move around unnoticed, sending emails that look completely legit to other employees. They might trick people into giving up more sensitive information or even authorize transactions. The hacker can dig through emails, documents, and other internal systems, stealing sensitive info, messing with company data, and potentially causing huge financial damage.</p>
+
+			<p>Password reuse isn't just a personal problem; it’s a gateway for hackers to infiltrate the entire company. Think about the client data, confidential projects, and internal communications that could be exposed. Not to mention, it can seriously damage the company’s reputation and lead to legal troubles.</p>
+
+			<p>So, in today’s workshop, we’re going to dive into strong password strategies. We'll cover how to create them, check if your current passwords are strong, and the best ways to save them safely as well as some reasonable strategies for keeping them up to date. We all need t make sure we're on top of our game when it comes to protecting our company—and ourselves online.</p>
+		">>>,
+        "instruction": "",
+
+		"_graphic": {
+			"src": "./assets/p-0.jpg",
+			"_align": "flex-end",
+			"_width": 35
+		}
+    }
+]

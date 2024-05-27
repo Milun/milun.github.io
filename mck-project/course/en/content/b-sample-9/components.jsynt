@@ -1,0 +1,25 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Enhance your strategies with the double blind",
+        "body": <<<"
+			<p>The double-blind password strategy is a way to make your passwords extra secure by splitting them into two parts.You can use them with any of the above techniques. </p>
+
+			<p>NOTE: You will need to remember this add-on separately - it’s important to never write it down or tell anyone about this. If you ever share passwords - do not use this technique, OR use a separate double blind add-on. Be realistic about what you’re actually going to do - if you share a streaming site with your friends, we’re not going to tell anyone, but we will tell you - don’t be silly!</p> 
+
+			<p>The technique is simple. Create a base password (preferably a truly random one). This password should be unique to this account and not shared anywhere. Feel free to store it using any method you choose (writing it in a book, storing it on a USB, using a password manager, etc.). Then, come up with your own memorable double-blind add-on. Whenever you enter a password, type or fill in your base password first. Then manually type in the double-blind add-on at the end of your base password. You only need to remember one double blind add-on, you can use this same code to all your passwords.</p> 
+
+			<p>For example, if the password manager gives you "<code>A1b2C3d4</code>" and you create a double-blind add-on of "<code>817@263</code>", your full password will be "<code>A1b2C3d4817@263</code>". This way, even if someone gets access to your password manager, they won’t know your add-on, and if they know your add-on, they won’t have the random part.</p>
+
+			<p>Since it’s never written down or shared, it enhances the security of the passwords you do store, and if it’s leaked, it’s harder for hackers to use it. It takes a lot more work to crack these passwords.</p>
+		">>>
+    }
+]
+
+
+

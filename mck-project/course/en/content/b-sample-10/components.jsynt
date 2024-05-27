@@ -1,0 +1,17 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Introduction to Phishing",
+        "body": <<<"
+			<p><w.glossary temp="Online fraudulent techniques or scams used to obtain personal information, financial information or proprietary/company data.">Phishing</w.glossary> and the more sophisticated <w.glossary temp="A type of online scam which conceals the scanner’s true identity by altering their email address, display name, phone number, text message, or website URL, to mislead the victim into thinking they are engaging with a trusted, recognisable contact.">Spoofing</w.glossary> are types of cyber attack in which scammers use deceptive tactics to trick individuals into divulging sensitive information, such as login credentials, financial data, or personal information. These scams often involve impersonating the real person or organisation, such as banks, social media platforms, online stores, or government agencies, to gain the victim's trust.There are many different types of phishing scams, they are constantly evolving and new types of phishing emerge all the time.</p>
+		">>>
+    }
+]
+
+
+

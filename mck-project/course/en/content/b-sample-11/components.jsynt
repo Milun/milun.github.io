@@ -1,0 +1,62 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"flipcard",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Case study in Phishing",
+        "body": <<<"
+			<p><strong>Basic Stats:</strong></p>
+			<ul>
+				<li>According to a report - 83% of companies fell for a phishing attack in 2021.</li>
+				<li>25% of all data breaches involve phishing.</li>
+			</ul>
+		">>>,
+        "instruction": "Check out some phishing scams at these international organisations.",
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": 			"./assets/p-error.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "FACC",
+				"body": <<<"
+					An employee from the FACC (an aerospace parts manufacturer in Austria) fell for a phishing scam. The organisation was asked to transfer 42 Million to an account held by the attacker. The message appeared to come from the company’s CEO. 
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-error.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Crelan Bank",
+				"body": <<<"
+					A Belgian bank fell victim to a similar phishing attack. The attacker was able to spoof the email account of the Bank's CEO and emailed the organisation asking to transfer funds to an account. 
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": 			"./assets/p-error.svg",
+					"alt": 			"",
+					"attribution": 	""
+				},
+
+				"title": "Sony",
+				"body": <<<"
+					The top executives (CEO) of Sony were phishing using a spoofed email address pretending to be from Apple. The email asked them to provide their login credentials and verification emails for Apple products, there was a link that took them to a fake website that captured their login credentials. The hackers were able to use this to breach Sony database and steal information. 
+				">>>
+			}
+		]
+    }
+]
+
+
+
