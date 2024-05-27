@@ -17,7 +17,7 @@
         "_id": 			"",
         "_component": 	"accordion",
         "_layout": 		"full",
-        "_classes": 	"",
+        "_classes": 	"c-8",
 
 		<<<! Header !>>>
         "title": 		"USB Encryption/Digital Password Book",
@@ -34,7 +34,7 @@
 
 					<p><strong>Choose Devices with Built-in Encryption:</strong> Purchase USB drives with built-in encryption, like the Kingston DataTraveler Vault Privacy, which simplifies the encryption process.</p>
 
-					<p><strong>Backup Regularly Using Simple Cloud Services:</strong> Use cloud services that offer encrypted backup options, like <w.hyperlink href="https://accounts.google.com/">Google Drive</w.hyperlink> or <w.hyperlink href="https://www.dropbox.com/">Dropbox</w.hyperlink>, with added encryption tools like Boxcryptor.</p>
+					<p><strong>Back Up Your Primary USB on a Secondary or Multiple Drives:</strong> Make copies of your files or digital password book and back it up on a secondary USB or external hard drive. Ensure that you encrypt the backup drive and back it up regularly, especially once you have added new passwords.</p>
 				">>>
 			}
 		]
@@ -43,7 +43,7 @@
         "_id": 			"",
         "_component": 	"accordion",
         "_layout": 		"full",
-        "_classes": 	"",
+        "_classes": 	"c-8",
 
 		<<<! Header !>>>
         "title": 		"Physical Password Book",
@@ -59,8 +59,6 @@
 					<p><strong>Buy a Ready-Made Password Journal:</strong> Purchase a dedicated password journal designed for security, which often includes features like tips for creating strong passwords and organised sections for different accounts.</p>
 
 					<p><strong>Store in a Secure Yet Accessible Place:</strong> Keep the password book in a locked drawer at home. For added security, consider using a small personal safe.</p>
-
-					<p><strong>Use Shorthand or Hints:</strong> Write down hints or partial passwords instead of full passwords. For example, if your password is "<code>Sunset2023!</code>", write "<code>S...2023!</code>" so you can remember it but others can't easily guess it.</p>
 				">>>
 			}
 		]
@@ -69,7 +67,7 @@
         "_id": 			"",
         "_component": 	"accordion",
         "_layout": 		"full",
-        "_classes": 	"",
+        "_classes": 	"c-8",
 
 		<<<! Header !>>>
         "title": 		"Memory Palace Recall",
@@ -82,7 +80,7 @@
 			{
 				"title": "Tips for using this password storage technique",
 				"body": <<<"
-					<p><strong>Start with Simple Associations:</strong> Begin by associating a password with familiar locations in your home. For example, imagine placing the password "B1ueSky!" on your favorite chair in the living room.</p>
+					<p><strong>Start with Simple Associations:</strong> Begin by associating a password with familiar locations in your home. For example, imagine placing the password "<code>1Sm1g?7-jj4</code>" on your favorite chair in the living room.</p>
 
 					<p><strong>Use a Consistent Method:</strong> Always use the same method for creating associations, such as visualizing a journey through your house where each room holds a different password.</p>
 
@@ -95,7 +93,7 @@
         "_id": 			"",
         "_component": 	"accordion",
         "_layout": 		"full",
-        "_classes": 	"",
+        "_classes": 	"c-8",
 
 		<<<! Header !>>>
         "title": 		"Password Managers",
