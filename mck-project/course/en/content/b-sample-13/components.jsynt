@@ -1,0 +1,107 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"hotgraphictabs",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+		<<<! Header !>>>
+        "title": 		"How do cyber criminals target people's emotions?",
+        "body": <<<"
+			<p>Although you may be familiar with signs of a phishing email, not all phishing attempts are so obvious. Even when people know what to look out for, they are still falling for phishing attacks. Experts in the field are still falling for phishing attacks -usually because they get caught up in the moment and ignore their privacy plan, or their plan was incomplete.</p>
+
+			<p>By learning how cybercriminals exploit your emotions, pressures and bad habits, you'll be able to protect against a greater variety of phishing techniques, even more sophisticated ones that aren't so obvious.</p>
+
+			<p>The best solution is to stay calm and analytical, and develop good habits when interacting with anyone online, or trying to access your information or identity. Stay vigilant even when receiving emails or requests from internal sources or trusted contacts - they may have been compromised, as well. These strategies are also used in phone,SMS and social media scams, so recognising and taking action to mitigate these tactics will help protect yourself from across different forms of communication.</p>
+		">>>,
+        "instruction": "Click on the icons to learn how cybercriminals target people's emotions.",
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": "./assets/p-1a.svg",
+					"srcVisited": "./assets/p-1.svg"
+				},
+				"title": "Fear",
+				"body": <<<"
+					<p>By creating a sense of danger, such as threatening account suspension, work or financial consequences, they prompt hasty actions like sharing passwords or revealing details. </p>
+
+					<p>Verify the legitimacy of these threats or consequences by contacting the entity directly through known, official channels, checking correct procedures before taking any action.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-2a.svg",
+					"srcVisited": "./assets/p-2.svg"
+				},
+				"title": "Urgency",
+				"body": <<<"
+					<p>Implying a tight deadline, they rush decisions, leading to the quick clicking of malicious links.</p>
+
+					<p>Take a moment to think before reacting to urgent requests or review correct procedures. Legitimate organisations rarely impose sudden deadlines without prior warning.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-3a.svg",
+					"srcVisited": "./assets/p-3.svg"
+				},
+				"title": "Trust",
+				"body": <<<"
+					<p>Masquerading as trusted contacts or organisations, they convince individuals to divulge sensitive information, click links or r</p>
+
+					<p>Independently verify the identity of anyone requesting sensitive information, even if they appear to be from a trusted source, or go through standard account access instead of clicking links.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-4a.svg",
+					"srcVisited": "./assets/p-4.svg"
+				},
+				"title": "Greed",
+				"body": <<<"
+					<p>Promising lucrative rewards, they entice the sharing of financial or personal details. They may also be combined with urgency, urging you to act now or lose out on an opportunity or deal.</p>  
+
+					<p>Be skeptical of offers that seem too good to be true. Research the offer and the entity providing it before sharing any information. Evaluate whether the value is worth the risk.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-5a.svg",
+					"srcVisited": "./assets/p-5.svg"
+				},
+				"title": "Helpfulness",
+				"body": <<<"
+					<p>Appealing to the desire to assist or maintain good relationships, they solicit access to secure systems by pretending to need your help.</p>
+
+					<p>Confirm the identity of individuals asking for help and ensure that their requests are legitimate before providing assistance.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-6a.svg",
+					"srcVisited": "./assets/p-6.svg"
+				},
+				"title": "Curiosity",
+				"body": <<<"
+					<p>Teasing intriguing content, they lure individuals into downloading malware, divulging information, or clicking malicious links.</p> 
+
+					<p>Avoid clicking on unsolicited links or downloading unknown attachments. Verify the source and content through alternative means.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-7a.svg",
+					"srcVisited": "./assets/p-7.svg"
+				},
+				"title": "Confusion",
+				"body": <<<"
+					<p>Creating complex or unclear scenarios, they overwhelm you, leading to mistakes such as entering credentials on fake sites or divulge information you shouldn't. </p>
+
+					<p>Seek clarification when faced with confusing scenarios. Take time to understand the situation fully and consult trusted sources if unsure.</p>
+				">>>
+			}
+		]
+    }
+]

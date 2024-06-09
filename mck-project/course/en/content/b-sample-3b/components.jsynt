@@ -1,0 +1,81 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"brainstorm",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"Understanding your needs",
+        "body": <<<"
+			<p>Think about what it is you want to protect. Go broad, think about your personal, social and professional life and all your online interactions.</p>
+		">>>,
+        "instruction": "Write your answers to the following questions in the boxes below, then click submit.",
+
+		"_items": [
+			{
+				"body": <<<"
+					<p>Who do I want to protect?</p>
+				">>>,
+				"feedback": <<<"
+					<p><strong>Personal:</strong> Parents, children, elderly family and friends, siblings, spouses, housemates, neighbours</p>
+					<p><strong>Social:</strong> Social club or sports team members, classmates, online gaming friends, online social connections</p>
+					<p><strong>Work/School:</strong> coworkers, owners, volunteers, board members, clients, customers, patients, stakeholders, contacts from other organisations, academic peers, classmates</p>
+
+					<p>The more secure everyone in your networks are, the more secure you will be. Networks are only as secure as the weakest link.</p>
+				">>>
+			},
+			{
+				"body": <<<"
+					<p>What do I want to protect?</p> 
+				">>>,
+				"feedback": <<<"
+					<p><strong>Personal and social:</strong></p>
+					<ul>
+						<li>Personal information (name, date of birth, address, voice print, government identification)</li>
+						<li>Financial information (banking credentials and information, tax data) </li>
+						<li>login credentials, contact lists</li>
+						<li>medical records, children's school data  </li>
+						<li>cloud storage, photos, videos</li>
+						<li>online shopping purchase history, browsing history, app data</li>
+						<li>location data, digital calendars, smart device data </li>
+						<li>emails and text messages, chat logs, forum/wall posts</li>
+					</ul>
+
+					<p><strong>Professional and school:</strong></p>
+					<ul>
+						<li>Business data (organisation's financials, client information, proprietary data, strategic plans, contact lists) </li>
+						<li>Educational records (transcripts, grades, academic research, diplomas, student ID numbers)  </li>
+						<li>Login credentials (employee or student usernames, passwords, security questions and answers)  </li>
+						<li>Intellectual property (creative works, patents, trademarks, research data)  </li>
+						<li>Emails and communications (work emails, professional messages, collaborative documents)</li>
+					</ul>
+				">>>
+			},
+			{
+				"body": <<<"
+					<p>Who am I protecting it from?</p>
+				">>>,
+				"feedback": <<<"
+					<p><strong>Personal:</strong> ex partners, stalkers, scammers, hackers, spammers, identity thieves, debt collectors</p>
+					<p><strong>Social:</strong> hactivists (people who strongly disagree with your personal beliefs),  friends or family who may leak/share your information in unwanted ways, cyberbullies</p>
+					<p><strong>Professional/School:</strong>  Scammers and hackers, competitors, insider threats (coworkers or volunteers with inappropriate access), hactivists, cyber terrorists, foreign nation states</p>
+				">>>
+			},
+			{
+				"body": <<<"
+					<p>If I fail, what could the consequences be?</p>
+				">>>,
+				"feedback": <<<"
+					<p><strong>Personal:</strong> identity theft, financial fraud, losing precious memories or files, privacy invasion,damage to expensive devices, losing access to accounts, personal harm, legal consequences, home invasion, emotional distress</p>
+					<p><strong>Social:</strong> Reputational damage, social media account takeover, cyber-bullying, becoming a point of entry to attack friends, family or those in your social networks. damage to relationship</p>
+					<p><strong>Professional/School</strong></p>
+					<p><strong>Legal:</strong> Fines, legal action, loss of certifications</p>
+					<p><strong>Financial:</strong> financial penalties,Theft of funds, fraudulent transactions, loss of revenue or business opportunities, increased insurance, hiring security consultants or PR </p>
+					<p><strong>Perception:</strong> damage to professional reputation, loss of trust, loss of career or study opportunities, damage to professional relationships, </p>
+					<p><strong>Additonal concerns:</strong> Downtime while reestablishing access, time lost dealing with the threat or consequences, loss of access to critical systems and data, becoming a point of entry to attack clients, stakeholders and work/school contacts</p>
+				">>>
+			}
+		]
+    }
+]

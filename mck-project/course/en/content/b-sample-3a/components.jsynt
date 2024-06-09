@@ -1,0 +1,42 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"accordion",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"The best plan is the one you follow",
+        "body": <<<"
+			<p>Most people don't have a systematic plan in place to protect their privacy online - but it's really not that difficult. Over the course of this training you'll develop your plan using the following steps.</p>
+		">>>,
+        "instruction": "Click on the titles to learn more.",
+
+		"_items": [
+			{
+				"title": "Analyse your assets",
+				"body": <<<"
+					<p>What is valuable to one person (for example, sensitive photos) might not be important to someone else. What networks, systems, data, files and information do you need to protect? Think about your personal life, social life and work/school life. </p>
+				">>>
+			},
+			{
+				"title": "Understand your risks",
+				"body": <<<"
+					<p>Learn a bit about cybercrime works, and why people might want your information or access to your systems. Learning to spot scams, traps and data collection schemes.Pause and evaluate your interactions online what risky habits or shortcuts do you already use? How do these habits put you at risk? </p>
+				">>>
+			},
+			{
+				"title": "Create a plan that's comprehensive and achievable",
+				"body": <<<"
+					<p>Once you work out what you want to protect, it's best to create a simple plan to adhere to - creating a complex plan is no good if you're not going to follow it every time.</p> 
+	
+					<p>One person's system might work perfectly for them, but not for you, take some time to customise it. There are a variety of strategies that can work, and all plans take a little bit of work, but it's important to keep your strategy simple and convenient enough that you'll follow it every time.</p>
+
+					<p>Over time, you'll learn more about yourself and the threats you face online, you're likely to evolve your plan. But to begin with, there are a few simple decisions you need to make, and some questions you need to ask yourself - and you'll create a solid foundation of digital privacy strategies to secure your information. </p>
+
+					<p><strong>So how do you get started?</strong></p>
+				">>>
+			}
+		]
+    }
+]

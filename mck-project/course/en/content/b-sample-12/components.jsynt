@@ -1,0 +1,75 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"narrative",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+		<<<! Header !>>>
+        "title": 		"Spotting a Phishing email",
+        "body": <<<"
+			<p>It's inevitable you'll receive many phishing emails. This one might be obvious, but can you spot all the telltale signs of a phishing email?</p>
+		">>>,
+        "instruction": "Click on the email to learn the warning signs.",
+
+		<<<! Settings !>>>
+		"_graphic": {
+			"src": "./assets/p-0.jpg",
+			"_width": 70,
+			"_isGraphicMap": true
+		},
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_graphic": {
+					"src": "./assets/p-1.png"
+				},
+				"title": "Suspicious email title",
+				"body": <<<"
+					<p>This email subject is very general and non-specific; which allows it to be sent to thousands of users without needing to be changed.</p>
+
+					<p>It also contains questionable grammar, while attempting a call to action by implying that something of yours (your "plan") has been modified without your knowledge.</p>
+
+					<p>It also ends in a code of random letters; and I don't really understand why (just makes it look less convincing).</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-2.png"
+				},
+				"title": "Malicious file attachment",
+				"body": <<<"
+					<p>Shady emails will almost always contain an attachment. Under no circumstances should you <strong>EVER</strong> click it, as it almost certainly contains malicious scripts.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-3.png"
+				},
+				"title": "Call to action",
+				"body": <<<"
+					<p>Malicious emails will always attempt to coax actions out of you that will make you fall victim to their hacking or whatever. Note how in this example, no specific instructions are given; making the requested task nonsensical.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-4.png"
+				},
+				"title": "Incorrect name",
+				"body": <<<"
+					<p>Some malicious emails don't put in the effort to get your real name, and will instead refer to you by your email address. Professional companies don't (shouldn't) do this.</p>
+				">>>
+			},
+			{
+				"_graphic": {
+					"src": "./assets/p-5.png"
+				},
+				"title": "Warnings from email client",
+				"body": <<<"
+					<p>The email client itself has flagged this email as being suspicious.</p>
+				">>>
+			}
+		]
+    }
+]

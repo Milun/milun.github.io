@@ -1,0 +1,93 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": 		"When you think of Cyber security, what's the first thing you think of?",
+        "body": <<<"
+		">>>,
+
+		"_itemsOptions": {
+			"_graphic": {
+				"theme": ""
+			}
+		},
+
+		"_items": [
+			{
+				"title": 		"",
+				"body": <<<"
+					<p>Most people think of firewalls, malware detection, encryption, security implementation etc. </p>
+
+					<p>The 'technical' side of cybersecurity has become much more sophisticated over time, and as a result - much more difficult for hackers to crack.  </p>
+				">>>,
+
+				"_graphic": {
+					"src": "./assets/p-1.svg",
+					"_width": 27
+				}
+			},
+			{
+				"title": 		"",
+				"body": <<<"
+					<p>So criminals have turned to an easier target - <strong>you</strong>.</p> 
+					<p>Humans are currently the biggest point of failure in most cybersecurity systems.</p>
+				">>>,
+
+				"_graphic": {
+					"src": "./assets/p-2.svg",
+					"_width": 32
+				}
+			},
+			{
+				"title": 		"",
+				"body": <<<"
+					<p>Humans are fairly easy to manipulate. We all face similar pressures, and we share a lot of bad habits.</p> 
+
+					<p>Criminals have learned to exploit people's psychology, emotional triggers and habits to gain access to systems that would otherwise be too difficult to crack. </p>
+				">>>,
+
+				"_graphic": {
+					"src": "./assets/p-3.svg",
+					"_width": 31
+				}
+			},
+			{
+				"title": 		"",
+				"body": <<<"
+					<p>They call this 'social engineering' - manipulating people, or exploiting weak practices we've overlooked to gain access to our sensitive systems and valuable information.</p>
+				">>>,
+
+				"_graphic": {
+					"src": "./assets/p-4.svg",
+					"_width": 28
+				}
+			},
+			{
+				"title": 		"",
+				"body": <<<"
+					<p>Most of us protect ourselves very well in some areas, and totally ignore or overlook other practices that put yourself at risk. Essentially - we're overconfident. Without a systematic approach to preventing social engineering attacks - we're all vulnerable. </p>
+				">>>,
+
+				"_graphic": {
+					"src": "./assets/p-5.svg",
+					"_width": 32
+				}
+			},
+			{
+				"title": 		"",
+				"body": <<<"
+					<p>This training will help you analyse your vulnerabilities to this kind of cyber-attack, and formulate a strong plan of action to prevent criminals from using <strong>you</strong> as a point of entry to do their damage. </p>
+				">>>,
+
+				"_graphic": {
+					"src": "./assets/p-6.svg",
+					"_width": 28.5
+				}
+			}
+		]
+    }
+]

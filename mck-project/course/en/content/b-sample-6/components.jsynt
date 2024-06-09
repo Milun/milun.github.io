@@ -110,6 +110,7 @@
 
 		"_graphic": {
 			"src": "./assets/p-r2.jpg",
+			"theme": "border",
 			"_width": 32
 		}
     },
@@ -127,6 +128,7 @@
 
 		"_graphic": {
 			"src": "./assets/p-r3.jpg",
+			"theme": "border",
 			"_width": 32
 		}
     },
@@ -146,6 +148,7 @@
 
 		"_graphic": {
 			"src": "./assets/p-r4.jpg",
+			"theme": "border",
 			"_width": 48
 		}
     }

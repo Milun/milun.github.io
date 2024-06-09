@@ -8,7 +8,7 @@
 		<<<! Header !>>>
         "title": 		"Risk, vulnerability and damage",
         "body": <<<"
-			<p>Now that you have a little bit of information on the problems associated with password reuse, let's look in depth at some terms we'll be using. This will help us assess our approach's strengths and weaknesses when developing our own personal privacy and security plans.</p>
+			<p>Let's look at som terms that will help us better analyse our risks.This will help us assess our approach's strengths and weaknesses when developing our own personal privacy and security plans. This will help us assess our approach's strengths and weaknesses when developing our own personal privacy and security plans.</p>
 		">>>,
 		"instruction": "Click on the icons to learn more.",
 
@@ -24,7 +24,7 @@
 
 				"title": "Vulnerability",
 				"body": <<<"
-					A specific weakness or gap in your defences that hackers can exploit to gain access to your accounts, systems or data. An example could be a weak, reused or leaked password is a vulnerability.
+					A specific weakness or gap in your defences that hackers can exploit to gain access to your accounts, systems or data. An example could be a weak, reused or leaked password is a vulnerability. 
 				">>>
 			},
 			{
