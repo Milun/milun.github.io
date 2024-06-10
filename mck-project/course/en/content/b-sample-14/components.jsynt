@@ -1,0 +1,212 @@
+[
+	{
+		"_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": "What's the best way to respond to a request for information or to follow a link?",
+        "body": <<<"
+			<p>Now that you're aware of some of the ways cybercriminals manipulate people and some strategies you can use to mitigate them, check your understanding and choose a safe action in the scenarios below.</p>
+		">>>
+    },
+	{
+		"_id": 			"",
+        "_component": 	"mcq",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": "<span class='c-color-red-temp'>Scenario 1:</span> Phishing Scam through a Phone Call from the Tax Office",
+        "body": <<<"
+			<p>You receive a phone call from someone claiming to be from the tax office. They state that you owe a tax debt and are liable to be prosecuted unless you set up a payment plan immediately. They give some of your correct personal details and sound authentic. They ask you to set up a payment plan and to divulge additional details.</p>
+
+			<p>What should your response be? Identify the emotional trigger they are attempting to use, and suggest the best response using what you've learned.</p>
+		">>>,
+        "instruction": "Choose one option, then select Submit.",
+        "ariaQuestion": "",
+		
+		<<<! Settings !>>>
+		"_attempts": 			9,
+        "_questionWeight": 		1,
+        "_isRandom": 			true,
+        "_selectable": 			1,
+		"_columns":				1,
+
+		<<<! Items !>>>
+        "_items": [
+            {
+                "text": "Provide the additional details and set up the payment plan immediately to avoid prosecution.",
+                "_shouldBeSelected": false,
+				"feedback": {
+					"title": "Sorry! That's not a great solution.",
+					"body": <<<"
+						<p>Instead, independently verify the caller's claim by contacting the tax office directly using a known, official phone number or website.</p>
+					">>>
+				}
+            },
+            {
+                "text": "Ignore the call completely and assume it’s a scam without verifying.",
+                "_shouldBeSelected": false,
+				"feedback": {
+					"title": "Sorry! That's not a great solution.",
+					"body": <<<"
+						<p>Ignoring the call may not be effective, as it leaves potential issues unresolved. Instead, verify the legitimacy of the call by contacting the tax office directly through official channels.</p>
+					">>>
+				}
+            },
+            {
+                "text": "Tell the caller you will contact the tax office directly using their official contact information to confirm the legitimacy of the claim before taking any action.",
+                "_shouldBeSelected": true,
+				"feedback": {
+					"title": "That's a great solution!",
+					"body": <<<"
+						<p>This is the correct action. Verify the claim by using official contact methods to avoid falling for a phishing scam.</p>
+					">>>
+				}
+            }
+        ],
+        "_feedback": {
+            "title": "BEES",
+            "correct": <<<"
+			">>>,
+            "_incorrect": {
+                "final": <<<"
+				">>>
+            }
+        }
+    },
+	{
+		"_id": 			"",
+        "_component": 	"mcq",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": "<span class='c-color-red-temp'>Scenario 2:</span> Phishing Scam through HR Email",
+        "body": <<<"
+			<p>You receive an email from your HR department advising there are changes to the HR system. The email instructs you to click on a link and update your details. You check the email sender field, and it appears to be correct.</p>
+
+			<p>What should your response be?</p>
+		">>>,
+        "instruction": "Choose one option, then select Submit.",
+        "ariaQuestion": "",
+		
+		<<<! Settings !>>>
+		"_attempts": 			9,
+        "_questionWeight": 		1,
+        "_isRandom": 			true,
+        "_selectable": 			1,
+		"_columns":				1,
+
+		<<<! Items !>>>
+        "_items": [
+            {
+                "text": "You've verified the email sender is authentic. Click on the link in the email and update your details as instructed by HR.",
+                "_shouldBeSelected": false,
+				"feedback": {
+					"title": "Sorry! That's not a great solution.",
+					"body": <<<"
+						<p>This action is not effective. Instead, independently verify the legitimacy of the email by contacting your HR department directly through official channels, preferably a second channel in case the email was spoofed. </p>
+					">>>
+				}
+            },
+            {
+                "text": "Ignore the email completely and assume it's a phishing scam without further verification.",
+                "_shouldBeSelected": false,
+				"feedback": {
+					"title": "Sorry! That's not a great solution.",
+					"body": <<<"
+						<p>Ignoring the email may not be effective, as it leaves potential issues unresolved. Instead, verify the authenticity of the email by contacting your HR department directly using official contact methods, preferably a second channel in case the email was spoofed.</p>
+					">>>
+				}
+            },
+            {
+                "text": "Contact your HR department directly using official contact information to confirm the legitimacy of the email and the requested changes before taking any action.",
+                "_shouldBeSelected": true,
+				"feedback": {
+					"title": "That's a great solution!",
+					"body": <<<"
+						<p>This is the correct action. Verify the email's legitimacy through official channels to avoid falling for a phishing scam.</p>
+					">>>
+				}
+            }
+        ],
+        "_feedback": {
+            "title": "",
+            "correct": <<<"
+			">>>,
+            "_incorrect": {
+                "final": <<<"
+				">>>
+            }
+        }
+    },
+	{
+		"_id": 			"",
+        "_component": 	"mcq",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": "<span class='c-color-red-temp'>Scenario 3:</span> Banking phishing",
+        "body": <<<"
+			<p>You receive an email from what appears to be your bank, stating that there has been suspicious activity on your account. The email instructs you to click a link and log in immediately to verify your information, or your account will be suspended within the hour.</p>
+
+			<p>What should your response be?</p>
+		">>>,
+        "instruction": "Choose one option, then select Submit.",
+        "ariaQuestion": "",
+		
+		<<<! Settings !>>>
+		"_attempts": 			9,
+        "_questionWeight": 		1,
+        "_isRandom": 			true,
+        "_selectable": 			1,
+		"_columns":				1,
+
+		<<<! Items !>>>
+        "_items": [
+            {
+                "text": "You have verified that the email is sent from the bank. You click on the link in the email, sign in and verify your infomration as directed by the bank.",
+                "_shouldBeSelected": false,
+				"feedback": {
+					"title": "Sorry! That's not a great solution.",
+					"body": <<<"
+						<p>Suggested Solution: This action is not effective. Instead, independently verify the threat by logging in securely via their official site or app to verify the information, and contacting your bank directly.</p>
+					">>>
+				}
+            },
+            {
+                "text": "You can ignore the email completely and hope that the issue resolves itself",
+                "_shouldBeSelected": false,
+				"feedback": {
+					"title": "Sorry! That's not a great solution.",
+					"body": <<<"
+						<p>Ignoring the email may not be effective as it leaves potential issues unresolved. Instead, independently verify the threat by logging in securely via their official site or app to verify the information, and contacting your bank directly.</p>
+					">>>
+				}
+            },
+            {
+                "text": "Immediately log in to your banking system by opening a new tab in your browser or via your banking app to check the activity yourself.",
+                "_shouldBeSelected": true,
+				"feedback": {
+					"title": "That's a great solution!",
+					"body": <<<"
+						<p>This is a more secure way to log in and verify information for yourself. In this case, it would be a good idea to contact the bank directly through official channels like their phone number to verify the transaction report, and alert them of a scam and check if there's anything else you can do to secure your account.</p>
+					">>>
+				}
+            }
+        ],
+        "_feedback": {
+            "title": "",
+            "correct": <<<"
+			">>>,
+            "_incorrect": {
+                "final": <<<"
+				">>>
+            }
+        }
+    }
+]

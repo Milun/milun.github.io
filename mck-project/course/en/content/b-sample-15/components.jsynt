@@ -1,0 +1,183 @@
+[
+	{
+		"_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"",
+
+		<<<! Header !>>>
+        "title": "Create your basic privacy plan!",
+        "body": <<<"
+			<p>Now that you're familiar with some of the basics of digital privacy, it's time to formulate a basic privacy plan. Depending on your needs and habits, you may want to expand on these strategies, but they form the foundation for a good basis.</p>
+
+			<p>Save or print out your responses, share your plan with people in your professional, social and personal life, pop reminders in your calendar to review your plan and adjust or expand as necessary!</p>
+		">>>,
+		"instruction": "<span style='color: #21A0A0;'>Answer the following statements with your chosen strategy. You can select multiple answers - they're all good! Make sure you review your plan and update it or expand it as necessary.</span>"
+    },
+	{
+		"_id": 			"",
+        "_component": 	"text",
+        "_layout": 		"full",
+        "_classes": 	"c-b15",
+
+		<<<! Header !>>>
+        "title": "",
+        "body": <<<"
+
+			<div class="c-paper">
+				<h1>My Privacy Plan</h1>
+				<h3>Creating New Accounts:</h3>
+				<w.laRadio _isDecorative={true}>Use reputable platforms and verify website security before creating new accounts.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Provide only necessary information and avoid sharing sensitive details unless required.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Enable security features like multi-factor authentication (MFA) to enhance account security.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Consider whether you need to create a new account, opt for fewer accounts</w.laRadio>
+				<w.laRadio _isDecorative={true}>Logging and keeping track of your accounts.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Deleting accounts that are no longer used or no longer needed.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Using a secondary or disposable email to keep your primary email from getting hacked, leaked or compromised.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+	
+				<h3>Creating Strong Passwords:</h3>
+				<w.laRadio _isDecorative={true}>Use a password manager that generates random passwords, or use a secure app or password generator to generate complex passwords. </w.laRadio>
+				<w.laRadio _isDecorative={true}>Using  unique passwords for each account.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Consider using passphrases or a reputable password manager to create and store passwords securely.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Regularly update passwords, especially for accounts containing sensitive information.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use the double blind technique for secure password creation and storage.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Storing Passwords:</h3>
+				<w.laRadio _isDecorative={true}>Use a reputable password manager to securely store and manage passwords.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Utilise multi-factor authentication (MFA) for added security when accessing passwords </w.laRadio>
+				<w.laRadio _isDecorative={true}>Use USB encryption ro a digital password book</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Monitoring your Data, Accounts and Passwords:</h3>
+				<w.laRadio _isDecorative={true}>Monitor the news to see if there are data breaches that might affect you.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Monitor your Password manager to check  if your accounts, personal data or passwords been hacked or leaked (also known as ‘pwned’) .</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use privacy tools and services that monitor breaches to check  if your accounts, personal data or passwords been hacked or leaked.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Regularly review your account activity and logs and settings of your online accounts, including social media, email, and financial accounts. Look for any suspicious activity or unauthorised access.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Monitor credit reports from major credit bureaus to detect any unauthorised activity, such as identity theft or fraudulent accounts opened in your name.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Enable alerts and notifications for unusual account activity, such as login attempts from unfamiliar devices or locations. Many online services offer alert features that notify you of suspicious activity via email or text message.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Review the privacy settings of your online accounts and devices and update them as necessary. Customise settings to limit the amount of personal information shared with third parties and control who can access your data.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Update passwords if breached or leaked.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Requests for Logging In or Entering Personal Details:</h3>
+				<w.laRadio _isDecorative={true}>Be cautious of unsolicited requests for logging in or providing personal information.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Verify the identity of the requester through official channels before complying.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Avoid providing sensitive information over the phone or email unless absolutely necessary and verified.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Verify authenticity of the request via a secure secondary channel, such as an official phone line.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Request to Follow Links:</h3>
+				<w.laRadio _isDecorative={true}>Avoid clicking on links or downloading attachments from unknown or suspicious emails.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Verify the legitimacy of the sender and content before taking any action.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Contact sender via another channel to verify if the request is legitimate.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Hover over links to preview the URL before clicking to ensure it matches the expected destination.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Exercise caution when following links, especially in unsolicited emails or messages.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Verify the legitimacy of the sender and content before clicking on any links.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Consider typing the URL directly into the browser instead of clicking on links provided in emails or messages.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Sharing Work-related Information on Social Media:</h3>
+				<w.laRadio _isDecorative={true}>Be mindful of the information shared on social media, especially regarding work-related details.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Review and adjust privacy settings to limit who can access work-related information.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Avoid sharing sensitive work-related information publicly, as it may compromise confidentiality or security.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Using Personal Devices for Work:</h3>
+				<w.laRadio _isDecorative={true}>Avoid using personal devices for work where possible.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Implement security measures like encryption and strong passwords on personal devices used for work.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Keep personal devices updated with the latest security patches and software updates.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use secure connections, such as VPNs, when accessing work-related information from personal devices.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Being Offered Free WiFi:</h3>
+				<w.laRadio _isDecorative={true}>Set up a secure WiFi alternative, even if it’s paid. Consider a rocket stick or prepaid WiFi service if working remotely.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Exercise caution when connecting to free WiFi networks, as they may pose security risks.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Avoid accessing sensitive information or conducting financial transactions over unsecured public WiFi.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Consider using a virtual private network (VPN) for added security when connecting to public WiFi networks.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Plugging In Your Devices to Free Charging Stations:</h3>
+				<w.laRadio _isDecorative={true}>Avoid using unknown or untrusted charging stations, as they may compromise device security.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Consider using portable power banks or carrying charging cables to charge devices safely.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Enable USB data transfer restrictions on devices to prevent unauthorised access when charging in public.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use a special charging cord that does not have data transfer capabilities.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use a USB/charger cover that prevents data transfer.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Downloading Software:</h3>
+				<w.laRadio _isDecorative={true}>Download software only from reputable sources and official websites.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Verify the authenticity and integrity of downloaded software to avoid malware or security risks.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Keep software updated with the latest security patches and updates to address known vulnerabilities.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+				<w.laRadio _isDecorative={true}>Downloading Security Updates and Patches:</w.laRadio>
+				<w.laRadio _isDecorative={true}>Regularly install security updates and patches for operating systems, software, and applications.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Enable automatic updates whenever possible to ensure timely installation of security patches.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Stay informed about security vulnerabilities and updates from reliable sources.</w.laRadio>
+					
+				<h3>Storing Personal Files:</h3>
+				<w.laRadio _isDecorative={true}>Encrypt sensitive personal files to protect them from unauthorised access.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use secure and encrypted storage solutions, such as cloud storage with strong authentication and encryption features.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Regularly back up personal files to prevent data loss in case of device failure or security breaches.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Reconsider using cloud services for sensitive files.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Storing Work Files on Personal Accounts:</h3>
+				<w.laRadio _isDecorative={true}>Avoid storing work-related files on personal accounts or devices without proper authorisation.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use secure and encrypted storage solutions provided by your employer for storing work-related files.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Follow company policies and guidelines for handling and storing sensitive work-related information.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Using Work Email for Personal Correspondence:</h3>
+				<w.laRadio _isDecorative={true}>Avoid using work email for personal correspondence to maintain separation between personal and professional communications.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use personal email accounts for personal correspondence to avoid potential privacy and security risks.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Follow company policies and guidelines regarding the appropriate use of work email for personal purposes.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Sharing Passwords or Logins:</h3>
+				<w.laRadio _isDecorative={true}>Avoid sharing passwords or login credentials with others, even trusted individuals.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use unique passwords for each account and avoid reusing passwords across multiple accounts.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>If Sharing Passwords or logins cannot be avoided:</h3>
+				<w.laRadio _isDecorative={true}>Share passwords or logins through secure communication channels, such as encrypted messaging apps, encrypted email services, or password-protected files shared via a secure file-sharing platform to avoid being intercepted by attackers.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Consider generating temporary passwords or one-time passwords (OTPs) for sharing with others. Temporary passwords can be used for a specific period or purpose and then deactivated, reducing the risk of long-term exposure.</w.laRadio>
+				<w.laRadio _isDecorative={true}>If possible, split the password or login information into multiple parts and share each part separately with different individuals. This adds an extra layer of security and reduces the risk of unauthorised access if one part is intercepted.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Utilise password managers with secure sharing features. Some password managers allow you to securely share passwords with others without revealing the actual password, ensuring confidentiality and security.</w.laRadio>
+				<w.laRadio _isDecorative={true}>If sharing passwords for shared accounts or systems within an organisation, implement access controls and permissions to restrict privileges based on roles and responsibilities. Only grant access to individuals who require it for their work.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Periodically rotate shared passwords to mitigate the risk of unauthorised access. Set up a schedule for changing shared passwords and communicate this to all relevant parties.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+				<h3>Additional strategies to mitigate phishing:</h3>
+				<w.laRadio _isDecorative={true}>Encountering phishing attempts requires vigilance and proactive measures to protect your digital privacy and cybersecurity. Here are strategies to effectively handle phishing attempts:</w.laRadio>
+				<w.laRadio _isDecorative={true}>Look for common signs of phishing, such as generic greetings, poor grammar, urgent or threatening language, and unfamiliar URLs. Phishing emails often contain these elements to pressure victims into acting quickly.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Hover your cursor over links to preview the URL without clicking. Ensure the link directs you to a legitimate website before proceeding.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use Security Software Employ antivirus and anti-malware software that includes phishing protection features. These tools can help detect and block malicious emails and websites.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Use email filters and spam protection to reduce the likelihood of phishing emails reaching your inbox. Many email providers offer built-in phishing detection and filtering services.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Stay informed about the latest phishing tactics and educate yourself and others about recognizing and avoiding phishing attempts. Awareness is key to preventing successful attacks.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Report phishing attempts to your email provider, IT department, or relevant authority. Reporting helps improve phishing detection systems and can prevent others from falling victim.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Avoid sharing sensitive information, such as passwords, financial details, or social security numbers, in response to unsolicited emails or messages. Legitimate organisations will not ask for such information via email.</w.laRadio>
+				<w.laRadio _isDecorative={true}>If you receive an email requesting login credentials, verify the request by contacting the organisation directly through official channels. Do not provide login information through email links.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+					
+					
+				<h3>Shopping online is convenient but requires caution to ensure your digital privacy and cybersecurity. Here are effective strategies for safely shopping online:</h3>
+				<w.laRadio _isDecorative={true}>Use well-known and trusted online retailers. Check reviews and ratings if you're unfamiliar with the website.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Verify that the website uses HTTPS, indicating a secure connection.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Be Wary of Too-Good-to-Be-True Deals if a deal seems too good to be true, it probably is. Be cautious of websites offering extremely low prices or unrealistic discounts.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Prefer using credit cards or secure payment services like PayPal over debit cards. Credit cards often provide better fraud protection.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Avoid using direct bank transfers or wiring money.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Consider using virtual credit cards or payment tokens, which generate unique card numbers for each transaction. This can limit the damage if your payment information is compromised.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Read the privacy policies of online retailers to understand how your personal information will be used and protected.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Provide only the necessary information required to complete the purchase. Avoid sharing additional personal details unless absolutely necessary.</w.laRadio>
+				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
+			</div>
+
+			<button class="btn-text btn__action"><span 
+				className="icon icon-download"
+				style="font-size: 1.5em; line-height: 0; vertical-align: middle;"></span> Download my privacy plan</button>
+		">>>
+	}
+]
+			

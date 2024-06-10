@@ -22,6 +22,7 @@
 
 		"_graphic": {
 			"src": "./assets/p-0.jpg",
+			"theme": "border",
 			"_align": "flex-end",
 			"_width": 35
 		}
