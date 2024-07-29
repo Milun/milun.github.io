@@ -4,6 +4,7 @@
         "_component": 	"text",
         "_layout": 		"full",
         "_classes": 	"",
+		"_width": 12,
 
 		<<<! Header !>>>
         "title": "Create your basic privacy plan!",
@@ -36,6 +37,8 @@
 				<w.laRadio _isDecorative={true}>Using a secondary or disposable email to keep your primary email from getting hacked, leaked or compromised.</w.laRadio>
 				<w.laRadio _isDecorative={true}>Other <input type="text" placeholder="Write in field"></input></w.laRadio>
 	
+				<<<! TEST !>>>
+
 				<h3>Creating Strong Passwords:</h3>
 				<w.laRadio _isDecorative={true}>Use a password manager that generates random passwords, or use a secure app or password generator to generate complex passwords. </w.laRadio>
 				<w.laRadio _isDecorative={true}>Using  unique passwords for each account.</w.laRadio>

@@ -1,0 +1,218 @@
+[
+	{
+        "_id": 			"",
+        "_component": 	"pathway",
+        "_classes": 	"",
+        "_layout": 		"full",
+
+		<<<! Header !>>>
+        "title": 		"<span class='c-color-red-temp'>Scenario 1:</span> Text Message from the ATO",
+        "body": <<<"
+			<<<! <div style="font-size: 0.75rem;">
+				<p style="color: red;">Madelyn, for demo purposes this text is fine as is, but the learning is too confusing to use in the final product. You say "don't sign-in or call an unverified site; Google to check first!", but then in the options where the user <em>does</em> Google, and gets the virus site, our advice is... to Google it. The feedback for the latter should at least say "while this was a result in Google, it doesn't necessarily mean it's safe" or something like that.</p>
+				<p style="color: red;">I've rewritten this a bit and included some additional options, as well as being more specific about the consequences of taking certain actions.</p>
+			</div> !>>>
+		">>>,
+        "instruction": "Can you make the correct choices?",
+
+		"_graphic": {
+			"_width": 30
+		},
+
+		<<<! Items !>>>
+		"_items": [
+			{
+				"_id": "r",
+				
+				"title": "You've got mail!",
+				"body": <<<"
+					<p>You just received the following message from the ATO. What action will you take?</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-r.jpg"
+				},
+
+				"_options": [
+					{
+						"text": "Click the link.",
+						"_target": "a1"
+					},
+					{
+						"text": "Open your web browser and search for ‘Australian Taxation Office’.",
+						"_target": "a2"
+					},
+					{
+						"text": "Delete the message and block the number that sent it.",
+						"_target": "a3"
+					}
+				]
+			},
+			{
+				"_id": "a3",
+				
+				"body": <<<"
+					<p>Why are you deleting this message?</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-r.jpg"
+				},
+
+				"_options": [
+					{
+						"text": "The URL is not from a <code>.gov</code> domain.",
+						"_target": "s1"
+					},
+					{
+						"text": "The text message contains a call-to-action.",
+						"_target": "s1"
+					}
+				]
+			},
+			{
+				"_id": "a1",
+				
+				"title": "",
+				"body": <<<"
+					<p>Your device opens the link in its web browser. What action will you take?</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-a1.jpg"
+				},
+
+				"_options": [
+					{
+						"text": "Click 'Sign in' and enter your login details to get information about your refund.",
+						"_target": "f1"
+					},
+					{
+						"text": "Click 'Contact us' and call the phone number to ask for further information about the refund.",
+						"_target": "f2"
+					}
+				]
+			},
+			{
+				"_id": "a2",
+				
+				"title": "",
+				"body": <<<"
+					<p>You are given many results.</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-a2.jpg"
+				},
+
+				"_options": [
+					{
+						"text": "Go to 'www.ato.com'.",
+						"_target": "a1"
+					},
+					{
+						"text": "Go to 'www.ato.gov.au'.",
+						"_target": "b1"
+					}
+				]
+			},
+			{
+				"_id": "b1",
+				
+				"title": "",
+				"body": <<<"
+					<p>Your device opens the link in its web browser. What action will you take?</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-b1.jpg"
+				},
+
+				"_options": [
+					{
+						"text": "Click 'Sign in' and enter your login details to get information about your refund.",
+						"_target": "s2"
+					},
+					{
+						"text": "Click 'Contact us' and call the phone number to ask for further information about the refund.",
+						"_target": "s3"
+					}
+				]
+			},
+			{
+				"_id": "s1",
+				"_isCorrect": true,
+				
+				"body": <<<"
+					<p>You have successfully and quickly identified a scamming attempt.</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-s1.jpg"
+				}
+			},
+			{
+				"_id": "s2",
+				"_isCorrect": true,
+				
+				"body": <<<"
+					<p>The website confirms that there is no refund.</p>
+					<p>Remember, you can verify whether the claim is valid through the official website ending in .gov.au to help protect yourself, your finances and your personal data.</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-s1.jpg"
+				}
+			},
+			{
+				"_id": "s3",
+				"_isCorrect": true,
+				
+				"body": <<<"
+					<p>After several hours on hold, the ATO receptionist confirms to you that the message was a fake.</p>
+					<p>Remember, you can verify whether the claim is valid through the official website ending in .gov.au to help protect yourself, your finances and your personal data.</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-s1.jpg"
+				}
+			},
+			{
+				"_id": "f1",
+				"_isCorrect": false,
+				
+				"body": <<<"
+					<p>This was not a safe action. Your username and password have been stolen.</p> 
+					<p>Always verify claims by visiting the official website by searching for the official website via your browser, or contacting the ATO through other verified, official channels. Never click on unverified links. Your finances and personal data are now compromised.</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-f1.jpg"
+				}
+			},
+			{
+				"_id": "f2",
+				"_isCorrect": false,
+				
+				"body": <<<"
+					<p>This was not a safe action. You have just confirmed that your phone number is 'live', and will now receive even more scam calls and messages.</p>
+					<p>Always verify claims by visiting the official website by searching for the official website via your browser, or contacting the ATO through other verified, official channels. Never click on unverified links. Your finances and personal data are now compromised.</p>
+				">>>,
+
+				"_graphic": {
+					"theme": "phone",
+					"src": "./assets/p-f1.jpg"
+				}
+			}
+		]
+    }
+]
