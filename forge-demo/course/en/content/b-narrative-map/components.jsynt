@@ -1,0 +1,76 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"narrative",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "Narrative",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/narrativeMap">Guide</w.hyperlink>
+
+			<p>Ad sint excepteur irure cupidatat dolor cupidatat culpa elit fugiat velit esse. Velit ad ad nulla minim veniam quis adipisicing do mollit magna minim ut veniam cupidatat. Ea voluptate consectetur culpa Lorem sit laborum nulla exercitation ea eu amet eiusmod. Ullamco Lorem tempor adipisicing tempor aliqua id sint aliqua enim. Magna deserunt in incididunt ullamco eiusmod labore ea quis. Sint ex eu tempor id laborum enim qui non commodo commodo magna et ad. In ullamco voluptate enim magna ipsum cillum fugiat amet sint irure irure incididunt magna.</p>
+        ">>>,
+        "instruction": "Learn about the content.",
+
+        <<<! Items !>>>
+        "_graphic": {
+			"src": "./assets/p-0.jpg",
+            "width": 8,
+			"_isGraphicMap": true
+        },
+        "_items": [
+            {
+                "_graphic": {
+					"src": 			"./assets/p-1.png"
+				},
+
+                "title": "Item 0",
+                "body": <<<"
+                    Velit ut enim eu amet nulla aliquip. Id sunt nostrud exercitation ea pariatur labore mollit anim enim quis enim dolore magna in. Non esse amet ad exercitation minim duis minim exercitation ullamco consectetur ipsum nisi.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-2.png"
+				},
+
+                "title": "Item 1",
+                "body": <<<"
+                    Velit ut enim eu amet nulla aliquip. Id sunt nostrud exercitation ea pariatur labore mollit anim enim quis enim dolore magna in. Non esse amet ad exercitation minim duis minim exercitation ullamco consectetur ipsum nisi.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-3.png"
+				},
+
+                "title": "Item 3",
+                "body": <<<"
+                    Velit ut enim eu amet nulla aliquip. Id sunt nostrud exercitation ea pariatur labore mollit anim enim quis enim dolore magna in. Non esse amet ad exercitation minim duis minim exercitation ullamco consectetur ipsum nisi.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-4.png"
+				},
+
+                "title": "Item 4",
+                "body": <<<"
+                    Eiusmod mollit adipisicing proident quis cupidatat amet ullamco consectetur in enim sit incididunt. Aliquip magna id duis cupidatat non dolore. Ex veniam excepteur id cillum deserunt enim. Minim Lorem laborum fugiat tempor in magna cillum dolor anim nostrud proident non qui. Incididunt ut id dolor veniam commodo tempor velit aliquip sit ad nisi ea aliquip.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-5.png"
+				},
+
+                "title": "Item 5",
+                "body": <<<"
+                    Minim veniam et in sit nisi. Proident et culpa laboris sit velit sunt labore excepteur irure irure do Lorem ad. Elit labore pariatur minim est veniam occaecat Lorem ea nulla.
+                ">>>
+            }
+        ]
+    }
+]

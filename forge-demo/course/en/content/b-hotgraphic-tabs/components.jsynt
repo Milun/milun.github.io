@@ -1,0 +1,49 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"hotgraphictabs",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "Hotgraphic - Tabs",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/hotgraphicTabs">Guide</w.hyperlink>
+
+			<p>Ad sint excepteur irure cupidatat dolor cupidatat culpa elit fugiat velit esse. Velit ad ad nulla minim veniam quis adipisicing do mollit magna minim ut veniam cupidatat. Ea voluptate consectetur culpa Lorem sit laborum nulla exercitation ea eu amet eiusmod. Ullamco Lorem tempor adipisicing tempor aliqua id sint aliqua enim. Magna deserunt in incididunt ullamco eiusmod labore ea quis. Sint ex eu tempor id laborum enim qui non commodo commodo magna et ad. In ullamco voluptate enim magna ipsum cillum fugiat amet sint irure irure incididunt magna.</p>
+        ">>>,
+        "instruction": "Click on the images for more information.",
+
+        <<<! Items !>>>
+        "_itemsOptions": {
+            "_graphic": {
+                "width": 2
+            }
+        },
+        "_items": [
+            {
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg",
+                    "srcVisited":   "./assets/p-logo-2.svg"
+				},
+
+                "title": "Item 0",
+                "body": <<<"
+                    Aute esse elit magna proident minim voluptate mollit ex sit. Tempor quis sint eu ex amet. Sit qui adipisicing laboris eiusmod qui sunt velit quis nostrud sit irure nostrud.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg",
+                    "srcVisited":   "./assets/p-logo-2.svg"
+				},
+
+                "title": "Item 1",
+                "body": <<<"
+                    Anim exercitation non irure nostrud ullamco ut deserunt deserunt ullamco laborum ea sit exercitation eiusmod. Est quis commodo id sint quis pariatur ad nisi sit elit. Qui magna irure exercitation enim occaecat incididunt non occaecat proident occaecat pariatur. Laborum laboris labore id commodo aliquip quis ut labore. Qui est sint est adipisicing ipsum exercitation consectetur sint deserunt incididunt ullamco ad.
+                ">>>
+            }
+        ]
+    }
+
+]

@@ -1,0 +1,53 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"mcq",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "LA - MCQ",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/laMcq">Guide</w.hyperlink>
+
+			<p>Ad sint excepteur irure cupidatat dolor cupidatat culpa elit fugiat velit esse. Velit ad ad nulla minim veniam quis adipisicing do mollit magna minim ut veniam cupidatat. Ea voluptate consectetur culpa Lorem sit laborum nulla exercitation ea eu amet eiusmod. Ullamco Lorem tempor adipisicing tempor aliqua id sint aliqua enim. Magna deserunt in incididunt ullamco eiusmod labore ea quis. Sint ex eu tempor id laborum enim qui non commodo commodo magna et ad. In ullamco voluptate enim magna ipsum cillum fugiat amet sint irure irure incididunt magna.</p>
+        ">>>,
+        "instruction": "Answer the following questions.",
+
+        <<<! Settings !>>>
+        "_isRandom": 			true,
+		"_attempts": 			9,
+        "_questionWeight": 		1,
+        "_selectable": 			1,
+		"_columns":				1,
+
+        <<<! Items !>>>
+        "_items": [
+            {
+                "_shouldBeSelected": true,
+                "text": <<<"
+                    Item 0 (correct)
+                ">>>,
+                "feedback": {
+                    "title": "Correct feedback",
+                    "body": <<<"
+                        Tempor culpa eu ex consequat tempor ex eiusmod fugiat. Nisi laborum incididunt veniam quis ex esse laborum id amet amet. Ad pariatur aute velit est magna velit Lorem quis cupidatat. Ipsum mollit cupidatat cupidatat reprehenderit pariatur anim esse eu nostrud reprehenderit cupidatat ipsum. Lorem sint qui occaecat ut incididunt officia irure. Id amet laborum reprehenderit sunt velit consectetur sunt aliquip laboris et cillum excepteur laborum.
+                    ">>>
+                }
+            },
+            {
+                "_shouldBeSelected": false,
+                "text": <<<"
+                    Item 1 (incorrect)
+                ">>>,
+                "feedback": {
+                    "title": "Incorrect feedback",
+                    "body": <<<"
+                        Adipisicing incididunt do excepteur minim sit magna cupidatat Lorem anim voluptate. Qui eu occaecat aliquip excepteur dolor laborum tempor commodo cupidatat. Id mollit velit in minim deserunt dolore commodo culpa fugiat dolore. Ex nostrud dolor tempor sint ipsum commodo. Sit deserunt Lorem mollit commodo adipisicing esse aute ea labore. Qui amet fugiat consectetur occaecat sunt pariatur do magna ullamco magna. Quis tempor quis nulla enim incididunt minim sit non.
+                    ">>>
+                }
+            }
+        ]
+    }
+
+]

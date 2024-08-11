@@ -1,0 +1,59 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"hotgraphicsmall",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "Hotgraphic - Small",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/hotgraphicSmall">Guide</w.hyperlink>
+
+			<p>Officia ipsum voluptate do voluptate duis elit excepteur ea. Sunt nostrud ullamco labore qui amet. Elit cupidatat nostrud non excepteur non eu mollit pariatur.</p>
+
+			<p style="font-style: italic;">This template's currently hardcoded to mess with the SVG colours. I'll need to add a way to disable that.</p>
+        ">>>,
+        "instruction": "Click on the images for more information.",
+
+        <<<! Items !>>>
+        "_itemsOptions": {
+            "_graphic": {
+                "width": 2
+            }
+        },
+        "_items": [
+            {
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg"
+				},
+
+                "title": "Item 0",
+                "body": <<<"
+                    <p>Veniam magna Lorem mollit fugiat consequat Lorem do sint ex eu culpa labore magna. Magna tempor anim occaecat esse dolor. Eu incididunt ullamco velit mollit pariatur excepteur enim veniam consectetur laboris ad ad commodo. Ad sunt veniam sunt enim ipsum cillum incididunt labore.</p>
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg"
+				},
+
+                "title": "Item 1",
+                "body": <<<"
+                    <p>Consectetur sit do excepteur quis deserunt consequat quis minim enim veniam. Elit nisi quis fugiat pariatur deserunt eu dolor aliquip minim.</p>
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg"
+				},
+
+                "title": "Item 2",
+                "body": <<<"
+                    Deserunt aute ad pariatur consequat et anim veniam non qui magna sunt labore et. Exercitation irure voluptate cupidatat qui veniam dolore et ipsum est. Tempor laboris qui et commodo.
+                ">>>
+            }
+        ]
+    }
+
+]

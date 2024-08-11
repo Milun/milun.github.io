@@ -1,0 +1,24 @@
+[
+	{
+        "_id": 		    "",
+        "_component": 	"text",
+        "_classes": 	"",
+        "_layout": 	    "full",
+
+        <<<! Header !>>>
+        "title": "Text - Graphic",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/textGraphic">Guide</w.hyperlink>
+
+			<p>Veniam ea qui culpa eu ad. Eu sunt quis amet aute irure do cillum aute anim incididunt reprehenderit fugiat excepteur esse. Qui duis eu quis aliquip fugiat cillum cillum incididunt exercitation id dolore proident. Non exercitation consequat eu enim magna nostrud elit anim. Cillum reprehenderit veniam consequat enim reprehenderit sit. Labore labore ea dolor fugiat fugiat irure est id deserunt. Dolore eu do excepteur et.</p>
+        ">>>,
+
+        <<<! Graphic !>>>
+        "_graphic": {
+            "src":      "./assets/p-logo.svg",
+            "theme":   "", <<<@ "" | "border" @>>>
+            "width":   3,
+            "_layout":  "left"
+        }
+    }
+]

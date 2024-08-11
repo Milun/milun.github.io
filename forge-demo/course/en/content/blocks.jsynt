@@ -1,0 +1,13 @@
+[
+	{"_id":"b-text","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-text-graphic","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-text-items","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-accordion","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-brainstorm","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-hotgraphic-small","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-hotgraphic-tabs","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-flipcard","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-narrative","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-narrative-map","_classes":"","_parentId":"a-1","_trackingId":""},
+	{"_id":"b-la-mcq","_classes":"","_parentId":"a-1","_trackingId":""}
+]

@@ -1,0 +1,54 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"narrative",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "Narrative",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/narrative">Guide</w.hyperlink>
+
+			<p>Ad sint excepteur irure cupidatat dolor cupidatat culpa elit fugiat velit esse. Velit ad ad nulla minim veniam quis adipisicing do mollit magna minim ut veniam cupidatat. Ea voluptate consectetur culpa Lorem sit laborum nulla exercitation ea eu amet eiusmod. Ullamco Lorem tempor adipisicing tempor aliqua id sint aliqua enim. Magna deserunt in incididunt ullamco eiusmod labore ea quis. Sint ex eu tempor id laborum enim qui non commodo commodo magna et ad. In ullamco voluptate enim magna ipsum cillum fugiat amet sint irure irure incididunt magna.</p>
+        ">>>,
+        "instruction": "Learn about the content.",
+
+        <<<! Items !>>>
+        "_graphic": {
+            "width": 4
+        },
+        "_items": [
+            {
+                "_graphic": {
+					"src": 			"./assets/p-logo-1.svg"
+				},
+
+                "title": "Item 0",
+                "body": <<<"
+                    Velit ut enim eu amet nulla aliquip. Id sunt nostrud exercitation ea pariatur labore mollit anim enim quis enim dolore magna in. Non esse amet ad exercitation minim duis minim exercitation ullamco consectetur ipsum nisi.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-logo-2.svg"
+				},
+
+                "title": "Item 1",
+                "body": <<<"
+                    Velit ut enim eu amet nulla aliquip. Id sunt nostrud exercitation ea pariatur labore mollit anim enim quis enim dolore magna in. Non esse amet ad exercitation minim duis minim exercitation ullamco consectetur ipsum nisi.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-logo-3.svg"
+				},
+
+                "title": "Item 3",
+                "body": <<<"
+                    Velit ut enim eu amet nulla aliquip. Id sunt nostrud exercitation ea pariatur labore mollit anim enim quis enim dolore magna in. Non esse amet ad exercitation minim duis minim exercitation ullamco consectetur ipsum nisi.
+                ">>>
+            }
+        ]
+    }
+]

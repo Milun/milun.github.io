@@ -1,0 +1,59 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"flipcard",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "Flipcard",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/flipcard">Guide</w.hyperlink>
+
+			<p>Ad sint excepteur irure cupidatat dolor cupidatat culpa elit fugiat velit esse. Velit ad ad nulla minim veniam quis adipisicing do mollit magna minim ut veniam cupidatat. Ea voluptate consectetur culpa Lorem sit laborum nulla exercitation ea eu amet eiusmod. Ullamco Lorem tempor adipisicing tempor aliqua id sint aliqua enim. Magna deserunt in incididunt ullamco eiusmod labore ea quis. Sint ex eu tempor id laborum enim qui non commodo commodo magna et ad. In ullamco voluptate enim magna ipsum cillum fugiat amet sint irure irure incididunt magna.</p>
+        ">>>,
+        "instruction": "Click on the cards for more info.",
+
+        <<<! Items !>>>
+        "_itemsOptions": {
+            "_graphic": {
+                "width": 3
+            }
+        },
+        "_items": [
+            {
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg",
+                    "srcVisited":   ""
+				},
+
+                "title": "Item 0",
+                "body": <<<"
+                    Nulla culpa est laborum ad cillum dolor sit. Cupidatat ullamco deserunt veniam veniam deserunt esse tempor in sit. Culpa ad et velit nisi proident exercitation tempor tempor enim magna.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg",
+                    "srcVisited":   ""
+				},
+
+                "title": "Item 1",
+                "body": <<<"
+                    Sint laboris veniam occaecat ad reprehenderit minim. Ipsum elit cupidatat ut officia non cillum fugiat veniam mollit nisi ea. Ex ipsum commodo anim tempor occaecat consectetur laborum veniam est sunt exercitation enim nostrud voluptate.
+                ">>>
+            },
+			{
+                "_graphic": {
+					"src": 			"./assets/p-logo.svg",
+                    "srcVisited":   ""
+				},
+
+                "title": "Item 2",
+                "body": <<<"
+                    Et sunt culpa mollit aliqua. Et proident fugiat id aliquip est excepteur et minim ipsum eu. Esse magna ut voluptate pariatur aliquip amet magna amet sunt cillum elit eiusmod veniam.
+                ">>>
+            }
+        ]
+    }
+]

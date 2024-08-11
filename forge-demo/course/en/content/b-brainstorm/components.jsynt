@@ -1,0 +1,33 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"brainstorm",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "Brainstorm",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/brainstorm">Guide</w.hyperlink>
+
+			<p>Aliqua nisi velit sint esse duis dolore. Ad occaecat commodo exercitation tempor fugiat ea sit pariatur excepteur. Sunt do dolor sunt occaecat laboris tempor anim sint nisi duis do ad aute.</p>
+        ">>>,
+        "instruction": "Write your answers in the fields below.",
+
+        <<<! Items !>>>
+        "_items": [
+            {
+                "title": "Item 0",
+                "body": <<<"
+                    Deserunt ut pariatur laborum proident cillum reprehenderit ipsum adipisicing aliquip. Irure minim dolor occaecat veniam excepteur mollit fugiat occaecat veniam ut aliqua aliquip laboris et. Aliqua duis aliqua aliqua amet nisi consectetur laboris occaecat duis. Enim velit sunt mollit eiusmod aliqua non amet.
+                ">>>,
+                "_feedback": {
+                    "body": <<<"
+                        Elit aute nulla ad enim aliqua sint qui proident reprehenderit commodo nulla duis proident eiusmod. Veniam aliquip deserunt consectetur sint anim minim occaecat. Eu enim culpa sint labore aliquip. Proident labore nostrud nostrud ipsum aliquip reprehenderit velit in ut.
+                    ">>>
+                }
+            }
+        ]
+    }
+
+]

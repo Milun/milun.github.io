@@ -1,0 +1,49 @@
+[
+	{
+        "_id":			"",
+        "_component": 	"text",
+        "_classes": 	"",
+        "_layout":		"full",
+
+        <<<! Header !>>>
+        "title": "Text - Items",
+        "body": <<<"
+            <w.hyperlink href="https://milun.github.io/forge-docs/templates/components/textItems">Guide</w.hyperlink>
+
+			<p>Veniam ea qui culpa eu ad. Eu sunt quis amet aute irure do cillum aute anim incididunt reprehenderit fugiat excepteur esse. Qui duis eu quis aliquip fugiat cillum cillum incididunt exercitation id dolore proident. Non exercitation consequat eu enim magna nostrud elit anim. Cillum reprehenderit veniam consequat enim reprehenderit sit. Labore labore ea dolor fugiat fugiat irure est id deserunt. Dolore eu do excepteur et.</p>
+        ">>>,
+
+        <<<! Items !>>>
+        "_itemsOptions": {
+            "_graphic": {
+                "theme": "", <<<@ "" | "border" @>>>
+                "width": 2
+            }
+        },
+        "_items": [
+            {
+                "title": "Item 0",
+                "body": <<<"
+                    <p>Proident incididunt consequat proident magna esse cillum est culpa eu et anim occaecat. Elit consequat id aute dolor nisi. Et excepteur est sunt qui laboris incididunt in mollit enim sint in. Quis in Lorem id consectetur. Exercitation fugiat exercitation non sunt Lorem commodo ex quis tempor eu voluptate.</p>
+                ">>>,
+
+                "_graphic": {
+                    "src": "./assets/p-logo.svg",
+                    "_layout": "right"
+                }
+            },
+			{
+                "title": "Item 1",
+                "body": <<<"
+                    <p>Proident incididunt consequat proident magna esse cillum est culpa eu et anim occaecat. Elit consequat id aute dolor nisi. Et excepteur est sunt qui laboris incididunt in mollit enim sint in. Quis in Lorem id consectetur. Exercitation fugiat exercitation non sunt Lorem commodo ex quis tempor eu voluptate.</p>
+                ">>>,
+
+                "_graphic": {
+                    "src": "./assets/p-logo.svg",
+                    "_layout": "left"
+                }
+            }
+        ]
+    }
+
+]
