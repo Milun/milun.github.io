@@ -17,7 +17,8 @@
         "_itemsOptions": {
             "_graphic": {
                 "theme": "", <<<@ "" | "border" @>>>
-                "width": 2
+                "width": 5,
+				"widthMax": 2.5
             }
         },
         "_items": [
@@ -29,7 +30,7 @@
 
                 "_graphic": {
                     "src": "./assets/p-logo.svg",
-                    "_layout": "right"
+					"_layout": ""
                 }
             },
 			{
@@ -40,7 +41,7 @@
 
                 "_graphic": {
                     "src": "./assets/p-logo.svg",
-                    "_layout": "left"
+					"_layout": ""
                 }
             }
         ]
