@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+	<title>Winner spinner</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script data-main="js/app" src="js/lib/require.js"></script>
+</head>
+<body style="margin:0;padding:0;">
+	
+	<div id="wrapper">
+		<div id="players"></div>
+		<div id="minigame">
+			<div class="link-container">
+				<div class="link-container-inner">
+					<div id="arrow"></div>
+					<div id="link"></div>
+					<img id="lucky" src="images/lucky.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="player-entry">
+		<div class="player-entry-inner">
+			<div class="player-entry-description">
+				<h1>SMASH WINNER SPINNER <span style="color: rgb(194, 0, 0);">v1.1</span></h1>
+				<p>Enter the player's names in the order of their results.</p>
+				<p>Submitted players shall be put on the wheel, which will spin and strike random players until the last one standing! The better the ranking, the higher that players chances.</p>
+
+				<p><em>(Be sure to type them in correctly I didn't have time to implement a proper HUD.)</em></p>
+
+				<p style="text-align: right;">- Milun</p>
+			</div>
+			<div class="player-entry-players">
+				<div class="player-entry-input-container">
+					<div class="player-entry-input-rank">Rank: #1</div>
+					<input class="player-entry-input" placeholder="Type player name then press Enter" />
+				</div>
+				<div class="player-entry-playerlist">
+					<!--<div class="player-entry-player"></div>-->
+				</div>
+			</div>
+			<button class="player-entry-btn" tabindex="-1">Start</button>
+		</div>
+	</div>
+
+	<div class="victory" style="display: none;">
+		<div class="victory-inner">
+			<div class="victory-title victory-text">CONGRATULATIONS!</div>
+			<div class="victory-firstplace victory-text">PLACEHOLDER</div>
+
+			<div class="victory-img">
+				<img src="images/win-default.png" />
+			</div>
+
+			<div class="victory-title2 victory-text">BETTER LUCK NEXT TIME:</div>
+			<div style="filter: hue-rotate(-121deg) saturate(0.5) brightness(1.25);">
+				<div class="victory-secondplace victory-text"></div>
+				<div class="victory-secondplace victory-text"></div>
+				<div class="victory-secondplace victory-text"></div>
+				<div class="victory-secondplace victory-text"></div>
+				<div class="victory-secondplace victory-text"></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
